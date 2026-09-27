@@ -67,6 +67,12 @@ h2 { margin: 0 0 8px; font-size: 14px; }
 }
 #ranking button:hover { text-decoration: underline; }
 .meta { color: #5e584f; }
+.hub-price {
+  margin: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #1c1915;
+}
 details { margin-top: 12px; font-size: 13px; line-height: 1.45; color: #3d3832; }
 summary { cursor: pointer; font-weight: 600; }
 #legend {

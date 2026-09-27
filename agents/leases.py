@@ -173,6 +173,28 @@ def acquire(code: str, services: tuple[str, ...], out_dir: Path) -> dict:
             "status": f"Drew {len(leases)} points from {volume_field} on {url}",
             "probes": notes,
         }
+    if code == "ca":
+        try:
+            from agents.ca_fields import build as build_ca_fields
+
+            built = build_ca_fields()
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError, ValueError) as exc:
+            notes.append({"url": "calgem-og110d", "ok": False, "error": str(exc), "volume_field": "", "field_count": 0})
+        else:
+            features = built["features"]
+            if features:
+                (out_dir / "leases.geojson").write_text(
+                    json.dumps({"type": "FeatureCollection", "features": features}),
+                    encoding="utf-8",
+                )
+                return {"leases": features, "status": built["status"], "probes": notes}
+    kept = _existing(out_dir / "leases.geojson")
+    if kept:
+        return {
+            "leases": kept,
+            "status": "The well service had no vented or flared column, so the filing already on the map was kept.",
+            "probes": notes,
+        }
     (out_dir / "leases.geojson").write_text(
         json.dumps({"type": "FeatureCollection", "features": []}),
         encoding="utf-8",
@@ -188,3 +210,14 @@ def acquire(code: str, services: tuple[str, ...], out_dir: Path) -> dict:
             "Lease circles stay empty until a filing with that column is found."
         )
     return {"leases": [], "status": status, "probes": notes}
+
+
+def _existing(path: Path) -> list[dict]:
+    if not path.is_file():
+        return []
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+    features = payload.get("features") or []
+    return features if isinstance(features, list) else []

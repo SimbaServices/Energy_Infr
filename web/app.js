@@ -7,6 +7,10 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 
 const layers = {};
 let leaseIndex = [];
+let hubCatalog = { hubs: [], operators: {}, prices: {}, regions: {} };
+let hubById = {};
+let currentPipes = [];
+let showHubs = false;
 
 function flareColor(value) {
   if (value >= 20) return "#6e1220";
@@ -24,6 +28,84 @@ function pipeColor(pipeType) {
   return "#1f4e79";
 }
 
+function hubLink(operator) {
+  return (hubCatalog.operators || {})[operator || ""] || null;
+}
+
+function pipeStyle(feature) {
+  if (showHubs) {
+    const link = hubLink(feature.properties.operator);
+    const hub = link && hubById[link.hub];
+    if (hub) return { color: hub.color, weight: 2.6, opacity: 0.95 };
+    return { color: "#c4bdb2", weight: 1.1, opacity: 0.45 };
+  }
+  return { color: pipeColor(feature.properties.pipe_type), weight: 1.6, opacity: 0.85 };
+}
+
+function pipePopup(props) {
+  const lines = [`<b>${esc(props.operator || "Operator not named")}</b>`, esc(props.pipe_type || "Pipeline")];
+  const link = hubLink(props.operator);
+  const hub = link && hubById[link.hub];
+  if (hub) {
+    lines.push(`<b>Pricing point:</b> ${esc(hub.name)}`);
+    if (link.note) lines.push(esc(link.note));
+  } else if (showHubs) {
+    lines.push("No hub is assigned to this pipeline yet.");
+  }
+  return lines.join("<br>");
+}
+
+function paintHubLegend() {
+  const box = document.getElementById("hub-legend");
+  box.replaceChildren();
+  if (!showHubs) {
+    box.hidden = true;
+    return;
+  }
+  const used = new Map();
+  currentPipes.forEach((feature) => {
+    const link = hubLink(feature.properties.operator);
+    const hub = link && hubById[link.hub];
+    if (hub) used.set(hub.id, hub);
+  });
+  if (!used.size) {
+    box.hidden = true;
+    return;
+  }
+  const title = document.createElement("p");
+  title.className = "legend-title";
+  title.textContent = "Pipeline hub";
+  box.appendChild(title);
+  [...used.values()].sort((a, b) => a.name.localeCompare(b.name)).forEach((hub) => {
+    const row = document.createElement("div");
+    row.className = "swatch";
+    row.innerHTML = `<i class="line" style="background:${hub.color}"></i><span>${esc(hub.name)}</span>`;
+    box.appendChild(row);
+  });
+  const plain = document.createElement("div");
+  plain.className = "swatch";
+  plain.innerHTML = '<i class="line" style="background:#c4bdb2"></i><span>No hub assigned</span>';
+  box.appendChild(plain);
+  box.hidden = false;
+}
+
+function showHubPrice(base) {
+  const el = document.getElementById("hub-price");
+  const region = (hubCatalog.regions || {})[base];
+  const hub = region && hubById[region.hub];
+  const price = hub && (hubCatalog.prices || {})[hub.id];
+  if (!hub || !price || price.usd_per_mmbtu == null) {
+    el.hidden = true;
+    el.textContent = "";
+    return;
+  }
+  el.hidden = false;
+  el.textContent = (
+    `${hub.name} spot ${Number(price.usd_per_mmbtu).toFixed(2)} $/MMBtu on ${price.period}. ` +
+    (region.note || "")
+  ).trim();
+}
+
 function monthLabel(period) {
   if (!period) return "";
   if (String(period).includes("-")) return period;
@@ -31,6 +113,15 @@ function monthLabel(period) {
 }
 
 function leasePopup(props) {
+  if (props.unit === "field") {
+    return `
+      <strong>${esc(props.lease_name || "Unnamed field")}</strong><br>
+      Field ${esc(props.lease_no)}, ${esc(props.district)} District<br>
+      <b>${props.flared_mmcfd.toFixed(2)} MMcfd</b> gas blown
+      (${Math.round(props.flared_mcf).toLocaleString()} Mcf${monthLabel(props.period) ? ` in ${monthLabel(props.period)}` : ""})<br>
+      CalGEM reports this for the whole field. The shape is the field boundary.
+    `;
+  }
   const share = props.produced_mcf > 0
     ? `${(100 * props.flared_mcf / props.produced_mcf).toFixed(1)}% of reported gas`
     : "Produced volume on this filing is zero";
@@ -289,6 +380,17 @@ bindToggle("show-pois", "pois");
 bindToggle("show-tieins", "tieins");
 bindToggle("show-grid", "grid");
 
+document.getElementById("show-hubs").addEventListener("change", (event) => {
+  showHubs = event.target.checked;
+  if (layers.pipes) layers.pipes.setStyle(pipeStyle);
+  if (layers.pipes) {
+    layers.pipes.eachLayer((layer) => {
+      if (layer.feature) layer.setPopupContent(pipePopup(layer.feature.properties));
+    });
+  }
+  paintHubLegend();
+});
+
 async function loadJson(url) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(url);
@@ -315,6 +417,7 @@ async function showRegion(base) {
 
   document.getElementById("kicker").textContent = summary.kicker || "Texas Permian";
   document.getElementById("title").textContent = summary.title || "Vented and flared gas by lease";
+  showHubPrice(base);
   document.getElementById("headline").textContent = summary.headline || (
     `${summary.flared_mmcfd.toLocaleString()} MMcfd filed on ${summary.leases.toLocaleString()} leases with a surface well ` +
     `(${summary.oil_leases.toLocaleString()} oil leases and ${summary.gas_wells.toLocaleString()} gas wells). ` +
@@ -344,7 +447,8 @@ async function showRegion(base) {
     const item = document.createElement("li");
     const button = document.createElement("button");
     button.type = "button";
-    button.innerHTML = `<b>${row.flared_mmcfd.toFixed(2)} MMcfd</b> ${row.lease_name}<br><span class="meta">${row.county} County · ${row.period}</span>`;
+    const place = row.county ? `${row.county} County` : (row.district ? `${row.district} District` : "");
+    button.innerHTML = `<b>${row.flared_mmcfd.toFixed(2)} MMcfd</b> ${row.lease_name}<br><span class="meta">${place}${place ? " · " : ""}${row.period}</span>`;
     button.addEventListener("click", () => {
       map.setView([row.lat, row.lon], 11);
       map.panBy([-190, 40], { animate: false });
@@ -373,15 +477,14 @@ async function showRegion(base) {
     },
   });
 
+  currentPipes = pipelines.features || [];
   layers.pipes = L.geoJSON(pipelines, {
-    style(feature) {
-      return { color: pipeColor(feature.properties.pipe_type), weight: 1.6, opacity: 0.85 };
-    },
+    style: pipeStyle,
     onEachFeature(feature, layer) {
-      const props = feature.properties;
-      layer.bindPopup(`<b>${props.operator || "Operator not named"}</b><br>${props.pipe_type || "Pipeline"}`);
+      layer.bindPopup(pipePopup(feature.properties));
     },
   }).addTo(map);
+  paintHubLegend();
 
   layers.pois = L.geoJSON(pois, {
     pointToLayer(feature, latlng) {
@@ -430,7 +533,13 @@ async function showRegion(base) {
   }).addTo(map);
 
   const leaseByKey = new Map();
-  leaseIndex = leases.features.map((feature) => {
+  const features = leases.features || [];
+  const fields = features.filter((feature) => {
+    const kind = feature.geometry && feature.geometry.type;
+    return kind === "Polygon" || kind === "MultiPolygon";
+  });
+  const points = features.filter((feature) => feature.geometry && feature.geometry.type === "Point");
+  leaseIndex = points.map((feature) => {
     const [lon, lat] = feature.geometry.coordinates;
     const value = feature.properties.flared_mmcfd;
     const circle = L.circle([lat, lon], {
@@ -445,7 +554,31 @@ async function showRegion(base) {
     leaseByKey.set(`${props.district}|${props.lease_no}`, circle);
     return circle;
   });
-  layers.leases = L.layerGroup(leaseIndex).addTo(map);
+  layers.leases = L.layerGroup(leaseIndex);
+  if (fields.length) {
+    layers.leases.addLayer(L.geoJSON({ type: "FeatureCollection", features: fields }, {
+      style(feature) {
+        const value = feature.properties.flared_mmcfd;
+        return {
+          color: "#4a2a22",
+          weight: 1,
+          fillColor: flareColor(value),
+          fillOpacity: 0.72,
+        };
+      },
+      onEachFeature(feature, layer) {
+        layer.bindPopup(leasePopup(feature.properties));
+        const props = feature.properties;
+        leaseByKey.set(`${props.district}|${props.lease_no}`, layer);
+      },
+    }));
+  }
+  layers.leases.addTo(map);
+  const leaseLabel = document.getElementById("show-leases").nextSibling;
+  if (leaseLabel) leaseLabel.textContent = summary.lease_unit === "field" ? " Fields" : " Leases";
+  document.getElementById("ranking-title").textContent = summary.lease_unit === "field"
+    ? "Largest fields"
+    : "Largest filings";
 
   ["show-leases", "show-pipes", "show-pois", "show-tieins"].forEach((id) => {
     document.getElementById(id).checked = true;
@@ -454,6 +587,12 @@ async function showRegion(base) {
 }
 
 async function main() {
+  try {
+    hubCatalog = await loadJson("data/hubs.json");
+  } catch (error) {
+    console.error(error);
+  }
+  hubById = Object.fromEntries((hubCatalog.hubs || []).map((hub) => [hub.id, hub]));
   let catalog = {
     default: "permian",
     regions: [{ id: "permian", label: "Texas Permian", path: "data" }],

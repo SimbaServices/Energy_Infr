@@ -38,13 +38,19 @@ def _summary(agent, counties, network, poi_count, lease_result, eia) -> dict:
     leases = lease_result["leases"]
     located = [feature["properties"] for feature in leases]
     flared = round(sum(row["flared_mmcfd"] for row in located), 2)
+    by_field = bool(located) and located[0].get("unit") == "field"
     headline = (
         f"{eia['mmcfd']} MMcfd is the EIA {eia['year']} state total for vented and flared gas "
         f"({eia['mmcf']:,.0f} MMcf that year). "
         if eia else
         "EIA has no vented-and-flared total stored for this state. "
     )
-    if located:
+    if by_field:
+        headline = (
+            f"{flared} MMcfd of gas blown on {len(located):,} fields, "
+            "from the state field filing. The shade follows that filing."
+        )
+    elif located:
         headline += (
             f"{len(located):,} locations on the map have a published vented or flared volume, "
             f"summing to {flared} in the source units scaled to MMcfd."
@@ -67,6 +73,7 @@ def _summary(agent, counties, network, poi_count, lease_result, eia) -> dict:
         "updated_at": _now(),
         "tape_posted": "",
         "leases": len(located),
+        "lease_unit": "field" if by_field else "lease",
         "flared_mmcfd": flared,
         "flared_mcf": round(sum(row["flared_mcf"] for row in located)),
         "oil_leases": sum(row.get("kind") == "oil" for row in located),
@@ -92,8 +99,8 @@ def _summary(agent, counties, network, poi_count, lease_result, eia) -> dict:
                 "flared_mmcfd": round(row["flared_mmcfd"], 2),
                 "flared_mcf": row["flared_mcf"],
                 "produced_mcf": row["produced_mcf"],
-                "lat": feature["geometry"]["coordinates"][1],
-                "lon": feature["geometry"]["coordinates"][0],
+                "lat": row.get("lat", feature["geometry"]["coordinates"][1] if feature["geometry"]["type"] == "Point" else None),
+                "lon": row.get("lon", feature["geometry"]["coordinates"][0] if feature["geometry"]["type"] == "Point" else None),
             }
             for feature, row in list(zip(leases, located))[:25]
         ],

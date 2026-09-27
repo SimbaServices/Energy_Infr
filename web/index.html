@@ -18,16 +18,18 @@
       <p class="kicker" id="kicker">Texas Permian</p>
       <h1 id="title">Vented and flared gas by lease</h1>
       <p id="headline" class="headline"></p>
+      <p id="hub-price" class="hub-price" hidden></p>
     </header>
     <section class="controls">
       <label><input type="checkbox" id="show-leases" checked> Leases</label>
       <label><input type="checkbox" id="show-pipes" checked> Gas pipelines</label>
+      <label><input type="checkbox" id="show-hubs"> Hub colors</label>
       <label><input type="checkbox" id="show-pois" checked> Interconnection points</label>
       <label><input type="checkbox" id="show-tieins" checked> Grid tie-in points</label>
       <label><input type="checkbox" id="show-grid"> Transmission lines</label>
     </section>
     <section>
-      <h2>Largest filings</h2>
+      <h2 id="ranking-title">Largest filings</h2>
       <ol id="ranking"></ol>
     </section>
     <details>
@@ -43,6 +45,7 @@
     <div class="swatch"><i style="background:#e36a2c"></i><span>1 – 5</span></div>
     <div class="swatch"><i style="background:#c2311f"></i><span>5 – 20</span></div>
     <div class="swatch"><i style="background:#6e1220"></i><span>20 and above</span></div>
+    <div id="hub-legend" hidden></div>
     <p class="legend-title">Gas pipelines</p>
     <div class="swatch"><i class="line interstate"></i><span>Interstate</span></div>
     <div class="swatch"><i class="line intrastate"></i><span>Intrastate</span></div>

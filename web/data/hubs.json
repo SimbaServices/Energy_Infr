@@ -1,0 +1,284 @@
+{
+  "hubs": [
+    {
+      "id": "agua-dulce",
+      "name": "Agua Dulce",
+      "color": "#0e7490",
+      "lat": 27.748898758,
+      "lon": -97.625403621
+    },
+    {
+      "id": "algonquin",
+      "name": "Algonquin Citygate",
+      "color": "#1e3a8a",
+      "lat": 42.3042679480001,
+      "lon": -71.0873265079999
+    },
+    {
+      "id": "cheyenne",
+      "name": "Cheyenne",
+      "color": "#1d6a8a",
+      "lat": 40.9406934040001,
+      "lon": -104.79598979
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago Citygate",
+      "color": "#4a5568",
+      "lat": 41.7934361820001,
+      "lon": -87.950928263
+    },
+    {
+      "id": "tco-appalachia",
+      "name": "Columbia Gas Appalachia",
+      "color": "#7e22ce",
+      "lat": 39.897899126,
+      "lon": -80.193005935
+    },
+    {
+      "id": "columbia-gulf",
+      "name": "Columbia Gulf Mainline",
+      "color": "#9a3412",
+      "lat": 32.6495840310001,
+      "lon": -91.3006131659999
+    },
+    {
+      "id": "dominion-south",
+      "name": "Dominion South",
+      "color": "#6d28d9",
+      "lat": 40.4314455620001,
+      "lon": -79.654795658
+    },
+    {
+      "id": "el-paso-permian",
+      "name": "El Paso Permian",
+      "color": "#e36a2c",
+      "lat": 31.961074957,
+      "lon": -103.12934401
+    },
+    {
+      "id": "henry",
+      "name": "Henry Hub",
+      "color": "#0b6e4f",
+      "lat": 29.8954946630001,
+      "lon": -92.063093854
+    },
+    {
+      "id": "katy",
+      "name": "Katy",
+      "color": "#c47b2b",
+      "lat": 29.750094818,
+      "lon": -95.7860928909999
+    },
+    {
+      "id": "opal",
+      "name": "Kern River Opal",
+      "color": "#5c2d91",
+      "lat": 41.836743674,
+      "lon": -110.223184395
+    },
+    {
+      "id": "malin",
+      "name": "Malin",
+      "color": "#3d5a80",
+      "lat": 42.0337946380001,
+      "lon": -121.37198636
+    },
+    {
+      "id": "michcon",
+      "name": "MichCon",
+      "color": "#0369a1",
+      "lat": 42.144471512,
+      "lon": -83.376883187
+    },
+    {
+      "id": "ngpl-midcontinent",
+      "name": "NGPL Midcontinent",
+      "color": "#2f6f4e",
+      "lat": 37.586070136,
+      "lon": -99.933280865
+    },
+    {
+      "id": "ngpl-texok",
+      "name": "NGPL Texok zone",
+      "color": "#3d6b4f",
+      "lat": 33.1165340910001,
+      "lon": -94.203322987
+    },
+    {
+      "id": "northern-demarc",
+      "name": "Northern Natural Demarc",
+      "color": "#1f4e79",
+      "lat": 39.5314213620001,
+      "lon": -97.262081689
+    },
+    {
+      "id": "pge-citygate",
+      "name": "PG&E Citygate",
+      "color": "#0f766e",
+      "lat": 38.404894966,
+      "lon": -121.913986787
+    },
+    {
+      "id": "rex-z3",
+      "name": "Rockies Express Pipeline Zone 3",
+      "color": "#0f5132",
+      "lat": 39.8055213150001,
+      "lon": -87.537764685
+    },
+    {
+      "id": "socal-border",
+      "name": "SoCal Border",
+      "color": "#a33b4a",
+      "lat": 34.69091687,
+      "lon": -114.599678812
+    },
+    {
+      "id": "socal-citygate",
+      "name": "SoCal Citygate",
+      "color": "#6e1220",
+      "lat": 34.048922658,
+      "lon": -117.443841312
+    },
+    {
+      "id": "sumas",
+      "name": "Sumas",
+      "color": "#065f46",
+      "lat": 49.0004942990001,
+      "lon": -122.219984774
+    },
+    {
+      "id": "tgp-z4",
+      "name": "Tennessee Gas Zone 4 Marcellus",
+      "color": "#4338ca",
+      "lat": 41.7288047420001,
+      "lon": -76.4051472239999
+    },
+    {
+      "id": "tetco-m2",
+      "name": "Texas Eastern M-2 (Receipts)",
+      "color": "#9f1239",
+      "lat": 39.876786532,
+      "lon": -81.0691785659999
+    },
+    {
+      "id": "tetco-m3",
+      "name": "Texas Eastern M3",
+      "color": "#be123c",
+      "lat": 40.3756377450001,
+      "lon": -74.9400105729999
+    },
+    {
+      "id": "texas-gas-z1",
+      "name": "Texas Gas Zone 1",
+      "color": "#7c3a2d",
+      "lat": 32.9585422920001,
+      "lon": -91.884233786
+    },
+    {
+      "id": "transco-z3",
+      "name": "Transco Zone 3",
+      "color": "#b45309",
+      "lat": 30.987814039,
+      "lon": -90.709242377
+    },
+    {
+      "id": "transco-z4",
+      "name": "Transco Zone 4",
+      "color": "#92400e",
+      "lat": 32.072173569,
+      "lon": -88.378867176
+    },
+    {
+      "id": "transco-z5",
+      "name": "Transco Zone 5 Delivered",
+      "color": "#a16207",
+      "lat": 38.2970368100001,
+      "lon": -77.953930825
+    },
+    {
+      "id": "transco-z6-ny",
+      "name": "Transco Zone 6 NY",
+      "color": "#7f1d1d",
+      "lat": 40.692459257,
+      "lon": -74.152450098
+    },
+    {
+      "id": "transco-z6",
+      "name": "Transco Zone 6 non-NY",
+      "color": "#9a3412",
+      "lat": 40.3155431530001,
+      "lon": -74.776202676
+    },
+    {
+      "id": "ventura",
+      "name": "Ventura",
+      "color": "#143d66",
+      "lat": 43.184778484,
+      "lon": -93.496833077
+    },
+    {
+      "id": "waha",
+      "name": "Waha",
+      "color": "#c2311f",
+      "lat": 31.581973259,
+      "lon": -103.189521718
+    }
+  ],
+  "operators": {
+    "Gulf South Pipeline Co": {
+      "hub": "henry",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
+      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+    },
+    "Southern Natural Gas Co": {
+      "hub": "henry",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
+      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+    },
+    "Natural Gas PL Co of Am": {
+      "hub": "henry",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
+      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+    },
+    "Texas Gas Transmission Co": {
+      "hub": "henry",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
+      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+    },
+    "Transcontinental Gas PL": {
+      "hub": "henry",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
+      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+    },
+    "Trunkline Gas Co": {
+      "hub": "henry",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
+      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+    },
+    "Acadian Gas Pipeline Sys": {
+      "hub": "henry",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
+      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+    },
+    "Columbia Gulf Pipeline": {
+      "hub": "henry",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
+      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+    }
+  },
+  "prices": {
+    "henry": {
+      "period": "2026-09-22",
+      "usd_per_mmbtu": 2.9,
+      "source_url": "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm",
+      "source_name": "EIA Henry Hub natural gas spot price, daily"
+    }
+  },
+  "regions": {
+    "data/states/la": {
+      "hub": "henry",
+      "note": "Henry Hub at Erath is the benchmark for gas sold out of southern Louisiana."
+    }
+  }
+}
