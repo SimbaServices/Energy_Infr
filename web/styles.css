@@ -1,0 +1,164 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #1c1915;
+  background: #e7e1d6;
+}
+#map { position: absolute; inset: 0; }
+#panel {
+  position: absolute;
+  z-index: 500;
+  top: 12px;
+  left: 12px;
+  width: min(380px, calc(100vw - 24px));
+  max-height: calc(100% - 24px);
+  overflow: auto;
+  background: rgba(255, 252, 247, 0.96);
+  border: 1px solid #d9d0c3;
+  border-radius: 10px;
+  padding: 16px 16px 12px;
+  box-shadow: 0 8px 28px rgba(40, 30, 16, 0.12);
+}
+.kicker {
+  margin: 0;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #8a4b24;
+}
+.region { display: block; margin-bottom: 10px; }
+.region .kicker { display: block; margin-bottom: 4px; }
+#region {
+  width: 100%;
+  font: inherit;
+  color: inherit;
+  background: #fff;
+  border: 1px solid #d9d0c3;
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+h1 {
+  margin: 4px 0 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+.headline { margin: 0; font-size: 15px; line-height: 1.4; }
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 10px;
+  margin: 14px 0;
+  font-size: 14px;
+}
+h2 { margin: 0 0 8px; font-size: 14px; }
+#ranking { margin: 0; padding-left: 1.2em; }
+#ranking li { margin: 0 0 6px; font-size: 13px; line-height: 1.3; }
+#ranking button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+}
+#ranking button:hover { text-decoration: underline; }
+.meta { color: #5e584f; }
+details { margin-top: 12px; font-size: 13px; line-height: 1.45; color: #3d3832; }
+summary { cursor: pointer; font-weight: 600; }
+#legend {
+  position: absolute;
+  z-index: 500;
+  right: 12px;
+  bottom: 18px;
+  width: 210px;
+  background: rgba(255, 252, 247, 0.96);
+  border: 1px solid #d9d0c3;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 12px;
+}
+.legend-title { margin: 8px 0 4px; font-weight: 650; }
+.legend-title:first-child { margin-top: 0; }
+.swatch { display: flex; align-items: center; gap: 8px; margin: 3px 0; }
+.swatch i {
+  width: 18px;
+  height: 12px;
+  border-radius: 2px;
+  display: inline-block;
+  flex: 0 0 18px;
+}
+.swatch .line { height: 4px; }
+.swatch .interstate { background: #1f4e79; }
+.swatch .intrastate { background: #3d6b4f; }
+.swatch .gathering { background: #9a6b2f; }
+.swatch .grid { background: #8aa0b8; }
+.diamond {
+  width: 10px !important;
+  height: 10px !important;
+  flex-basis: 10px !important;
+  margin-left: 4px;
+  background: #143d66;
+  transform: rotate(45deg);
+  border-radius: 1px;
+}
+.dot {
+  width: 11px !important;
+  height: 11px !important;
+  flex-basis: 11px !important;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-shadow: 0 0 0 1px rgba(28, 25, 21, 0.35);
+}
+.leaflet-div-icon.poi-marker {
+  background: transparent;
+  border: 0;
+}
+.poi-345 { background: #5c2d91; }
+.poi-230 { background: #143d66; }
+.poi-138 { background: #1d6a8a; }
+.poi-69 { background: #2f7d4a; }
+.leaflet-tooltip.poi-tip {
+  background: #fffdf8;
+  border: 1px solid #d9d0c3;
+  border-radius: 8px;
+  color: #1c1915;
+  box-shadow: 0 8px 24px rgba(40, 30, 16, 0.16);
+  width: 280px;
+  max-width: 280px;
+  white-space: normal;
+  padding: 8px 10px;
+}
+.leaflet-tooltip.poi-tip .label {
+  display: block;
+  margin-top: 7px;
+  font-weight: 650;
+}
+.leaflet-tooltip.poi-tip .role {
+  display: block;
+  margin-top: 2px;
+  color: #3d3832;
+}
+.leaflet-tooltip.poi-tip.leaflet-tooltip-top:before { border-top-color: #fffdf8; }
+.leaflet-tooltip.poi-tip.leaflet-tooltip-bottom:before { border-bottom-color: #fffdf8; }
+.leaflet-tooltip.poi-tip.leaflet-tooltip-left:before { border-left-color: #fffdf8; }
+.leaflet-tooltip.poi-tip.leaflet-tooltip-right:before { border-right-color: #fffdf8; }
+.leaflet-popup-content { font-size: 13px; line-height: 1.35; margin: 8px 10px; }
+.leaflet-popup-content strong { font-size: 14px; }
+.leaflet-popup-content .label {
+  display: block;
+  margin-top: 7px;
+  font-weight: 650;
+}
+.leaflet-popup-content .role {
+  display: block;
+  margin-top: 2px;
+  color: #3d3832;
+}
+@media (max-width: 720px) {
+  #panel { max-height: 42%; }
+  #legend { display: none; }
+}

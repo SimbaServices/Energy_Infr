@@ -1,0 +1,68 @@
+{
+  "default": "permian",
+  "updated_at": "2026-09-27T02:58:40+00:00",
+  "regions": [
+    {
+      "id": "permian",
+      "label": "Texas Permian",
+      "path": "data"
+    },
+    {
+      "id": "nm",
+      "label": "New Mexico",
+      "path": "data/states/nm"
+    },
+    {
+      "id": "co",
+      "label": "Colorado",
+      "path": "data/states/co"
+    },
+    {
+      "id": "wy",
+      "label": "Wyoming",
+      "path": "data/states/wy"
+    },
+    {
+      "id": "ca",
+      "label": "California",
+      "path": "data/states/ca"
+    },
+    {
+      "id": "sd",
+      "label": "South Dakota",
+      "path": "data/states/sd"
+    },
+    {
+      "id": "nd",
+      "label": "North Dakota",
+      "path": "data/states/nd"
+    },
+    {
+      "id": "la",
+      "label": "Louisiana",
+      "path": "data/states/la"
+    },
+    {
+      "id": "ar",
+      "label": "Arkansas",
+      "path": "data/states/ar"
+    },
+    {
+      "id": "ks",
+      "label": "Kansas",
+      "path": "data/states/ks"
+    }
+  ],
+  "agents": {
+    "sd": {
+      "ok": true,
+      "updated_at": "2026-09-27T02:58:40+00:00",
+      "leases": 0,
+      "pipelines": 115,
+      "transmission": 100,
+      "tieins": 5,
+      "pois": 800,
+      "lease_status": "The public well service did not respond on this run, so lease volumes were not updated."
+    }
+  }
+}

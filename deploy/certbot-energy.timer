@@ -1,0 +1,10 @@
+[Unit]
+Description=Renew the six-day Energy_Infr IP certificate
+
+[Timer]
+OnCalendar=*-*-* 04:20:00
+Persistent=true
+RandomizedDelaySec=30min
+
+[Install]
+WantedBy=timers.target

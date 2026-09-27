@@ -1,0 +1,59 @@
+hub_name,region,state,city,county,status,year_of_data,latitude,longitude,administrator,operator
+Blanco Hub,Southwest,NM, ,San Juan,Operational,2009,36.6864,-107.957,Transwestern Gas Pipeline Co,Transwestern Gas Pipeline Co
+Buffalo Wallow Center,Southwest,TX, ,Hemphill,Inactive 99,1999,35.8337,-100.459,KM Interstate Gas Transmission co,KM Interstate Gas Transmission co
+Carthage Hub,Southwest,TX, ,Panola,Operational,2008,32.1596,-94.2789,DCP Midstream Partners LP,DCP Midstream Inc
+Chicago Hub,Midwest,IL,NA,Various,Operational,2008,41.5002,-88.2639,Enerchange Inc,Northern Illinois Gas Co  (Nicor)
+Ellisburg-Leidy Center,Northeast,PA, ,Potter,Inactive 08,2008,41.3979,-77.79,National Fuel Gas Supply Co,National Fuel Gas Supply Co
+Spindletop Storage Hub,Southwest,TX, ,Jefferson,Inactive 08,2008,29.831,-94.1679,Centana Intrastate Pipeline Co,Centana Intrastate Pipeline Co
+Houston Hub,Southwest,TX,Houston,Harris,Inactive 03,2003,29.774,-95.3936,EL Paso Field Services Co,EL Paso Field Services Co
+Katy (DCP) Hub,Southwest,TX, ,Waller,Operational,2003,29.8331,-95.8512,DCP Midstream LP,Guadalupe Pipeline Co
+Lebanon Hub,Midwest,OH, ,Warren,Inactive 98,1998,39.4159,-84.1811,East Ohio Gas Co,East Ohio Gas Co
+Louisiana Hub,Southwest,LA, ,Assumption,Inactive 99,1996,29.964,-92.4296,Bridgeline Storage Co,Bridgeline Storage Co
+Moss Bluff  Hub,Southwest,TX, ,Liberty,Operational,2008,30.1568,-94.8578,Moss Bluff Hub Partners LP,Market Hub Partners Inc
+Perryville (Ouachita) Hub,Southwest,LA,Perryville,Quachita,Canceled 99,1998,32.7035,-92.0616,Ouachita River Gas Storage Co,Ouachita River Gas Storage Co
+Texaco Gulf Star Center,Southwest,LA, ,NA,Inactive 03,2003,29.9707,-91.1768,Texaco Inc,Texaco Inc
+Waha (Atmos) Hub,Southwest,TX, ,Pecos,Inactive 05,2008,31.629,-103.109,Atmos Pipeline - Texas,Atmos Pipeline - Texas
+Waha (DCP/Atmos) Hub,Southwest,TX, ,Pecos,Operational,2008,31.2251,-103.113,DCP Midstream LP,Atmos Pipeline - Texas
+Egan Hub,Southwest,LA, ,Acadia,Operational,2008,30.2695,-92.3574,Egan Hub Partners LP,Market Hub Partners Inc
+Louisiana Intrastate Gas Center,Southwest,LA, ,Iberia,Inactive 99,1996,30.9118,-92.5285,Louisiana Intratstate Gas Co,Louisiana Intratstate Gas Co
+Katy Storage Center,Southwest,TX,Houston,Fort Bend,Operational,2008,29.7501,-95.7861,ENSTOR Energy Inc,ENSTOR Energy Inc
+Waha  (ENSTOR) Hub,Southwest,TX, ,Pecos,Proposed 09,2008,30.8163,-102.331,ENSTOR Energy Inc,ENSTOR Energy Inc
+Aqua Dulce Hub,Southwest,TX, ,Nueces,Operational,2008,27.5488,-97.6003,ConocoPhillips Inc,ConocoPhillips Inc
+Grand Lacs Hub,Midwest,MI,Marysville,St Cair,Inactive 99,1999,42.2222,-83.4014,CMS Gas Transmission and Storage,CMS Gas Transmission and Storage
+Mid-Continent Center,Central,KS, ,NA,Operational,2008,37.8699,-97.7721,Mid-Continent Market Services,Oneok Gas Transportation LLC
+Dominion Hub,Northeast,PA,Various,NA,Operational,2008,40.5819,-78.1274,Dominion Transmission Inc,Dominion Transmission Inc
+Columbia Gas Center,Northeast,PA, ,NA,Inactive 03,2003,41.1416,-78.9074,Columbia Energy Services,Columbia Energy Services (gone)
+Rocky Mountain Center,Central,WY,Opal,Lincoln,Inactive 99,1999,41.7912,-110.306,Altra  Energy Technologies LLC,Northwest Pipeline Co
+Western Center,Central,WY,Muddy Creek,Unita,Inactive 99,1999,41.2974,-110.508,Overland Trail Transmission Co,Overland Trail Transmission Co
+California Energy Hub,Western,CA,NA,NA,Operational,2008,35.8263,-119.373,Southern California Gas Co,Southern California Gas Co
+GTNW Market Center,Western,OR,NA,NA,Operational,2008,44.6846,-121.002,Gas Transmission - NW,Gas Transmission - NW
+Ten Section Hub,Western,CA, ,Kern,Canceled 01,1996,34.6888,-119.368,Mcfarland Energy Co,Mcfarland Energy Co
+Perryville Hub,Southwest,LA,Perryville,Richland,Operational,2008,32.4354,-91.5186,Centerpoint Energy Gas Trans co,Centerpoint Energy Gas Trans co
+Avoca Hub,Northeast,PA, ,Steuben,Canceled 04,1996,42.4401,-77.461,Bowdin Storage Services,Bowdin Storage Services
+Iroquois Center,Northeast,NY, ,NA,Operational,2008,42.6581,-74.1785,Iroquois Gas Trans Co,Iroquois Gas Trans Co
+Tioga Hub,Northeast,PA, ,Tioga,Canceled 03,1996,41.9222,-77.1315,"Northeast Hub Partners, LP","Northeast Hub Partners, LP"
+Mojave Center,Western,CA,NA,NA,Inactive 03,2003,34.7244,-114.513,Mojave Pipeline Co,Mojave Pipeline Co
+Golden Gate Center,Western,CA,NA,Various,Operational,2008,38.4049,-121.914,California Gas Transmission Co,California Gas Transmission Co
+Sumas Center,Canada,BC,Sumas,British Columbia,Operational,2008,49.0005,-122.22,Spectra Energy Corp,Spectra Energy Transmission Co
+Waha (Encina) Hub,Southwest,TX, ,Reeves,Inactive 08,2008,31.2367,-103.169,Sid Richardson Gas Co,Sid Richardson Gas Co
+Kiowa Hub,Central,KS, ,Kiowa,Canceled 02,1999,37.5565,-99.2558,Williams Underground Gas Storage,Williams Underground Gas Storage
+Mobay Storage Hub,Southeast,AL, ,Mobile,Proposed 10,2008,30.496,-88.2277,Falcon Gas Storage Inc,Falcon Gas Storage Inc
+Cheyenne Hub,Central,CO,Fort Collins,Weld,Operational,2008,40.9407,-104.796,Colorado Interstate Gas Co,Colorado Interstate Gas Co
+Nautilus Hub,Southwest,LA, ,St Mary,Operational,2008,29.7248,-91.4846,Enbridge Offsore Pipelines,Nautilus Pipeline Co
+Malin Center,Western,OR,Malin,Klamath,Combined GTN,2008,42.0338,-121.372,Gas Transmission - NW,PG&E Gas Transmission - NW
+ANR Joliet Hub,Midwest,IL,Joliet,Will,Operational,2008,41.4577,-88.132,ANR Pipeline Co,ANR Pipeline Co
+Mississippi Hub,Southeast,MS, ,Washington,Proposed 09,2008,31.2929,-88.0739,Bay Gas Storage Co,Bay Gas Storage Co
+Henry Hub,Southwest,LA,Erath,Vermillion,Operational,2008,29.8955,-92.0631,Sabine Hub Services Inc,Sabine Pipeline Co
+Copiah Storage Hub,Southeast,MS, ,Copiah,Proposed 11,2008,31.9134,-90.5876,Market Hub Partners Inc,Market Hub Partners Inc
+Kingsgate Center,Western,ID,Kingsgate,Boundary,Combined GTN,2009,48.9958,-116.188,Gas Transmission - NW,Gas Transmission - NW
+Opal Hub,Central,WY, ,Lincoln,Operational,2008,41.7684,-110.399,Williams Field Services Co,Williams Field Services Co
+Southeast Storage Hub,Southeast,MS, ,Greene,Canceled 07,2008,31.3184,-88.6853,Spectra Energy Corp,Spectra Energy Corp
+Houston Hub & Transportation,Southwest,TX,Houston,Liberty,Proposed 10,2008,30.1063,-94.7793,ENSTOR Energy Inc,ENSTOR Energy Inc
+Waha  (EPGT) Texas Hub,Southwest,TX, ,Pecos,Operational,2008,31.0533,-102.842,Enterprise Products Pipeline LP,Enterprise Products Pipeline LP
+White River Hub,Central,CO,Meeker,Rio Blanco,Operational,2008,40.0895,-108.17,White River Hub LLC,Questar Pipeline Co
+Eagle Hub,Southwest,LA,Perryville,Richland,Canceled 08,2007,32.5077,-91.591,Electricite de France,Eagle Energy Partners
+Marcellus Eastern Access Hub,Northeast,PA, , ,Proposed 11,2008,40.6563,-80.0855,Equitable Midstream LP,Equitable Midstream LP
+Southeast Hub,Southwest,TX, ,Orange,Canceled 08,2008,30.1297,-93.8421,Enbridge Pipelines Inc,Enbridge Pipelines Inc
+Greasewood Hub,Central,CO,Meeker,Rio Blanco,Informal Ops,2008,40.0377,-108.2,Various,NA
+Meeker Hub,Central,CO,Meeker,Rio Blanco,Informal Ops,2008,39.9523,-108.189,Various,NA
+Jefferson Island Storage Hub,Southwest,LA,Delcambre,Iberia,Operational,2008,29.9762,-91.9863,Jefferson Island Storage & Hub LLC,Jefferson Island Storage & Hub

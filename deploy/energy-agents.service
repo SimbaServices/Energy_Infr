@@ -1,0 +1,16 @@
+[Unit]
+Description=Refresh Energy_Infr state layers and publish the map
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=propeval
+Group=propeval
+WorkingDirectory=/home/propeval/Energy_Infr
+Environment=ENERGY_WEB_ROOT=/var/www/energy
+ExecStart=/usr/bin/python3 -m agents --publish
+Nice=10
+IOSchedulingClass=idle
+MemoryMax=1500M
+TimeoutStartSec=6h

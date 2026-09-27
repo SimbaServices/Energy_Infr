@@ -1,0 +1,114 @@
+area,usps,state_fips,intpt_lat,intpt_lon,series,period,frequency,value_mmcf,source_url,source_file
+U.S.,,,,,dry_production,2024,annual,37724931,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Alabama,AL,01,32.739579,-86.843447,dry_production,2024,annual,73894,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Alaska,AK,02,63.347356,-152.839733,dry_production,2024,annual,350833,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Arizona,AZ,04,34.203936,-111.606345,dry_production,2024,annual,139,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Arkansas,AR,05,34.895526,-92.444626,dry_production,2024,annual,355170,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+California,CA,06,37.155177,-119.543418,dry_production,2024,annual,118359,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Colorado,CO,08,38.993767,-105.508712,dry_production,2024,annual,1633009,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Florida,FL,12,28.398978,-82.5143,dry_production,2024,annual,265,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Federal Offshore--Gulf of America,,,,,dry_production,2024,annual,592862,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Idaho,ID,16,44.348422,-114.558854,dry_production,2024,annual,1124,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Illinois,IL,17,40.102875,-89.152611,dry_production,2024,annual,3164,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Indiana,IN,18,39.901314,-86.291913,dry_production,2024,annual,3251,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Kansas,KS,20,38.498546,-98.38343,dry_production,2024,annual,115601,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Kentucky,KY,21,37.533684,-85.29298,dry_production,2024,annual,53562,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Louisiana,LA,22,30.708319,-91.604621,dry_production,2024,annual,3598072,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Maryland,MD,24,38.946658,-76.674494,dry_production,2024,annual,5,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Michigan,MI,26,44.844177,-85.660491,dry_production,2024,annual,63473,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Mississippi,MS,28,32.686471,-89.656138,dry_production,2024,annual,25750,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Missouri,MO,29,38.35075,-92.456783,dry_production,2024,annual,1,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Montana,MT,30,47.051177,-109.634817,dry_production,2024,annual,40027,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Nebraska,NE,31,41.543305,-99.811865,dry_production,2024,annual,261,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Nevada,NV,32,39.331093,-116.615147,dry_production,2024,annual,4,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+New Mexico,NM,35,34.434684,-106.131618,dry_production,2024,annual,3329399,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+New York,NY,36,42.913397,-75.596272,dry_production,2024,annual,8836,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+North Dakota,ND,38,47.442174,-100.460826,dry_production,2024,annual,948321,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Ohio,OH,39,40.41493,-82.711997,dry_production,2024,annual,2082466,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Oklahoma,OK,40,35.590081,-97.486779,dry_production,2024,annual,2487492,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Oregon,OR,41,43.971712,-120.622958,dry_production,2024,annual,84,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Pennsylvania,PA,42,40.904604,-77.827523,dry_production,2024,annual,7299117,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+South Dakota,SD,46,44.446796,-100.238176,dry_production,2024,annual,135,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Tennessee,TN,47,35.85846,-86.349634,dry_production,2024,annual,2642,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Texas,TX,48,31.434703,-99.281824,dry_production,2024,annual,10054195,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Utah,UT,49,39.334993,-111.656333,dry_production,2024,annual,291928,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Virginia,VA,51,37.522251,-78.668194,dry_production,2024,annual,80873,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+West Virginia,WV,54,38.647285,-80.618327,dry_production,2024,annual,3112501,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+Wyoming,WY,56,42.989659,-107.544392,dry_production,2024,annual,998117,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+U.S.,,,,,dry_production,2025,annual,39287583,https://www.eia.gov/dnav/ng/xls/NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls,NG_SUM_SND_A_EPG0_FPD_MMCF_A.xls
+U.S.,,,,,marketed_production,2026-06,monthly,3709286.15,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Alaska,AK,02,63.347356,-152.839733,marketed_production,2026-06,monthly,29924.181,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Arkansas,AR,05,34.895526,-92.444626,marketed_production,2026-06,monthly,25707.06,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+California,CA,06,37.155177,-119.543418,marketed_production,2026-06,monthly,8592.94,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Colorado,CO,08,38.993767,-105.508712,marketed_production,2026-06,monthly,154179.615,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Federal Offshore--Gulf of America,,,,,marketed_production,2026-06,monthly,59572.374,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Kansas,KS,20,38.498546,-98.38343,marketed_production,2026-06,monthly,9740.31,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Louisiana,LA,22,30.708319,-91.604621,marketed_production,2026-06,monthly,353917.459,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Montana,MT,30,47.051177,-109.634817,marketed_production,2026-06,monthly,3612.518,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+New Mexico,NM,35,34.434684,-106.131618,marketed_production,2026-06,monthly,370931.152,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+North Dakota,ND,38,47.442174,-100.460826,marketed_production,2026-06,monthly,102267.796,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Ohio,OH,39,40.41493,-82.711997,marketed_production,2026-06,monthly,177705.93,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Oklahoma,OK,40,35.590081,-97.486779,marketed_production,2026-06,monthly,244824.18,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Pennsylvania,PA,42,40.904604,-77.827523,marketed_production,2026-06,monthly,634166.91,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Texas,TX,48,31.434703,-99.281824,marketed_production,2026-06,monthly,1092928.866,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Utah,UT,49,39.334993,-111.656333,marketed_production,2026-06,monthly,28321.501,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+West Virginia,WV,54,38.647285,-80.618327,marketed_production,2026-06,monthly,310557.9,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Wyoming,WY,56,42.989659,-107.544392,marketed_production,2026-06,monthly,74773.432,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 1
+Other States,,,,,marketed_production,2026-06,monthly,27562.026,https://www.eia.gov/naturalgas/monthly/xls/ngm07vmall.xls,ngm07_marketed.xls Data 2
+U.S.,,,,,marketed_production,2024,annual,41383893,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Alaska,AK,02,63.347356,-152.839733,marketed_production,2024,annual,371876,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Arkansas,AR,05,34.895526,-92.444626,marketed_production,2024,annual,355308,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+California,CA,06,37.155177,-119.543418,marketed_production,2024,annual,124391,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Federal Offshore California,,,,,marketed_production,2024,annual,3920,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Colorado,CO,08,38.993767,-105.508712,marketed_production,2024,annual,1846602,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Federal Offshore--Gulf of America,,,,,marketed_production,2024,annual,670182,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Kansas,KS,20,38.498546,-98.38343,marketed_production,2024,annual,125943,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Louisiana,LA,22,30.708319,-91.604621,marketed_production,2024,annual,3614212,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Montana,MT,30,47.051177,-109.634817,marketed_production,2024,annual,41221,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+New Mexico,NM,35,34.434684,-106.131618,marketed_production,2024,annual,3599780,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+North Dakota,ND,38,47.442174,-100.460826,marketed_production,2024,annual,1185664,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Ohio,OH,39,40.41493,-82.711997,marketed_production,2024,annual,2155929,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Oklahoma,OK,40,35.590081,-97.486779,marketed_production,2024,annual,2750607,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Pennsylvania,PA,42,40.904604,-77.827523,marketed_production,2024,annual,7422303,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Texas,TX,48,31.434703,-99.281824,marketed_production,2024,annual,12019704,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Utah,UT,49,39.334993,-111.656333,marketed_production,2024,annual,304388,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+West Virginia,WV,54,38.647285,-80.618327,marketed_production,2024,annual,3417995,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Wyoming,WY,56,42.989659,-107.544392,marketed_production,2024,annual,1052320,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+U.S.,,,,,marketed_production,2025,annual,43229110,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Alaska,AK,02,63.347356,-152.839733,marketed_production,2025,annual,368956,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Arkansas,AR,05,34.895526,-92.444626,marketed_production,2025,annual,323323,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+California,CA,06,37.155177,-119.543418,marketed_production,2025,annual,111955,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Colorado,CO,08,38.993767,-105.508712,marketed_production,2025,annual,1869619,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Federal Offshore--Gulf of America,,,,,marketed_production,2025,annual,706233,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Kansas,KS,20,38.498546,-98.38343,marketed_production,2025,annual,122273,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Louisiana,LA,22,30.708319,-91.604621,marketed_production,2025,annual,3813990,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Montana,MT,30,47.051177,-109.634817,marketed_production,2025,annual,43718,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+New Mexico,NM,35,34.434684,-106.131618,marketed_production,2025,annual,4130971,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+North Dakota,ND,38,47.442174,-100.460826,marketed_production,2025,annual,1197922,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Ohio,OH,39,40.41493,-82.711997,marketed_production,2025,annual,2100726,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Oklahoma,OK,40,35.590081,-97.486779,marketed_production,2025,annual,2877738,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Pennsylvania,PA,42,40.904604,-77.827523,marketed_production,2025,annual,7675792,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Texas,TX,48,31.434703,-99.281824,marketed_production,2025,annual,12656556,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Utah,UT,49,39.334993,-111.656333,marketed_production,2025,annual,336533,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+West Virginia,WV,54,38.647285,-80.618327,marketed_production,2025,annual,3599989,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Wyoming,WY,56,42.989659,-107.544392,marketed_production,2025,annual,938131,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 1
+Other States,,,,,marketed_production,2024,annual,325469,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Alabama,AL,01,32.739579,-86.843447,marketed_production,2024,annual,75800,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Arizona,AZ,04,34.203936,-111.606345,marketed_production,2024,annual,139,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Florida,FL,12,28.398978,-82.5143,marketed_production,2024,annual,356,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Idaho,ID,16,44.348422,-114.558854,marketed_production,2024,annual,1146,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Illinois,IL,17,40.102875,-89.152611,marketed_production,2024,annual,3191,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Indiana,IN,18,39.901314,-86.291913,marketed_production,2024,annual,3251,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Kentucky,KY,21,37.533684,-85.29298,marketed_production,2024,annual,58816,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Maryland,MD,24,38.946658,-76.674494,marketed_production,2024,annual,5,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Michigan,MI,26,44.844177,-85.660491,marketed_production,2024,annual,64129,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Mississippi,MS,28,32.686471,-89.656138,marketed_production,2024,annual,25752,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Missouri,MO,29,38.35075,-92.456783,marketed_production,2024,annual,1,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Nebraska,NE,31,41.543305,-99.811865,marketed_production,2024,annual,261,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Nevada,NV,32,39.331093,-116.615147,marketed_production,2024,annual,4,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+New York,NY,36,42.913397,-75.596272,marketed_production,2024,annual,8836,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Oregon,OR,41,43.971712,-120.622958,marketed_production,2024,annual,84,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+South Dakota,SD,46,44.446796,-100.238176,marketed_production,2024,annual,135,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Tennessee,TN,47,35.85846,-86.349634,marketed_production,2024,annual,2667,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Virginia,VA,51,37.522251,-78.668194,marketed_production,2024,annual,80896,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2
+Other States,,,,,marketed_production,2025,annual,354686,https://www.eia.gov/dnav/ng/xls/NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls,NG_PROD_SUM_A_EPG0_VGM_MMCF_A.xls Data 2

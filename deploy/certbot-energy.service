@@ -1,0 +1,7 @@
+[Unit]
+Description=Renew the Energy_Infr IP certificate
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/certbot-energy/bin/certbot renew --quiet --config-dir /etc/letsencrypt-energy --work-dir /var/lib/letsencrypt-energy --logs-dir /var/log/letsencrypt-energy --deploy-hook "systemctl reload nginx"

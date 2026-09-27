@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Texas Permian — vented and flared gas</title>
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="map"></div>
+  <aside id="panel">
+    <header>
+      <label class="region">
+        <span class="kicker">Region</span>
+        <select id="region"></select>
+      </label>
+      <p class="kicker" id="kicker">Texas Permian</p>
+      <h1 id="title">Vented and flared gas by lease</h1>
+      <p id="headline" class="headline"></p>
+    </header>
+    <section class="controls">
+      <label><input type="checkbox" id="show-leases" checked> Leases</label>
+      <label><input type="checkbox" id="show-pipes" checked> Gas pipelines</label>
+      <label><input type="checkbox" id="show-pois" checked> Interconnection points</label>
+      <label><input type="checkbox" id="show-tieins" checked> Grid tie-in points</label>
+      <label><input type="checkbox" id="show-grid"> Transmission lines</label>
+    </section>
+    <section>
+      <h2>Largest filings</h2>
+      <ol id="ranking"></ol>
+    </section>
+    <details>
+      <summary>How to read this</summary>
+      <p id="method"></p>
+    </details>
+  </aside>
+  <div id="legend">
+    <p class="legend-title">Vented or flared, MMcfd</p>
+    <div class="swatch"><i style="background:#f6e0b8"></i><span>Under 0.05</span></div>
+    <div class="swatch"><i style="background:#f3c888"></i><span>0.05 – 0.25</span></div>
+    <div class="swatch"><i style="background:#f0a04a"></i><span>0.25 – 1</span></div>
+    <div class="swatch"><i style="background:#e36a2c"></i><span>1 – 5</span></div>
+    <div class="swatch"><i style="background:#c2311f"></i><span>5 – 20</span></div>
+    <div class="swatch"><i style="background:#6e1220"></i><span>20 and above</span></div>
+    <p class="legend-title">Gas pipelines</p>
+    <div class="swatch"><i class="line interstate"></i><span>Interstate</span></div>
+    <div class="swatch"><i class="line intrastate"></i><span>Intrastate</span></div>
+    <div class="swatch"><i class="line gathering"></i><span>Gathering</span></div>
+    <p class="legend-title">Interconnection point</p>
+    <div class="swatch"><i class="dot poi-345"></i><span>345 kV and above</span></div>
+    <div class="swatch"><i class="dot poi-230"></i><span>230 kV</span></div>
+    <div class="swatch"><i class="dot poi-138"></i><span>138–229 kV</span></div>
+    <div class="swatch"><i class="dot poi-69"></i><span>69–137 kV</span></div>
+    <p class="legend-title">Grid</p>
+    <div class="swatch"><i class="diamond"></i><span>Tie-in point</span></div>
+    <div class="swatch"><i class="line grid"></i><span>230 kV and above</span></div>
+  </div>
+  <script src="vendor/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

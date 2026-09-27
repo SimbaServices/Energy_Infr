@@ -1,0 +1,135 @@
+August 2026 
+U.S. Energy Information Administration   |   Natural Gas Monthly 122 
+Glossary 
+Aquifer
+ storage field: A subsurface facility for storing natural gas, consisting of water-bearing sands topped by 
+an impermeable cap rock. 
+Balancing item:  Represents the difference between the sum of the components of natural gas supply and the 
+sum of the components of natural gas disposition.  These differences may be due to data reporting or survey 
+coverage problems.  Reporting problems include differences due to the net result of conversions of flow data 
+metered at varying temperature and pressure bases and converted to a standard temperature and pressure 
+base; the effect of variations in company accounting and billing practices; differences between billing cycle and 
+calendar period time frames; and imbalances resulting from the merger of data reporting systems which vary in 
+scope, format, definitions, and type of respondents.   
+Base (cushion) gas:  The volume of natural gas needed as a permanent inventory to maintain adequate reservoir 
+pressures and deliverability rates throughout the withdrawal season.  All native gas is included in the base gas 
+volume.  
+British thermal unit (Btu):  The quantity of heat required to raise the temperature of 1 pound of liquid water by 
+1 degree Fahrenheit at the temperature at which water has its greatest density (approximately 39 degrees 
+Fahrenheit). 
+British thermal units per cubic foot:  The total heating value, expressed in British thermal units, produced by the 
+combustion, at constant pressure, of the amount of the gas that would occupy the volume of 1 cubic foot at a 
+temperature of 60°F if saturated with water vapor and under a pressure equivalent to that of 30 inches of 
+mercury at 32°F and under standard gravitational force (980.665 cm. per sec. squared) with air of the same 
+temperature and pressure as the gas, when the products of combustion are cooled to the initial temperature of 
+gas and air when the water formed by combustion is condensed to the liquid state.(Sometimes called gross 
+heating value or total heating value.) 
+Citygate:  A point or measuring station at which a natural gas distribution company receives natural gas from a 
+pipeline company or transmission system. 
+Commercial consumption: Natural gas used by local, state, and federal nonmanufacturing establishments or 
+agencies primarily engaged in the sale of goods or services such as hotels, restaurants, and wholesale and retail 
+stores and other service enterprises; and natural gas used by local, state and federal agencies engaged in 
+nonmanufacturing activities. 
+Compressed natural gas (CNG):  Natural gas which is comprised primarily of methane, compressed to a pressure 
+at or above 2,400 pounds per square inch and stored in special high-pressure containers. It is used as a fuel for 
+natural gas powered vehicles. 
+Depleted storage field: A subsurface natural geological reservoir, usually a depleted oil or gas field, used for 
+storing natural gas. 
+U.S. Energy Information Administration   |   Natural Gas Monthly  123 
+Dry natural gas production: The process of producing consumer-grade natural gas. Natural gas withdrawn from 
+reservoirs is reduced by volumes used at the production (lease) site and by processing losses. Volumes used at 
+the production site include the volume returned to reservoirs in cycling, repressuring of oil reservoirs, and 
+conservation operations as well as natural gas vented and flared. Processing losses include nonhydrocarbon 
+gases (for example, water vapor, carbon dioxide, helium, hydrogen sulfide, and nitrogen) removed from the 
+natural gas stream as well as natural gas converted to liquid form, such as lease condensate and plant liquids. 
+We do not consider volumes of dry natural gas withdrawn from natural gas storage reservoirs as part of 
+production. Dry natural gas production equals marketed production minus natural gas plant liquids production. 
+Electric power consumption:  Natural gas used as fuel in the electric power sector. 
+Electric power sector:  An energy-consuming sector that consists of electricity-only and combined-heat-and-
+power (CHP) plants whose primary business is to sell electricity, or electricity and heat, to the public.  These 
+facilities are categorized under code 22 according to the North American Industry Classification System. 
+Exports: Natural gas deliveries out of the continental United States (including Alaska) to foreign countries. 
+Gas well: A well completed for production of natural gas from one or more gas zones or reservoirs.  Such wells 
+contain no completions for the production of crude oil. EIA identifies natural gas wells using a natural gas/oil 
+ratio (GOR) of 6,000 cf/b. Wells with a GOR greater than 6,000 are labeled natural gas wells while a GOR of 
+6,000 or less are labeled oil wells. 
+Gross withdrawals: Full well stream volume, including all natural gas plant liquid and nonhydrocarbon gases, but 
+excluding lease condensate.  Also includes amounts delivered as royalty payments or consumed in field 
+operations. 
+Heating value: The average number of British thermal units per cubic foot of natural gas as determined from 
+tests of fuel samples. 
+Imports: Natural gas received in the Continental United States (including Alaska) from a foreign country. 
+Industrial consumption: Natural gas used for heat, power, or chemical feedstock by consumers in 
+manufacturing, mining or other mineral extraction, agriculture, forestry, and fisheries. Also included in industrial 
+consumption are generators that produce electricity or useful thermal output primarily to support the 
+previously mentioned industrial activities. 
+Intransit deliveries:  Redeliveries to a foreign country of foreign natural gas received for transportation across 
+U.S. territory and deliveries of U.S. natural gas to a foreign country for transportation across its territory and 
+redelivery to the United States. 
+Intransit receipts: Receipts of foreign natural gas for transportation across U.S. territory and redelivery to a 
+foreign country and redeliveries to the United States of U.S. natural gas transported across foreign territory. 
+Lease and plant fuel: Natural gas used in well, field, lease operations (such as natural gas used in drilling 
+operations, heaters, dehydrators, and field compressors) and as fuel in natural gas processing plants. 
+August 2026 
+U.S. Energy Information Administration   |   Natural Gas Monthly 124 
+Liquefied natural gas (LNG): Natural gas (primarily methane) that has been liquefied by reducing its 
+temperature to -260°Fahrenheit at atmospheric pressure. 
+Local distribution company (LDC): A legal entity engaged primarily in the retail sale and/or delivery of natural 
+gas through a distribution system that includes mainlines (that is, pipelines designed to carry large volumes of 
+natural gas, usually located under roads or other major right-of-ways) and laterals (that is, pipelines of smaller 
+diameter that connect the end user to the mainline). In recent years, the sale of natural gas and/or delivery 
+arrangements is more commonly handled by other agents, such as producers, brokers, and marketers that are 
+referred to as non-LDC. 
+Marketed production: Gross withdrawals minus natural gas used for repressuring, quantities vented and flared, 
+and less nonhydrocarbon gases removed in treating or processing operations.  Includes all quantities of natural 
+gas used in field and processing operations.  
+Native gas: Natural gas in place at the time that a reservoir was converted to use as an underground storage 
+reservoir, as in contrast to injected gas volumes. 
+Natural gas: A gaseous mixture of hydrocarbon compounds but mostly methane. EIA measures wet natural gas 
+and its two sources of production (associated, or dissolved, natural gas and nonassociated natural gas) and dry 
+natural gas, which is produced from wet natural gas. 
+Natural gas liquids (NGL):  A group of hydrocarbons including ethane, propane, normal butane, isobutane, and 
+natural gasoline. Generally include natural gas plant liquids and all liquefied refinery gases, except olefins. 
+Natural gas marketer: A company that arranges purchases and sales of natural gas.  Unlike pipeline companies or 
+LDCs, a marketer does not own physical assets commonly used in the supply of natural gas, such as pipelines or 
+storage fields.  A marketer may be an affiliate of another company, such as an LDC, natural gas pipeline, or 
+producer, but it operates independently of other segments of the company.  In states with residential choice 
+programs, marketers serve as alternative suppliers to residential users of natural gas, which is delivered by an LDC. 
+Natural gas plant liquids (NGPL): Those hydrocarbons in natural gas that are separated as liquids at natural gas 
+processing, fractionating, and cycling plants. Products obtained include ethane, liquefied petroleum gases 
+(propane and butanes), and natural gasoline. Component products may be fractionated or mixed. Lease 
+condensate and plant condensate are excluded. 
+Natural gas plant liquids (NGPL) production: The extraction of natural gas plant liquids constituents such as 
+ethane, propane, normal butane, isobutane, and natural gasoline, sometimes referred to as extraction loss. Usually 
+reported in barrels or gallons, but may be reported in cubic feet to compare with dry natural gas volumes. 
+Nominal dollars: A measure used to express nominal price. 
+Nominal price: The price paid for a product or service at the time of the transaction. Nominal prices are those 
+that have not been adjusted to remove the effect of changes in the purchasing power of the dollar; they reflect 
+buying power in the year in which the transaction occurred. 
+August 2026 
+U.S. Energy Information Administration   |   Natural Gas Monthly  125 
+Onsystem sales: Sales to customers where the delivery point is a point on, or directly interconnected with, a 
+transportation, storage, and/or distribution system operated by the reporting company. 
+Pipeline fuel: Natural gas consumed in the operation of pipelines, primarily in compressors.  
+Renewable natural gas (RNG): Renewable natural gas consists mostly of methane and is chemically similar to 
+conventional natural gas. RNG can be produced by purifying biogas produced at landfills, wastewater treatment 
+facilities, and digesters. 
+Repressuring: The injection of natural gas into oil or natural gas formations to enhance ultimate recovery. 
+Residential consumption: Natural gas used in private dwellings, including apartments, for heating, cooking, 
+water heating, and other household uses. 
+Salt cavern storage field:  A storage facility that is a cavern hollowed out in either a salt bed or dome formation. 
+Storage additions: Volumes of natural gas injected or otherwise added to underground natural gas reservoirs or 
+liquefied natural gas storage. 
+Storage withdrawals: Total volume of natural gas withdrawn from underground storage or from liquefied 
+natural gas storage over a specified amount of time. 
+Supplemental gaseous fuels supplies: Synthetic natural gas, propane-air, coke oven gas, refinery gas, biomass 
+gas, or air injected for British thermal unit stabilization. It also refers to manufactured gas commingled and 
+distributed with natural gas.  
+Underground natural gas storage reservoir capacity: Interstate company reservoir capacities are those 
+certificated by FERC.  Independent producer and intrastate company reservoir capacities are reported as 
+developed capacity.  
+Vehicle fuel consumption:  Natural gas (compressed or liquefied) used as vehicle fuel. 
+Working (top storage) gas:  The volume of natural gas in an underground storage reservoir above the 
+designed level of the base.  It may or may not be co mpletely withdrawn during an y particular withdrawal 
+season.  Conditions permitting, the total working capaci ty could be used more than once during any season. 
+August 2026 

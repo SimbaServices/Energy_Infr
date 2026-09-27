@@ -1,0 +1,33 @@
+hub_name,latitude,longitude,period,source
+Chicago Citygate,41.7934361818,-87.9509282628,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Waha,31.5819732588,-103.189521718,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Katy,29.750094818,-95.786092891,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Dominion South,40.4314455623,-79.6547956576,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+PG&E Citygate,38.404894966,-121.913986787,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Sumas,49.000494299,-122.219984774,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Cheyenne,40.940693404,-104.79598979,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Malin,42.033794638,-121.37198636,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Henry Hub,29.895494663,-92.063093854,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Kern River Opal,41.8367436739,-110.223184396,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+El Paso Permian,31.9610749569,-103.129344009,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+SoCal Border,34.6909168697,-114.599678812,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+SoCal Citygate,34.0489226583,-117.443841313,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Ventura,43.1847784838,-93.4968330768,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Texas Gas Zone 1,32.9585422926,-91.8842337862,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Transco Zone 5 Delivered,38.2970368097,-77.9539308252,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Transco Zone 4,32.0721735693,-88.3788671754,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Transco Zone 3,30.9878140391,-90.7092423775,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Transco Zone 6 non-NY,40.3155431536,-74.7762026768,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Transco Zone 6 NY,40.6924592569,-74.1524500979,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Columbia Gas Appalachia,39.8978991256,-80.1930059354,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+NGPL Texok zone,33.116534091,-94.2033229871,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+NGPL Midcontinent,37.5860701365,-99.9332808651,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Texas Eastern M-2 (Receipts),39.8767865321,-81.069178566,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Texas Eastern M3,40.3756377447,-74.9400105729,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+MichCon,42.1444715125,-83.3768831871,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Algonquin Citygate,42.3042679484,-71.0873265081,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Northern Natural Demarc,39.5314213619,-97.2620816888,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Columbia Gulf Mainline,32.6495840308,-91.300613166,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Rockies Express Pipeline Zone 3,39.8055213151,-87.5377646852,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Tennessee Gas Zone 4 Marcellus,41.7288047426,-76.4051472244,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
+Agua Dulce,27.7488987587,-97.6254036216,202002,NaturalGas_TradingHubs_US_EIA feature service; approximate central point
