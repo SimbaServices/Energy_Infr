@@ -1,0 +1,21 @@
+{
+  "operators": {
+    "California Gas Transmission Co": {
+      "hub": "pge-citygate",
+      "source_url": "https://services2.arcgis.com/LYMgRMwHfrWWEg3s/arcgis/rest/services/HIFLD_US_Natural_Gas_Market_Hubs/FeatureServer/0/query?where=Hub_name%3D%27Golden%20Gate%20Center%27&outFields=Hub_name,Operator,Platform&returnGeometry=false&f=json",
+      "note": "The Golden Gate Center record names California Gas Transmission Co as operator and lists the trading platform as NGI, Gas Daily PG&E Citygate, the northern California price."
+    },
+    "Southern California Gas Co": {
+      "hub": "socal-citygate",
+      "source_url": "https://ngi-content.s3.amazonaws.com/Methodology/NGIMethodology.pdf",
+      "note": "NGI’s SoCal Citygate index is deliveries to customers behind Southern California Gas’ local distribution system in Southern California, and the same point list treats PG&E Citygate as the separate northern California price."
+    },
+    "El Paso Natural Gas Co": {
+      "hub": "socal-border",
+      "source_url": "https://ngi-content.s3.amazonaws.com/Methodology/NGIMethodology.pdf",
+      "note": "NGI’s SoCal Border–Ehrenberg index and the Southern California Border Average price El Paso Natural Gas deliveries into the Southern California Gas system, while the El Paso Permian index is a separate receipt point in the Permian Basin."
+    }
+  },
+  "prices": {},
+  "regions": {}
+}
