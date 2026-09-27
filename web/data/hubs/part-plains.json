@@ -1,0 +1,21 @@
+{
+  "operators": {
+    "Northern Natural Gas Co": {
+      "hub": "ventura",
+      "source_url": "https://www.psc.nd.gov/webdocs/case/26-0052/001-020.pdf",
+      "note": "Northern Border carries Bakken gas to the Ventura Hub in Iowa, where it connects with Northern Natural Gas."
+    },
+    "WBI Energy Transmission": {
+      "hub": "ventura",
+      "source_url": "https://transmission.wbienergy.com/Tariff_Documents/Fourth%20Revised%20Volume%20No.%201.pdf",
+      "note": "WBI Energy Transmission’s tariff prices imbalances for gas it moves in North Dakota and South Dakota at the Gas Daily midpoint for Northern Natural Gas at Ventura or for CIG’s northern system."
+    }
+  },
+  "prices": {},
+  "regions": {
+    "data/states/nd": {
+      "hub": "ventura",
+      "note": "Most gas purchased from the Bakken formation for North Dakota is bought at the Ventura Hub in Hancock County, Iowa."
+    }
+  }
+}
