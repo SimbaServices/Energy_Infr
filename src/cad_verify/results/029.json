@@ -1,0 +1,65 @@
+{
+  "batch": "029",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "COFFEY",
+      "county_code": "031",
+      "sample_account": "R303921",
+      "endpoint": "https://ks367.cichosting.com/webportal/Appraiser/Details.aspx?id=8393&pid=016-136-23-0-30-01-004.00-1&qref=R303921",
+      "method": "GET",
+      "form_fields": ["id", "pid", "qref"],
+      "account_sent": "R303921",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "COFFEY COUNTY CONSERVATION DISTRICT",
+      "contact_excerpt": "313 Cross St # Ste B Burlington, KS 66839"
+    },
+    {
+      "state": "KS",
+      "county": "COMANCHE",
+      "county_code": "033",
+      "sample_account": "2",
+      "endpoint": "https://ks1524.cichosting.com/Webportal/Appraiser/Details.aspx?id=2&pid=017-011-01-0-00-00-002.00-0&qref=R2",
+      "method": "GET",
+      "form_fields": ["id", "pid", "qref"],
+      "account_sent": "R2",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "KANSAS DEPT OF WILDLIFE & PARKS",
+      "contact_excerpt": "512 SE 25th Ave Pratt, KS 67124"
+    },
+    {
+      "state": "KS",
+      "county": "DICKINSON",
+      "county_code": "041",
+      "sample_account": "R3228",
+      "endpoint": "https://ks479.cichosting.com/webportal/Appraiser/Details.aspx?id=3228&pid=021-104-20-0-40-13-001.00-0&qref=R3228",
+      "method": "GET",
+      "form_fields": ["id", "pid", "qref"],
+      "account_sent": "R3228",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "DICKINSON COUNTY BANK",
+      "contact_excerpt": "PO Box 217 Enterprise, KS 67441-0217"
+    },
+    {
+      "state": "KS",
+      "county": "DOUGLAS",
+      "county_code": "045",
+      "sample_account": "R25273",
+      "endpoint": "https://propertyinfo.dgcoks.gov/Property-Detail/PropertyQuickRefID/R25273/PartyQuickRefID/0000093581",
+      "method": "GET",
+      "form_fields": ["PropertyQuickRefID", "PartyQuickRefID"],
+      "account_sent": "R25273",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "COLLINS JACK J",
+      "contact_excerpt": "1027 E 1600 RD LAWRENCE, KS 66046-9276"
+    }
+  ]
+}

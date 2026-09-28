@@ -1,0 +1,49 @@
+{
+  "batch": "004",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "CLAY",
+      "county_code": "077",
+      "account": {
+        "prop_id": "0016152",
+        "geo_id": "0016152",
+        "owner_name": "2007 LANDRUM-TX LTD",
+        "contact": "111 N AVENUE DD, BURKBURNETT TX 76354"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "COKE",
+      "county_code": "081",
+      "account": {
+        "prop_id": "0016152",
+        "geo_id": "0016152",
+        "owner_name": "2007 LANDRUM-TX LTD",
+        "contact": "111 N AVENUE DD, BURKBURNETT TX 76354"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "COLLINGSWORTH",
+      "county_code": "087",
+      "account": {
+        "prop_id": "0005139",
+        "geo_id": "0005139",
+        "owner_name": "ADAMS DEAN",
+        "contact": "3015 DAPHNEY CT, SIMI VALLEY CA 93063"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "COTTLE",
+      "county_code": "101",
+      "account": {
+        "prop_id": "0001514",
+        "geo_id": "0001514",
+        "owner_name": "WILSON GREGORY A",
+        "contact": "PO BOX 130, ARCADIA OK 73007-0130"
+      }
+    }
+  ]
+}

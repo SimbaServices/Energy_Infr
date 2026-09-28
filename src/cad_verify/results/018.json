@@ -1,0 +1,65 @@
+{
+  "batch": "018",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "MARTIN",
+      "county_code": "317",
+      "sample_account": "0052190",
+      "endpoint": "https://www.martincad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "filter", "page", "taxYear", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType", "searchObj"],
+      "account_sent": "A & Z INTERESTS",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A & Z INTERESTS LP",
+      "contact_excerpt": "8100 W FM 846  KNOTT TX 79748 4018"
+    },
+    {
+      "state": "TX",
+      "county": "MENARD",
+      "county_code": "327",
+      "sample_account": "0000790",
+      "endpoint": "https://menardcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "filter", "page", "taxYear", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType", "searchObj"],
+      "account_sent": "ACF II",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ACF II LP",
+      "contact_excerpt": "PO BOX 926  CYPRESS TX 77410"
+    },
+    {
+      "state": "TX",
+      "county": "MIDLAND",
+      "county_code": "329",
+      "sample_account": "0189033",
+      "endpoint": "https://iswdataclient.azurewebsites.net/webProperty.aspx?dbkey=MIDLANDCAD&id=N000347465",
+      "method": "GET",
+      "form_fields": ["dbkey", "id"],
+      "account_sent": "N000347465",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A H N CORPORATION",
+      "contact_excerpt": "200 W CLEMENTS ODESSA, TX 79761"
+    },
+    {
+      "state": "TX",
+      "county": "MILAM",
+      "county_code": "331",
+      "sample_account": "20536348",
+      "endpoint": "https://esearch.milamad.org/Property/View/20536348",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "20536348",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ADA III IRREV TRUST",
+      "contact_excerpt": "%ROBERT & CHRISTINA DRYER TTEE 1106 SECOND ST UNIT 502 ENCINITASISCO , CA 92024"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "batch": "040",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "ROOSEVELT",
+      "county_code": "041",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/22"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        }
+      ],
+      "account": {
+        "prop_id": "R026075",
+        "upc": "400000000997500",
+        "account_key": "ose|35041|R026075|400000000997500|4001",
+        "owner_name": "Morton Monte Guy",
+        "mail_line1": "Po Box 917",
+        "mail_city": "Denton",
+        "mail_state": "TX",
+        "mail_zip": "76202"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "SANDOVAL",
+      "county_code": "043",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/23"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/0"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Projected_PLSS_Sandoval_County",
+          "url": "https://services3.arcgis.com/CkhxOCyQmitz4nLa/arcgis/rest/services/Projected_PLSS_Sandoval_County/FeatureServer/0"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/3"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/6"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/4"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/1"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/2"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/5"
+        }
+      ],
+      "account": {
+        "prop_id": "R113735",
+        "upc": "1010073283024",
+        "account_key": "ose|35043|R113735|1010073283024|6001",
+        "owner_name": "Putt, Alan E",
+        "mail_line1": "32 Ridgemont Pl",
+        "mail_city": "Hornchurch, Essex, R",
+        "mail_state": "",
+        "mail_zip": ""
+      }
+    },
+    {
+      "state": "NM",
+      "county": "SAN JUAN",
+      "county_code": "045",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/24"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        }
+      ],
+      "account": {
+        "prop_id": "R0014353",
+        "upc": "2063179259177",
+        "account_key": "ose|35045|R0014353|2063179259177|2001",
+        "owner_name": "Heick Gregory Alan",
+        "mail_line1": "1234 Ne Aztec Blvd Trlr 33",
+        "mail_city": "Aztec",
+        "mail_state": "NM",
+        "mail_zip": "87410"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "SAN MIGUEL",
+      "county_code": "047",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/25"
+        }
+      ],
+      "account": {
+        "prop_id": "R0536120",
+        "upc": "",
+        "account_key": "ose|35047|R0536120||1",
+        "owner_name": "Carlson Kristin N & Berg Bryan",
+        "mail_line1": "512 River Oak Dr",
+        "mail_city": "Ames",
+        "mail_state": "IA",
+        "mail_zip": "50010"
+      }
+    }
+  ]
+}

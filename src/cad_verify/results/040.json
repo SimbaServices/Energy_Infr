@@ -1,0 +1,65 @@
+{
+  "batch": "040",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "ROOSEVELT",
+      "county_code": "041",
+      "sample_account": "R026075",
+      "endpoint": "https://rooseveltcountynm-asr.tylerhost.net/assessor/taxweb/account.jsp?accountNum=R026075",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R026075",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "MORTON MONTE GUY",
+      "contact_excerpt": "PO BOX 917 DENTON, TX 76202"
+    },
+    {
+      "state": "NM",
+      "county": "SANDOVAL",
+      "county_code": "043",
+      "sample_account": "R113735",
+      "endpoint": "https://eaweb.sandovalcountynm.gov/Assessor/taxweb/account.jsp?accountNum=R113735",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R113735",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "PUTT, ALAN E",
+      "contact_excerpt": "32 RIDGEMONT PL HORNCHURCH, ESSEX, RM11 3LQ UNITED KINGDOM"
+    },
+    {
+      "state": "NM",
+      "county": "SAN JUAN",
+      "county_code": "045",
+      "sample_account": "R0014353",
+      "endpoint": "https://sanjuancountynm-eaweb.tylerhost.net/assessor/taxweb/account.jsp?accountNum=R0014353",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R0014353",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "HOLGATE ROBERT C AND SANDRA E",
+      "contact_excerpt": "16 ROAD 2957 AZTEC, NM 87410-9706"
+    },
+    {
+      "state": "NM",
+      "county": "SAN MIGUEL",
+      "county_code": "047",
+      "sample_account": "R0536120",
+      "endpoint": "https://erecording.smcounty.net:8444/assessor/taxweb/account.jsp?accountNum=R0536120",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R0536120",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "CARLSON KRISTIN N & BERG BRYAN",
+      "contact_excerpt": "512 RIVER OAK DR AMES, IA 50010"
+    }
+  ]
+}

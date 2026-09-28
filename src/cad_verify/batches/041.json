@@ -1,0 +1,197 @@
+{
+  "batch": "041",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "SANTA FE",
+      "county_code": "049",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/26"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/0"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/3"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/2"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/6"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/1"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/5"
+        },
+        {
+          "label": "agol:Parcels - NM - Santa Fe County",
+          "url": "https://sfcomaps.santafecountynm.gov/restsvc/rest/services/TaxParcelsDB/MapServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:SEB_Geology_NMBGMR",
+          "url": "https://services3.arcgis.com/g05tU9ut0nBgBAHs/arcgis/rest/services/SEB_Geology_NMBGMR/FeatureServer/11"
+        },
+        {
+          "label": "agol:Santa Fe County Land Parcels Apr 15, 2025",
+          "url": "https://services7.arcgis.com/p0Gk2nDbPs7KEqSZ/arcgis/rest/services/SFC_Parcels_20250415/FeatureServer/0"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/4"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/7"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        }
+      ],
+      "account": {
+        "prop_id": "910004011",
+        "upc": "1050096374262000000",
+        "account_key": "ose|35049|910004011|1050096374262000000|1",
+        "owner_name": "Gould, Walter R",
+        "mail_line1": "704 S Riverside Dr",
+        "mail_city": "Espanola",
+        "mail_state": "NM",
+        "mail_zip": "87532"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "SIERRA",
+      "county_code": "051",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/27"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:SierraBlancaPeak_NAD83_MapExtentPoly_BUFF1000m",
+          "url": "https://services3.arcgis.com/lFN5OWmnCvFpcgMz/arcgis/rest/services/SierraBlancaPeak_NAD83_MapExtentPoly_BUFF1000m/FeatureServer/10"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/1"
+        }
+      ],
+      "account": {
+        "prop_id": "8514",
+        "upc": "3020077435275",
+        "account_key": "ose|35051|8514|3020077435275|8001",
+        "owner_name": "Lee Gregory",
+        "mail_line1": "457 Rodeo Arena Rd",
+        "mail_city": "T Or C",
+        "mail_state": "NM",
+        "mail_zip": "87901"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "SOCORRO",
+      "county_code": "053",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/28"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/0"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/1"
+        },
+        {
+          "label": "agol:SEB_Geology_NMBGMR",
+          "url": "https://services3.arcgis.com/g05tU9ut0nBgBAHs/arcgis/rest/services/SEB_Geology_NMBGMR/FeatureServer/11"
+        }
+      ],
+      "account": {
+        "prop_id": "R032586",
+        "upc": "",
+        "account_key": "ose|35053|R032586||6001",
+        "owner_name": "Mayeda, Jack Minoru",
+        "mail_line1": "759 35Th Ave",
+        "mail_city": "San Francisco",
+        "mail_state": "CA",
+        "mail_zip": "94121"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "TAOS",
+      "county_code": "055",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/29"
+        }
+      ],
+      "account": {
+        "prop_id": "12704",
+        "upc": "1073153254103U168",
+        "account_key": "ose|35055|12704|1073153254103U168|2001",
+        "owner_name": "Mayer, Ilse P Revocable Trust",
+        "mail_line1": "10 Camino Nopal",
+        "mail_city": "El Prado",
+        "mail_state": "NM",
+        "mail_zip": "87529"
+      }
+    }
+  ]
+}

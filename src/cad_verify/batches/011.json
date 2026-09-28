@@ -1,0 +1,49 @@
+{
+  "batch": "011",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "HARDEMAN",
+      "county_code": "197",
+      "account": {
+        "prop_id": "0008357",
+        "geo_id": "0008357",
+        "owner_name": "ZEJ ENTERPRISES LLC",
+        "contact": "500 N AKARD ST STE 2150, DALLAS TX 75201"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "HARRIS",
+      "county_code": "201",
+      "account": {
+        "prop_id": "0503320050440",
+        "geo_id": "",
+        "owner_name": "THOMAS C S",
+        "contact": "ADDRESS UNKNOWN, HOUSTON TX"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "HASKELL",
+      "county_code": "207",
+      "account": {
+        "prop_id": "0002980",
+        "geo_id": "0002980",
+        "owner_name": "2007 LANDRUM-TX LTD",
+        "contact": "585 CASHION RD, WICHITA FALLS TX 76305"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "HEMPHILL",
+      "county_code": "211",
+      "account": {
+        "prop_id": "0015685",
+        "geo_id": "0015685",
+        "owner_name": "WRIGHT SONDRA BETH LIFE ESTATE",
+        "contact": "519 WILLOW VALLEY, LAMAR CO 81052"
+      }
+    }
+  ]
+}

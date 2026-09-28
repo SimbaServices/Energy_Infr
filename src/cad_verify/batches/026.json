@@ -1,0 +1,49 @@
+{
+  "batch": "026",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "WASHINGTON",
+      "county_code": "477",
+      "account": {
+        "prop_id": "73434",
+        "geo_id": "73434",
+        "owner_name": "BRAVO KATHERINE A",
+        "contact": "FERNANDINA FL 32034"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "WHEELER",
+      "county_code": "483",
+      "account": {
+        "prop_id": "0042210",
+        "geo_id": "0042210",
+        "owner_name": "WILDCAT OG PROPERTIES LLC",
+        "contact": "2800 N HENDERSON AVE STE 200, DALLAS TX 75206"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "WICHITA",
+      "county_code": "485",
+      "account": {
+        "prop_id": "160843",
+        "geo_id": "160843",
+        "owner_name": "RICE WILLIAM MARSH UNIVERISTY",
+        "contact": "RICE/HALYCON, HOUSTON TX 77005"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "WINKLER",
+      "county_code": "495",
+      "account": {
+        "prop_id": "0000267",
+        "geo_id": "0000267",
+        "owner_name": "A & G PRODUCERS INC",
+        "contact": "PO BOX 25, BARSTOW TX 79719"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "batch": "009",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "GAINES",
+      "county_code": "165",
+      "sample_account": "12297",
+      "endpoint": "https://esearch.gainescad.org/Property/View/12297",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "12297",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ROBINSON INTERESTS I LTD",
+      "contact_excerpt": "5005 RIVERWAY DR STE 200 HOUSTON, TX 77056-2123"
+    },
+    {
+      "state": "TX",
+      "county": "GLASSCOCK",
+      "county_code": "173",
+      "sample_account": "1A01290-WI-222488-CRESCENT ENERGY OPERATING   WI",
+      "endpoint": "https://www.glasscockcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj"],
+      "account_sent": "CRESCENT ENERGY OPERATING   WI",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "CRESCENT ENERGY OPERATING   WI",
+      "contact_excerpt": "600 TRAVIS ST STE 7200  HOUSTON TX 77002"
+    },
+    {
+      "state": "TX",
+      "county": "GOLIAD",
+      "county_code": "175",
+      "sample_account": "0002128",
+      "endpoint": "https://goliadcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj"],
+      "account_sent": "A 3 MINERALS LP",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A 3 MINERALS LP",
+      "contact_excerpt": "PO BOX 190464  DALLAS TX 75219 0464"
+    },
+    {
+      "state": "TX",
+      "county": "GONZALES",
+      "county_code": "177",
+      "sample_account": "0038816",
+      "endpoint": "https://www.gonzalescad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj"],
+      "account_sent": "A & C MENGDEN OIL LLC",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A & C MENGDEN OIL LLC",
+      "contact_excerpt": "1214 TURICUM ROAD  LAKE FOREST IL 60045"
+    }
+  ]
+}

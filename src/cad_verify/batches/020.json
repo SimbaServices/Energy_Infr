@@ -1,0 +1,49 @@
+{
+  "batch": "020",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "OCHILTREE",
+      "county_code": "357",
+      "account": {
+        "prop_id": "0000000",
+        "geo_id": "0000000",
+        "owner_name": "9MGC",
+        "contact": "PO BOX 7698, TYLER TX 75711"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "ORANGE",
+      "county_code": "361",
+      "account": {
+        "prop_id": "0036925",
+        "geo_id": "0036925",
+        "owner_name": "SRKR EXEMPT TRUST",
+        "contact": "2106 STREAMHURST LN, SUGAR LAND TX 77479-2218"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "PALO PINTO",
+      "county_code": "363",
+      "account": {
+        "prop_id": "36670",
+        "geo_id": "250015250",
+        "owner_name": "LOUDERMILK CHAD / ASHLIE",
+        "contact": "1077 CAPROCK CT, GRAFORD TX 76449"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "PANOLA",
+      "county_code": "365",
+      "account": {
+        "prop_id": "0481218",
+        "geo_id": "0481218",
+        "owner_name": ".ELLUM JOHN L",
+        "contact": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "batch": "005",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "CRANE",
+      "county_code": "103",
+      "account": {
+        "prop_id": "0026451",
+        "geo_id": "0505200|27669|REIDLAND|0026451|A R S CONTROL ACCOUNT LIMITED|0.168641",
+        "owner_name": "A R S CONTROL ACCOUNT LIMITED",
+        "contact": "PO BOX 22854, DENVER CO 80222-0854"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "CROCKETT",
+      "county_code": "105",
+      "account": {
+        "prop_id": "0157120",
+        "geo_id": "0157120",
+        "owner_name": "ABAEE HAILEY NOELLE",
+        "contact": "433 OAK SUMMIT RD, EDMOND OK 73025-2727"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "CULBERSON",
+      "county_code": "109",
+      "account": {
+        "prop_id": "0004247",
+        "geo_id": "0004247",
+        "owner_name": "OGX MINERALS II LP",
+        "contact": "PO BOX 2064, MIDLAND TX 79702"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "DALLAS",
+      "county_code": "113",
+      "account": {
+        "prop_id": "00000109249009600",
+        "geo_id": "",
+        "owner_name": "DALLAS TERM RY & UN DEPOT",
+        "contact": "1400 DOUGLAS ST STOP 1640, OMAHA NEBRASKA 681791001"
+      }
+    }
+  ]
+}

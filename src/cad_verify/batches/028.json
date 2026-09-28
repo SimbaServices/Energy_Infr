@@ -1,0 +1,87 @@
+{
+  "batch": "028",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "BOURBON",
+      "county_code": "011",
+      "layers": [
+        {
+          "label": "Parcels",
+          "url": "https://services.kansasgis.org/arcgis4/rest/services/KS_Parcels_ORKA_EB/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "BROWN",
+      "county_code": "013",
+      "layers": [
+        {
+          "label": "Brownfields",
+          "url": "https://services7.arcgis.com/bArMqVntXvGojzII/arcgis/rest/services/Groundwork_NRG_Comprehensive_Map__Copy__WFL1/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "BUTLER",
+      "county_code": "015",
+      "layers": [
+        {
+          "label": "Appraiser Building Permits view",
+          "url": "https://services5.arcgis.com/SU4Aj97XUNDcwkDb/arcgis/rest/services/Appraiser_Building_Permits_view/FeatureServer/0",
+          "has_owner": 1
+        },
+        {
+          "label": "BuCoKsGIS_ParcelData_NC",
+          "url": "https://ww1.bucoks.com/bucogis1/rest/services/BuCoKsGIS_ParcelData_NC/MapServer/0",
+          "has_owner": 1
+        },
+        {
+          "label": "Permits Premium",
+          "url": "https://services5.arcgis.com/SU4Aj97XUNDcwkDb/arcgis/rest/services/Permits_Premium/FeatureServer/0",
+          "has_owner": 1
+        }
+      ],
+      "account": {
+        "prop_id": "",
+        "geo_id": "",
+        "account_key": "ks|015|84|agol",
+        "owner_name": "STRYKER INVESTMENTS II LLC",
+        "contact": null,
+        "mail_line1": "",
+        "mail_city": "",
+        "mail_state": "KS",
+        "mail_zip": ""
+      }
+    },
+    {
+      "state": "KS",
+      "county": "FORD",
+      "county_code": "017",
+      "layers": [
+        {
+          "label": "ElderFamilyFarmCorp_Properties",
+          "url": "https://services8.arcgis.com/BZwiHsYt8rydnuHu/arcgis/rest/services/ElderFamilyFarmCorp_Properties/FeatureServer/0",
+          "has_owner": 1
+        }
+      ],
+      "account": {
+        "prop_id": "",
+        "geo_id": "",
+        "account_key": "ks|017|029-093-07-0-00-00-003.00-0|agol",
+        "owner_name": "Elder Family Farm Corp",
+        "contact": null,
+        "mail_line1": "",
+        "mail_city": "",
+        "mail_state": "KS",
+        "mail_zip": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "batch": "036",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "DE BACA",
+      "county_code": "011",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/6"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        }
+      ],
+      "account": {
+        "prop_id": "584",
+        "upc": "115101533352200",
+        "account_key": "ose|35011|584|115101533352200|1",
+        "owner_name": "Jones, Juanita",
+        "mail_line1": "1193 Mccabe St",
+        "mail_city": "Fort Sumner",
+        "mail_state": "NM",
+        "mail_zip": "88119"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "DO\u00d1A ANA",
+      "county_code": "013",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/7"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/0"
+        },
+        {
+          "label": "agol:Restoration Boundary",
+          "url": "https://services1.arcgis.com/CDe8d2aaeFz4FBy6/arcgis/rest/services/Restoration_Boundary/FeatureServer/9"
+        },
+        {
+          "label": "agol:DAC Parcel",
+          "url": "https://services1.arcgis.com/ejcbAsQEUUGWEyzb/arcgis/rest/services/DAC_Parcel/FeatureServer/0"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/1"
+        },
+        {
+          "label": "agol:Sunland Park Zoning",
+          "url": "https://services5.arcgis.com/4MEMBPMfRkN9N7wp/arcgis/rest/services/Sunland_Park_Zoning/FeatureServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:2020 DAC Parcel Complete",
+          "url": "https://services7.arcgis.com/JMIoqakAkedEx0oU/arcgis/rest/services/2020_DAC_Parcel_Complete/FeatureServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Do\u00f1a Ana County Assessed Parcels",
+          "url": "https://services7.arcgis.com/JMIoqakAkedEx0oU/arcgis/rest/services/DAC_Parcels/FeatureServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:2022 DAC Parcel Complete",
+          "url": "https://services7.arcgis.com/JMIoqakAkedEx0oU/arcgis/rest/services/2022_DAC_Parcel_Complete/FeatureServer/0"
+        },
+        {
+          "label": "agol:Community Centers Boundaries",
+          "url": "https://services7.arcgis.com/JMIoqakAkedEx0oU/arcgis/rest/services/Community_Centers_boundaries/FeatureServer/0"
+        },
+        {
+          "label": "agol:SunlandPark_Parcels",
+          "url": "https://services5.arcgis.com/4MEMBPMfRkN9N7wp/arcgis/rest/services/SunlandPark_Parcels/FeatureServer/0"
+        },
+        {
+          "label": "agol:lamancha_parcel_utm",
+          "url": "https://services1.arcgis.com/CDe8d2aaeFz4FBy6/arcgis/rest/services/lamancha_parcel_utm/FeatureServer/9"
+        }
+      ],
+      "account": {
+        "prop_id": "R1718862",
+        "upc": "4016169353113",
+        "account_key": "ose|35013|R1718862|4016169353113|6001",
+        "owner_name": "Mesilla Bolson Properties Llc",
+        "mail_line1": "3391 Wedgewood",
+        "mail_city": "El Paso",
+        "mail_state": "TX",
+        "mail_zip": "79925"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "EDDY",
+      "county_code": "015",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/8"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        }
+      ],
+      "account": {
+        "prop_id": "R094117",
+        "upc": "4183109264263",
+        "account_key": "ose|35015|R094117|4183109264263|2001",
+        "owner_name": "Bureau Of Land Management",
+        "mail_line1": "",
+        "mail_city": "",
+        "mail_state": "",
+        "mail_zip": ""
+      }
+    },
+    {
+      "state": "NM",
+      "county": "GRANT",
+      "county_code": "017",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/9"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Projected_PLSS_Sandoval_County",
+          "url": "https://services3.arcgis.com/CkhxOCyQmitz4nLa/arcgis/rest/services/Projected_PLSS_Sandoval_County/FeatureServer/0"
+        },
+        {
+          "label": "agol:GC_Subdivision",
+          "url": "https://services6.arcgis.com/muKCmdnskcL9KyfG/arcgis/rest/services/GC_Subdivision/FeatureServer/0"
+        },
+        {
+          "label": "agol:Public_Lands",
+          "url": "https://services6.arcgis.com/muKCmdnskcL9KyfG/arcgis/rest/services/Public_Lands/FeatureServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/1"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        }
+      ],
+      "account": {
+        "prop_id": "R070841",
+        "upc": "3062100070377",
+        "account_key": "ose|35017|R070841|3062100070377|1",
+        "owner_name": "Ross Jocelin Estelle & Ross Dewayne",
+        "mail_line1": "Po Box 5",
+        "mail_city": "Mimbres",
+        "mail_state": "NM",
+        "mail_zip": "88049"
+      }
+    }
+  ]
+}

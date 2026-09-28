@@ -29,6 +29,17 @@ ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "web" / "data"
 STATES = WEB / "states"
 
+# Basin views live under web/data/<id> and are built by data/<id>/build.py,
+# outside this agent pass. They are listed here so the region index keeps them.
+BASINS: tuple[tuple[str, str], ...] = (
+    ("eagle-ford", "Eagle Ford"),
+    ("barnett", "Barnett"),
+    ("haynesville-tx", "Haynesville (Texas)"),
+    ("east-texas", "East Texas"),
+    ("gulf-coast", "Gulf Coast"),
+    ("panhandle", "Panhandle"),
+)
+
 
 def _now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
@@ -64,9 +75,8 @@ def _summary(agent, counties, network, poi_count, lease_result, eia) -> dict:
         "method": (
             "Pipelines are the EIA centerline compilation from January 2020, clipped to this state. "
             "Transmission lines are the public 230 kV-and-above subset in the project database. "
-            "A tie-in point is a stored 230 kV-or-higher line midpoint within 3 miles of a gas-pipeline midpoint. "
-            "Points of interconnection are substations and taps of 69 kV and above, from the same public "
-            "substation republish and transmission-line archive used for the Texas Permian view. "
+            "Points of interconnection are substations and taps of 69 kV and above from the public substation republish. "
+            "The utility name is the owner on an in-service line within half a mile. "
             "The EIA state total is process VGV. "
             + lease_result["status"]
         ),
@@ -81,7 +91,7 @@ def _summary(agent, counties, network, poi_count, lease_result, eia) -> dict:
         "counties": [feature["properties"]["name"] for feature in counties],
         "pipelines": network["pipelines"],
         "transmission": network["transmission"],
-        "tieins": network["tieins"],
+        "tieins": 0,
         "pois": poi_count,
         "eia": eia,
         "lease_status": lease_result["status"],
@@ -113,6 +123,7 @@ def run_one(agent) -> dict:
     counties, box = state_counties(agent.fips)
     write_collection(out_dir / "counties.geojson", counties)
     network = clip_network(out_dir, box)
+    write_collection(out_dir / "tieins.geojson", [])
     try:
         poi_count = build_pois(out_dir, agent.postal, agent.name, counties, box)
         poi_error = ""
@@ -128,7 +139,7 @@ def run_one(agent) -> dict:
     (out_dir / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(
         f"{agent.code}: pipelines {network['pipelines']} lines {network['transmission']} "
-        f"tie-ins {network['tieins']} pois {poi_count} leases {summary['leases']}"
+        f"leases {summary['leases']}"
     )
     return {
         "ok": True,
@@ -136,7 +147,7 @@ def run_one(agent) -> dict:
         "leases": summary["leases"],
         "pipelines": network["pipelines"],
         "transmission": network["transmission"],
-        "tieins": network["tieins"],
+        "tieins": 0,
         "pois": poi_count,
         "lease_status": lease_result["status"],
     }
@@ -148,6 +159,10 @@ def write_index(results: dict) -> None:
         "label": "Texas Permian",
         "path": "data",
     }]
+    regions.extend(
+        {"id": code, "label": label, "path": f"data/{code}"}
+        for code, label in BASINS
+    )
     regions.extend(
         {"id": agent.code, "label": agent.name, "path": f"data/states/{agent.code}"}
         for agent in AGENTS

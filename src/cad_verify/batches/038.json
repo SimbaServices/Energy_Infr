@@ -1,0 +1,225 @@
+{
+  "batch": "038",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "LINCOLN",
+      "county_code": "027",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/14"
+        },
+        {
+          "label": "agol:Lincoln County_ New Mexico Property Map_WFL1",
+          "url": "https://services7.arcgis.com/4LbiazNcRaSJw3X0/arcgis/rest/services/Lincoln_County__New_Mexico_Property_Map_WFL1/FeatureServer/2"
+        },
+        {
+          "label": "agol:Lincoln County_ New Mexico Property Map_WFL1",
+          "url": "https://services7.arcgis.com/4LbiazNcRaSJw3X0/arcgis/rest/services/Lincoln_County__New_Mexico_Property_Map_WFL1/FeatureServer/10"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Lincoln County_ New Mexico Property Map_WFL1",
+          "url": "https://services7.arcgis.com/4LbiazNcRaSJw3X0/arcgis/rest/services/Lincoln_County__New_Mexico_Property_Map_WFL1/FeatureServer/0"
+        },
+        {
+          "label": "agol:Lincoln County_ New Mexico Property Map_WFL1",
+          "url": "https://services7.arcgis.com/4LbiazNcRaSJw3X0/arcgis/rest/services/Lincoln_County__New_Mexico_Property_Map_WFL1/FeatureServer/3"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Lincoln County_ New Mexico Property Map_WFL1",
+          "url": "https://services7.arcgis.com/4LbiazNcRaSJw3X0/arcgis/rest/services/Lincoln_County__New_Mexico_Property_Map_WFL1/FeatureServer/1"
+        },
+        {
+          "label": "agol:Lincoln County_ New Mexico Property Map_WFL1",
+          "url": "https://services7.arcgis.com/4LbiazNcRaSJw3X0/arcgis/rest/services/Lincoln_County__New_Mexico_Property_Map_WFL1/FeatureServer/8"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Lincoln County_ New Mexico Property Map_WFL1",
+          "url": "https://services7.arcgis.com/4LbiazNcRaSJw3X0/arcgis/rest/services/Lincoln_County__New_Mexico_Property_Map_WFL1/FeatureServer/9"
+        },
+        {
+          "label": "agol:Lincoln County_ New Mexico Property Map_WFL1",
+          "url": "https://services7.arcgis.com/4LbiazNcRaSJw3X0/arcgis/rest/services/Lincoln_County__New_Mexico_Property_Map_WFL1/FeatureServer/11"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        }
+      ],
+      "account": {
+        "prop_id": "4071062124025000000",
+        "upc": "4071062124025000000",
+        "account_key": "ose|35027|4071062124025000000|4071062124025000000|3",
+        "owner_name": "Tighe, Patrick J | Julie R",
+        "mail_line1": "6900 Vail Ridge",
+        "mail_city": "Austin",
+        "mail_state": "TX",
+        "mail_zip": "78744"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "LOS ALAMOS",
+      "county_code": "028",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/15"
+        },
+        {
+          "label": "agol:SEB_Geology_NMBGMR",
+          "url": "https://services3.arcgis.com/g05tU9ut0nBgBAHs/arcgis/rest/services/SEB_Geology_NMBGMR/FeatureServer/11"
+        }
+      ],
+      "account": {
+        "prop_id": "R008150",
+        "upc": "1032113175242",
+        "account_key": "ose|35028|R008150|1032113175242|17",
+        "owner_name": "Henderson Bradley G",
+        "mail_line1": "5060 Eaton Pl",
+        "mail_city": "Los Alamos",
+        "mail_state": "NM",
+        "mail_zip": "87544"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "LUNA",
+      "county_code": "029",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/16"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/0"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/1"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        }
+      ],
+      "account": {
+        "prop_id": "3032147328042",
+        "upc": "3032147328042",
+        "account_key": "ose|35029|3032147328042|3032147328042|2008",
+        "owner_name": "Filippelli, Michael A",
+        "mail_line1": "4 Cherwal St West Babylon Ny",
+        "mail_city": "West Babylon",
+        "mail_state": "NY",
+        "mail_zip": "11704"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "MCKINLEY",
+      "county_code": "031",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/17"
+        },
+        {
+          "label": "agol:The City of Gallup - Zoning",
+          "url": "https://services7.arcgis.com/hdYa3Y1uJyFc7VUo/arcgis/rest/services/The_City_of_Gallup_Zoning/FeatureServer/11"
+        },
+        {
+          "label": "agol:The City of Gallup - Zoning",
+          "url": "https://services7.arcgis.com/hdYa3Y1uJyFc7VUo/arcgis/rest/services/The_City_of_Gallup_Zoning/FeatureServer/8"
+        },
+        {
+          "label": "agol:The City of Gallup - Zoning",
+          "url": "https://services7.arcgis.com/hdYa3Y1uJyFc7VUo/arcgis/rest/services/The_City_of_Gallup_Zoning/FeatureServer/5"
+        },
+        {
+          "label": "agol:The City of Gallup - Zoning",
+          "url": "https://services7.arcgis.com/hdYa3Y1uJyFc7VUo/arcgis/rest/services/The_City_of_Gallup_Zoning/FeatureServer/9"
+        },
+        {
+          "label": "agol:The City of Gallup - Zoning",
+          "url": "https://services7.arcgis.com/hdYa3Y1uJyFc7VUo/arcgis/rest/services/The_City_of_Gallup_Zoning/FeatureServer/12"
+        },
+        {
+          "label": "agol:The City of Gallup - Zoning",
+          "url": "https://services7.arcgis.com/hdYa3Y1uJyFc7VUo/arcgis/rest/services/The_City_of_Gallup_Zoning/FeatureServer/10"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:The City of Gallup - Zoning",
+          "url": "https://services7.arcgis.com/hdYa3Y1uJyFc7VUo/arcgis/rest/services/The_City_of_Gallup_Zoning/FeatureServer/13"
+        },
+        {
+          "label": "agol:The City of Gallup - Zoning",
+          "url": "https://services7.arcgis.com/hdYa3Y1uJyFc7VUo/arcgis/rest/services/The_City_of_Gallup_Zoning/FeatureServer/6"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        }
+      ],
+      "account": {
+        "prop_id": "R036315",
+        "upc": "2-104-088-156-143",
+        "account_key": "ose|35031|R036315|2-104-088-156-143|8001",
+        "owner_name": "Duke Rentals, Llc",
+        "mail_line1": "611 Julie Dr.",
+        "mail_city": "Gallup",
+        "mail_state": "NM",
+        "mail_zip": "87301"
+      }
+    }
+  ]
+}

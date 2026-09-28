@@ -1,0 +1,49 @@
+{
+  "batch": "007",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "DONLEY",
+      "county_code": "129",
+      "account": {
+        "prop_id": "0000125",
+        "geo_id": "0000125",
+        "owner_name": "JRP HOLDINGS LLC",
+        "contact": "1006 24TH AVE NW STE 120, NORMAN OK 73069-6344"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "EASTLAND",
+      "county_code": "133",
+      "account": {
+        "prop_id": "0021252",
+        "geo_id": "0021252",
+        "owner_name": "PRIVEE DIANE C",
+        "contact": "221 S JEFFERSON STREET, IRVING TX 75060"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "ECTOR",
+      "county_code": "135",
+      "account": {
+        "prop_id": "718072",
+        "geo_id": "718072",
+        "owner_name": "COATS FAMILY PROPERTIES LP",
+        "contact": "PO BOX 11373, MIDLAND TX 79702"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "EL PASO",
+      "county_code": "141",
+      "account": {
+        "prop_id": "14453",
+        "geo_id": "S07500004900300",
+        "owner_name": "RIO BRAVO FARMS LTD",
+        "contact": "PO BOX 540, TORNILLO TX 79853"
+      }
+    }
+  ]
+}

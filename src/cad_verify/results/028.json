@@ -1,0 +1,65 @@
+{
+  "batch": "028",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "BOURBON",
+      "county_code": "011",
+      "sample_account": "006-119-30-0-20-24-009.00-0",
+      "endpoint": "https://ks1055.cichosting.com/ttp/tax/Search/search_tax_results.aspx?PID=1193002024009000",
+      "method": "GET",
+      "form_fields": ["PID"],
+      "account_sent": "1193002024009000",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "CLINESMITH, CARL B",
+      "contact_excerpt": "16 N Crawford Fort Scott, KS 66701"
+    },
+    {
+      "state": "KS",
+      "county": "BROWN",
+      "county_code": "013",
+      "sample_account": "007-155-15-0-00-00-001.00-0",
+      "endpoint": "https://brown.kansasgov.com/parcel/NCPullLev2.asp",
+      "method": "POST",
+      "form_fields": ["txtParcelID", "submit5"],
+      "account_sent": "007-155-15-0-00-00-001.00-0",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "SMITH FAMILY LIVING TRUST ETAL",
+      "contact_excerpt": "2208 CREST HILL LN, FALLBROOK, CA 92028"
+    },
+    {
+      "state": "KS",
+      "county": "BUTLER",
+      "county_code": "015",
+      "sample_account": "008-304-17-0-40-01-001.04-0",
+      "endpoint": "https://portals.bucoks.com/AppraiserPortal/appraiser/Details.aspx?pid=008-304-17-0-40-01-001.04-0&qref=R376791",
+      "method": "GET",
+      "form_fields": ["pid", "qref"],
+      "account_sent": "008-304-17-0-40-01-001.04-0",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "STRYKER INVESTMENTS II LLC",
+      "contact_excerpt": "8100 E 22nd St N # BLDG1000, Wichita, KS 67226-2310"
+    },
+    {
+      "state": "KS",
+      "county": "FORD",
+      "county_code": "017",
+      "sample_account": "029-093-07-0-00-00-003.00-0",
+      "endpoint": "https://ford.kansasgov.com/parcel/NCPullLev2.asp",
+      "method": "POST",
+      "form_fields": ["txtParcelID", "submit5"],
+      "account_sent": "029-093-07-0-00-00-003.00-0",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ELDER FAMILY FARM CORP",
+      "contact_excerpt": "1926 PARKDALE CT, WICHITA, KS 67212-6431"
+    }
+  ]
+}

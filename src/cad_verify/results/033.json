@@ -1,0 +1,65 @@
+{
+  "batch": "033",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "ROOKS",
+      "county_code": "163",
+      "sample_account": "0820783400000001011",
+      "endpoint": "https://apps.kansasgis.org/orka/getPIDInfo.cfm",
+      "method": "POST",
+      "form_fields": ["pid", "countyName", "lat", "lon"],
+      "account_sent": "0820783400000001011",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "KANSAS STATE OF FISH & GAME COMMISSION",
+      "contact_excerpt": "512 SE 25TH AVE PRATT, KS 67124-8174"
+    },
+    {
+      "state": "KS",
+      "county": "RUSSELL",
+      "county_code": "167",
+      "sample_account": "R1",
+      "endpoint": "https://services9.arcgis.com/zDY8zW24CdJKhVIw/arcgis/rest/services/RussellCountyGIS/FeatureServer/2/query",
+      "method": "GET",
+      "form_fields": ["where", "outFields"],
+      "account_sent": "R1",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "NAEGELE KENT D & LINDA E",
+      "contact_excerpt": "5996 205TH ST LUCAS, KS 67648-9559"
+    },
+    {
+      "state": "KS",
+      "county": "SEDGWICK",
+      "county_code": "173",
+      "sample_account": "00121222",
+      "endpoint": "https://ssc.sedgwickcounty.org/propertytax/realproperty.aspx?pin=00121222",
+      "method": "GET",
+      "form_fields": ["pin"],
+      "account_sent": "00121222",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BOWMAN FAMILY TRUST LLC",
+      "contact_excerpt": "14801 TIMBER LAKE WICHITA KS 67230-9223"
+    },
+    {
+      "state": "KS",
+      "county": "SHAWNEE",
+      "county_code": "177",
+      "sample_account": "R302234",
+      "endpoint": "https://ares.sncoapps.us/Property/PropertyInformation?quickref=R302234",
+      "method": "GET",
+      "form_fields": ["quickref"],
+      "account_sent": "R302234",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "STRAIGHT, JEFFREY WINN & XENIA E",
+      "contact_excerpt": "3914 SW BARONS LN TOPEKA, KS 66610"
+    }
+  ]
+}

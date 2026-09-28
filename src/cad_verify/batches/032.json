@@ -1,0 +1,57 @@
+{
+  "batch": "032",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "MORRIS",
+      "county_code": "127",
+      "layers": [
+        {
+          "label": "Morris County ORKA leaseholds",
+          "url": "https://services.kansasgis.org/arcgis3/rest/services/forka/PVD_Spatial_Supplemental/MapServer/259",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "NEMAHA",
+      "county_code": "131",
+      "layers": [
+        {
+          "label": "NM_Parcels",
+          "url": "https://services3.arcgis.com/6xqgnnfHDAKxg22k/arcgis/rest/services/NM_Parcels/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "RENO",
+      "county_code": "155",
+      "layers": [
+        {
+          "label": "Reno County Beacon",
+          "url": "https://beacon.schneidercorp.com/Application.aspx?AppID=1063&LayerID=25050&PageTypeID=2&PageID=10267",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "RILEY",
+      "county_code": "161",
+      "layers": [
+        {
+          "label": "Parcels",
+          "url": "https://services.arcgis.com/6WmEmDp2YlKJjhJt/arcgis/rest/services/Parcels/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "batch": "022",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "SABINE",
+      "county_code": "403",
+      "account": {
+        "prop_id": "R000167001",
+        "geo_id": "28390-00000-00036-000010",
+        "owner_name": "BREAUX CODY",
+        "contact": "2273 QUAIL RIDGE DR, LAKE CHARLES LA 70611"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "SAN AUGUSTINE",
+      "county_code": "405",
+      "account": {
+        "prop_id": "0063228",
+        "geo_id": "0063228",
+        "owner_name": "AAA MUSIC & VENDING INC",
+        "contact": "1121 WEST STATE HIGHWAY 21, SAN AUGUSTINE TX 75972"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "SAN PATRICIO",
+      "county_code": "409",
+      "account": {
+        "prop_id": "0017566",
+        "geo_id": "0017566",
+        "owner_name": "ABERCROMBIE MILO H",
+        "contact": "PO BOX 38, CAMPBELLTON TX 78008-0038"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "SAN SABA",
+      "county_code": "411",
+      "account": {
+        "prop_id": "1428",
+        "geo_id": "",
+        "owner_name": "TEXAS ARCH AGG INC",
+        "contact": "PO BOX 608, SAN SABA TX 76877"
+      }
+    }
+  ]
+}

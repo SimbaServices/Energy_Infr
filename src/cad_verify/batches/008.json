@@ -1,0 +1,49 @@
+{
+  "batch": "008",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "FOARD",
+      "county_code": "155",
+      "account": {
+        "prop_id": "0005788",
+        "geo_id": "0005788",
+        "owner_name": "AARON LESLEY ANN JOHNSON",
+        "contact": "419 SIR BARTON PKWY, MIDLAND TX 79705"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "FRANKLIN",
+      "county_code": "159",
+      "account": {
+        "prop_id": "0004032",
+        "geo_id": "0004032",
+        "owner_name": "ACF II LP",
+        "contact": "PO BOX 926, CYPRESS TX 77410"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "FREESTONE",
+      "county_code": "161",
+      "account": {
+        "prop_id": "0009323",
+        "geo_id": "0009323",
+        "owner_name": "NIGHTENGALE KRISTI P CRAIG",
+        "contact": "PO BOX 420, PINE CO 80470-0420"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "FRIO",
+      "county_code": "163",
+      "account": {
+        "prop_id": "0042224",
+        "geo_id": "0042224",
+        "owner_name": ".ARNETT MINERAL HOLDINGS LLC",
+        "contact": "PO BOX 1199, PORTSMOUTH NH 03802-0127"
+      }
+    }
+  ]
+}

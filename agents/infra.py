@@ -114,29 +114,11 @@ def clip_network(out_dir: Path, box) -> dict:
                     "geometry": round_geom(geometry),
                     "properties": {"owner": owner or "", "voltage_kv": voltage},
                 })
-        for lat, lon, voltage, owner, operator, distance in conn.execute(
-            """
-            SELECT lat, lon, voltage_kv, owner, pipeline_operator, distance_miles
-            FROM interconnects
-            WHERE lon BETWEEN ? AND ? AND lat BETWEEN ? AND ?
-            """,
-            (box[0], box[2], box[1], box[3]),
-        ):
-            tieins.append({
-                "type": "Feature",
-                "geometry": {"type": "Point", "coordinates": [round(lon, 5), round(lat, 5)]},
-                "properties": {
-                    "voltage_kv": voltage,
-                    "owner": owner or "",
-                    "pipeline_operator": operator or "",
-                    "distance_miles": round(distance, 2),
-                },
-            })
     finally:
         conn.close()
     write_collection(out_dir / "pipelines.geojson", pipes)
     write_collection(out_dir / "transmission.geojson", lines)
-    write_collection(out_dir / "tieins.geojson", tieins)
+    write_collection(out_dir / "tieins.geojson", [])
     counties_note["pipelines"] = len(pipes)
     counties_note["transmission"] = len(lines)
     counties_note["tieins"] = len(tieins)

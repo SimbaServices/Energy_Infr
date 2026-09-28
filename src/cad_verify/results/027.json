@@ -1,0 +1,50 @@
+{
+  "batch": "027",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "YOAKUM",
+      "county_code": "501",
+      "sample_account": "175116",
+      "endpoint": "https://esearch.yoakumcad.org/Property/View/175116",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "175116",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BRINKLEY CHARLOTTE A",
+      "contact_excerpt": "% JOSEPH BRINKLEY, 1900 DIXIE LN, ROUND ROCK, TX 78664"
+    },
+    {
+      "state": "TX",
+      "county": "ZAVALA",
+      "county_code": "507",
+      "sample_account": "19457",
+      "endpoint": "https://esearch.zavalacad.com/Property/View/19457",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "19457",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BLACKMAN RUSSELL ALAN",
+      "contact_excerpt": "P O BOX 5, BATESVILLE, TX 78829-0005"
+    },
+    {
+      "state": "KS",
+      "county": "ANDERSON",
+      "county_code": "003",
+      "sample_account": "0020193000000004000",
+      "endpoint": "https://www.kansasgis.org/orka/getPIDInfo.cfm",
+      "method": "POST",
+      "form_fields": ["pid", "countyName"],
+      "account_sent": "0020193000000004000",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "PETERSON, CARROLL L & RITA ANN",
+      "contact_excerpt": "PO BOX 197, GREELEY, KS 66033"
+    }
+  ]
+}

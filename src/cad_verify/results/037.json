@@ -1,0 +1,65 @@
+{
+  "batch": "037",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "GUADALUPE",
+      "county_code": "019",
+      "sample_account": "11373",
+      "endpoint": "http://67.209.192.151/assessor.aspx?source=assessor&page=optUPC",
+      "method": "POST",
+      "form_fields": ["searchTerm", "cf-turnstile-response"],
+      "account_sent": "1125047030372",
+      "http_status": 200,
+      "owner_returned": false,
+      "contact_returned": false,
+      "owner_excerpt": "",
+      "contact_excerpt": ""
+    },
+    {
+      "state": "NM",
+      "county": "HARDING",
+      "county_code": "021",
+      "sample_account": "883",
+      "endpoint": "https://services8.arcgis.com/4ZPzS5PXstvPqi0G/arcgis/rest/services/Parcel_HardingNM/FeatureServer/0/query",
+      "method": "GET",
+      "form_fields": ["where", "outFields"],
+      "account_sent": "1153117087181",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ESQUIBEL, CASIMIRO F. ET UX",
+      "contact_excerpt": "705 E FIFTH ST P.O. BOX 34 ROY NM 87743"
+    },
+    {
+      "state": "NM",
+      "county": "HIDALGO",
+      "county_code": "023",
+      "sample_account": "16416",
+      "endpoint": "http://records.hidalgocounty.org/assessor.aspx?source=assessor&page=optOwnerName",
+      "method": "POST",
+      "form_fields": ["searchTerm"],
+      "account_sent": "SMITH",
+      "http_status": 200,
+      "owner_returned": false,
+      "contact_returned": false,
+      "owner_excerpt": "",
+      "contact_excerpt": ""
+    },
+    {
+      "state": "NM",
+      "county": "LEA",
+      "county_code": "025",
+      "sample_account": "70883",
+      "endpoint": "http://liveweb.leacounty-nm.org/assessor.aspx?source=assessor&page=optUPC&searchterm=4000708830001&select=70883&selectyr=70883",
+      "method": "GET",
+      "form_fields": ["source", "page", "searchterm", "select", "selectyr"],
+      "account_sent": "4000708830001",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "OIL PATCH INVESTMENTS LLC",
+      "contact_excerpt": "1781 N TURNER ST #1045 HOBBS NM 88240"
+    }
+  ]
+}

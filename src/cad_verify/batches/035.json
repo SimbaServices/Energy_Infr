@@ -1,0 +1,145 @@
+{
+  "batch": "035",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "CHAVES",
+      "county_code": "005",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/2"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaves County NM Land Parcels, 2018",
+          "url": "https://services.arcgis.com/LGtNQDlIZBdntoA9/arcgis/rest/services/NM_ChavesCo_assessor_parcels201803/FeatureServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        }
+      ],
+      "account": {
+        "prop_id": "R022341",
+        "upc": "4135063234246000000",
+        "account_key": "ose|35005|R022341|4135063234246000000|10001",
+        "owner_name": "Carrete,Juan F ; Carrera,Maria Delourdes",
+        "mail_line1": "1613 S Michigan Ave",
+        "mail_city": "Roswell",
+        "mail_state": "NM",
+        "mail_zip": "88203"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "CIBOLA",
+      "county_code": "006",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/3"
+        }
+      ],
+      "account": {
+        "prop_id": "R09879",
+        "upc": "2089047330035",
+        "account_key": "ose|35006|R09879|2089047330035|1",
+        "owner_name": "Arnell, Carl",
+        "mail_line1": "31 Tennis Ct. Nw",
+        "mail_city": "Albuquerque",
+        "mail_state": "NM",
+        "mail_zip": "87120"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "COLFAX",
+      "county_code": "007",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/4"
+        }
+      ],
+      "account": {
+        "prop_id": "R015346",
+        "upc": "1133187495348",
+        "account_key": "ose|35007|R015346|1133187495348|2523",
+        "owner_name": "Gallero New Mexico Land Holding, Trust",
+        "mail_line1": "Po Box 1686",
+        "mail_city": "Raton",
+        "mail_state": "NM",
+        "mail_zip": "87740"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "CURRY",
+      "county_code": "009",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/5"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:FloodZones_WFL1",
+          "url": "https://services1.arcgis.com/CZidbxjza1rSdynU/arcgis/rest/services/FloodZones_WFL1/FeatureServer/10"
+        },
+        {
+          "label": "agol:FloodZones_WFL1",
+          "url": "https://services1.arcgis.com/CZidbxjza1rSdynU/arcgis/rest/services/FloodZones_WFL1/FeatureServer/8"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:FloodZones_WFL1",
+          "url": "https://services1.arcgis.com/CZidbxjza1rSdynU/arcgis/rest/services/FloodZones_WFL1/FeatureServer/7"
+        }
+      ],
+      "account": {
+        "prop_id": "1211010482435",
+        "upc": "1211010482435",
+        "account_key": "ose|35009|1211010482435|1211010482435|1",
+        "owner_name": "Rodriguez Gloria & | Shaw Thomas &",
+        "mail_line1": "Grooms Clarence Jr 404 Ross St",
+        "mail_city": "Clovis",
+        "mail_state": "NM",
+        "mail_zip": "88101"
+      }
+    }
+  ]
+}

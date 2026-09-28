@@ -1,0 +1,71 @@
+Eagle Ford map files in this directory. Volumes, coordinates, and tie-ins are copied or calculated from the files named below. No flare volume, coordinate, hub assignment, or price was filled in where a source row was missing.
+
+County list
+The twelve counties named for this build are marked "named". The other eleven are the remaining Texas counties in the EIA Drilling Productivity Report Eagle Ford region. That region, in the local workbook data/raw/production/eia_dpr.xlsx sheet RegionCounties, is Texas only. Oklahoma and Louisiana are not in it.
+EIA page that points at the county workbook: https://www.eia.gov/petroleum/drilling/
+RRC oil-and-gas district for each county: https://www.rrc.texas.gov/about-us/locations/oil-gas-counties-districts/
+
+County, RRC district, county FIPS, why included
+Atascosa, 01, 48013, named
+Bastrop, 01, 48021, EIA Eagle Ford region
+Bee, 02, 48025, EIA Eagle Ford region
+Brazos, 03, 48041, EIA Eagle Ford region
+Burleson, 03, 48051, EIA Eagle Ford region
+DeWitt, 02, 48123, named
+Dimmit, 01, 48127, named
+Fayette, 03, 48149, named
+Frio, 01, 48163, EIA Eagle Ford region
+Gonzales, 01, 48177, named
+Karnes, 02, 48255, named
+La Salle, 01, 48283, named
+Lavaca, 02, 48285, named
+Lee, 03, 48287, EIA Eagle Ford region
+Leon, 05, 48289, EIA Eagle Ford region
+Live Oak, 02, 48297, named
+Madison, 03, 48313, EIA Eagle Ford region
+Maverick, 01, 48323, EIA Eagle Ford region
+McMullen, 01, 48311, named
+Milam, 01, 48331, EIA Eagle Ford region
+Webb, 04, 48479, named
+Wilson, 01, 48493, named
+Zavala, 01, 48507, EIA Eagle Ford region
+
+County outlines are the Texas features for those FIPS codes in data/raw/geo/counties.geojson.
+
+Production
+Railroad Commission Form PR gas-disposition tapes already on disk and used by src/load_permian.py:
+  data/raw/rrc/olf102
+  data/raw/rrc/gsf102
+Catalog page cited by that loader: https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/
+src/load_permian.py records these same tapes as posted 2026-09-26. The tape files themselves do not carry a separate posting date in this checkout. Each lease is its latest month on the tape. The drawn month is June or July 2026. MMcfd is that month's Mcf divided by the days in the month, then by 1,000. The tape has one vented-or-flared column.
+
+Lease locations
+Statewide API extract, folder 2026-09-23, same folder src/download_permian.py reads:
+  https://mft.rrc.texas.gov/link/701db9a3-32b5-488d-812b-cd6ff7d0fe85
+  saved as data/raw/rrc/api/ccXXX for the county FIPS above
+Surface-well shapefiles, same public folder src/download_permian.py reads:
+  https://mft.rrc.texas.gov/link/d551fb20-442e-4b67-84fa-ac3f23ecabb4
+  saved as data/raw/rrc/wells/wellXXX.zip
+Those zips were downloaded on 2026-09-27. The file listing did not print a separate posted date, so wells_posted in summary.json is blank.
+A well is kept only when the oil-lease or gas-well number in the right-hand block of the API line matches a Form PR row in RRC districts 01, 02, 03, 04, or 05 and the lease name on that row is in the API line. The circle is the average of LAT83/LONG83 for the matched surface wells. The check uses districts 01-05 rather than the single column slice in src/load_permian.py because these county files are dominated by records whose lease block starts further left than the Permian records that begin with 3.
+
+Other layers
+Pipelines and transmission lines are rows already in db/us_pipelines.sqlite. A feature is kept when one of its vertices falls inside one of the counties above. Pipeline centerlines are the EIA compilation from January 2020, as documented for this database.
+Tie-in points are rows in that database's interconnects table whose coordinates fall inside one of the counties. The table's method text is: each point is the midpoint of a public 230 kV-or-higher transmission line within 3 miles of a natural gas pipeline midpoint, thinned to the highest voltage in each roughly 15-mile cell.
+Points of interconnection use the same services as src/build_pois.py, then keep points inside these counties:
+  https://services1.arcgis.com/7DRakJXKPEhwv0fM/arcgis/rest/services/Electric_Substations/FeatureServer/0/query
+  https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_Electric_Power_Transmission_Lines/FeatureServer/0/query
+
+Not written
+Hub assignments and prices. The database hub "Agua Dulce" has an approximate center from the public EIA trading-hub layer, Period 202002: 27.748898758, -97.625403621. hub_prices has no Agua Dulce rows. pipeline_hub_links has no Agua Dulce rows. No operator-to-hub assignment and no price was added.
+src/load_permian.py does not publish a separate well-layer date on the MFT listing used here.
+
+Record counts in the files in this directory
+counties.geojson: 23 counties
+leases.geojson: 7,065 leases with a vented-or-flared volume and a surface well (4,370 oil, 2,695 gas). 22,092 leases had a matched surface well and either flared or produced gas; only the flared ones are drawn, same rule as the Permian map file.
+summary.json: 245.85 MMcfd, 7,603,594 Mcf
+pipelines.geojson: 1,001 features
+transmission.geojson: 59 features
+tieins.geojson: 12 points
+pois.geojson: 224 points
+Seventeen flared centroids sit just outside the census county outline, all in Milam or Lee and all within about 3 miles of that county's boundary vertices. They are averages of RRC surface coordinates for wells whose API county code is still Milam or Lee.

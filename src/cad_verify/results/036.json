@@ -1,0 +1,65 @@
+{
+  "batch": "036",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "DE BACA",
+      "county_code": "011",
+      "sample_account": "584",
+      "endpoint": "https://www.nmcounties.org/counties/de-baca-county/",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "",
+      "http_status": 200,
+      "owner_returned": false,
+      "contact_returned": false,
+      "owner_excerpt": "",
+      "contact_excerpt": ""
+    },
+    {
+      "state": "NM",
+      "county": "DOÑA ANA",
+      "county_code": "013",
+      "sample_account": "R1718862",
+      "endpoint": "https://assessor.donaana.gov/assessor/taxweb/account.jsp?accountNum=R1718862",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R1718862",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "MESILLA BOLSON PROPERTIES LLC",
+      "contact_excerpt": "3391 WEDGEWOOD EL PASO, TX 79925"
+    },
+    {
+      "state": "NM",
+      "county": "EDDY",
+      "county_code": "015",
+      "sample_account": "R069537",
+      "endpoint": "https://liveassessor.eddycountynm.gov/assessor/taxweb/account.jsp?accountNum=R069537",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R069537",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BORNINSKI, JACK W",
+      "contact_excerpt": "2 BOBCAT CIR CARLSBAD, NM 88220"
+    },
+    {
+      "state": "NM",
+      "county": "GRANT",
+      "county_code": "017",
+      "sample_account": "R070841",
+      "endpoint": "http://assessor.grantcountynm.com/assessor/taxweb/account.jsp?accountNum=R070841",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R070841",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ROSS JOCELIN ESTELLE & ROSS DEWAYNE",
+      "contact_excerpt": "PO BOX 5 MIMBRES, NM 88049"
+    }
+  ]
+}

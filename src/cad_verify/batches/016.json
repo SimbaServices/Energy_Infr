@@ -1,0 +1,49 @@
+{
+  "batch": "016",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "LAVACA",
+      "county_code": "285",
+      "account": {
+        "prop_id": "0075117",
+        "geo_id": "0075117",
+        "owner_name": "A E TRUST DTD 7/28/2016",
+        "contact": "534 COUNTY ROAD 337, SHINER TX 77984-5340"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "LEON",
+      "county_code": "289",
+      "account": {
+        "prop_id": "0021073",
+        "geo_id": "0021073",
+        "owner_name": "A & P OIL & GAS",
+        "contact": "879 BERRY LN, MADISONVILLE TX 77864-4007"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "LIBERTY",
+      "county_code": "291",
+      "account": {
+        "prop_id": "53675",
+        "geo_id": "005450-000001-002",
+        "owner_name": "GRAY MARION W",
+        "contact": "3821 OLD COLONY RD, KALAMAZOO MI 49008"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "LIVE OAK",
+      "county_code": "297",
+      "account": {
+        "prop_id": "0000000",
+        "geo_id": "0000000",
+        "owner_name": "902 LTD TEXAS LTD PARTNERSHIP",
+        "contact": "615 S 8TH ST, KENEDY TX 78119-3009"
+      }
+    }
+  ]
+}

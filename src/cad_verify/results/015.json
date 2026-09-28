@@ -1,0 +1,65 @@
+{
+  "batch": "015",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "KENT",
+      "county_code": "263",
+      "sample_account": "0011950",
+      "endpoint": "https://www.kentcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "keyword", "filter", "page", "taxYear", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType"],
+      "account_sent": "5M PROPERTIES",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "5M PROPERTIES LP",
+      "contact_excerpt": "PO BOX 392  BRECKENRIDGE TX 76424"
+    },
+    {
+      "state": "TX",
+      "county": "KIMBLE",
+      "county_code": "267",
+      "sample_account": "1494",
+      "endpoint": "https://esearch.kimblecad.org/Property/View/1494?year=2026&ownerId=17940",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "1494",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BATES JOHN P",
+      "contact_excerpt": "PO BOX 5022<br />MIDLAND        , TX 79704-5022"
+    },
+    {
+      "state": "TX",
+      "county": "KING",
+      "county_code": "269",
+      "sample_account": "0008016",
+      "endpoint": "https://kingcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "keyword", "filter", "page", "taxYear", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType"],
+      "account_sent": "ALBRIGHT",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ALBRIGHT JAMES LEE",
+      "contact_excerpt": "720 W SWENSON AVE  ASPERMONT TX 79502 2100"
+    },
+    {
+      "state": "TX",
+      "county": "LAMPASAS",
+      "county_code": "281",
+      "sample_account": "6345",
+      "endpoint": "https://esearch.lampasascad.com/Property/View/6345",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "6345",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "HEIGES RICHARD ETUX ANDRIA",
+      "contact_excerpt": "322 E CR 3064<br />LAMPASAS, TX 76550"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "batch": "037",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "GUADALUPE",
+      "county_code": "019",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/10"
+        }
+      ],
+      "account": {
+        "prop_id": "11373",
+        "upc": "1125047030372",
+        "account_key": "ose|35019|11373|1125047030372|2001",
+        "owner_name": "Tenorio, Kenny & Bernice",
+        "mail_line1": "121 Black Street",
+        "mail_city": "Santa Rosa",
+        "mail_state": "NM",
+        "mail_zip": "88435"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "HARDING",
+      "county_code": "021",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/11"
+        }
+      ],
+      "account": {
+        "prop_id": "883",
+        "upc": "1153117087181",
+        "account_key": "ose|35021|883|1153117087181|1",
+        "owner_name": "Esquibel, Casimiro F. Et Ux",
+        "mail_line1": "705 E Fifth St P.O. Box 34",
+        "mail_city": "Roy",
+        "mail_state": "NM",
+        "mail_zip": "87743"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "HIDALGO",
+      "county_code": "023",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        }
+      ],
+      "account": {
+        "prop_id": "16416",
+        "upc": "3117160033113",
+        "account_key": "ose|35023|16416|3117160033113|3",
+        "owner_name": "Various Owners",
+        "mail_line1": "12 Washburn Rd. 12 Washburn Rd.",
+        "mail_city": "Lordsburg",
+        "mail_state": "NM",
+        "mail_zip": "88045"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "LEA",
+      "county_code": "025",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/13"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        }
+      ],
+      "account": {
+        "prop_id": "70883",
+        "upc": "4000708830001",
+        "account_key": "ose|35025|70883|4000708830001|2001",
+        "owner_name": "Oil Patch Investments Llc | Life Stays Llc %",
+        "mail_line1": "4008 N Grimes St #177",
+        "mail_city": "Hobbs",
+        "mail_state": "NM",
+        "mail_zip": "88240"
+      }
+    }
+  ]
+}

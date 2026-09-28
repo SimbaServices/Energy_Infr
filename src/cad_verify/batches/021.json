@@ -1,0 +1,49 @@
+{
+  "batch": "021",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "POLK",
+      "county_code": "373",
+      "account": {
+        "prop_id": "30098",
+        "geo_id": "G0100000400",
+        "owner_name": "DEMOSS HAROLD",
+        "contact": "117 GARDEN VILLAS DR, ONALASKA TX 77360"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "REAGAN",
+      "county_code": "383",
+      "account": {
+        "prop_id": "0129693",
+        "geo_id": "0129693",
+        "owner_name": "A & G REED ENTERPRISES LLC",
+        "contact": "PO BOX 1230, PORTERVILLE CA 93258-1230"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "REFUGIO",
+      "county_code": "391",
+      "account": {
+        "prop_id": "0006039",
+        "geo_id": "0006039",
+        "owner_name": "ACF II LP",
+        "contact": "PO BOX 926, CYPRESS TX 77410"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "RUSK",
+      "county_code": "401",
+      "account": {
+        "prop_id": "0064857",
+        "geo_id": "0064857",
+        "owner_name": "A & R WOLFE PARTNERSHIP LTD",
+        "contact": "15 W 6TH ST STE 2700, TULSA OK 74119"
+      }
+    }
+  ]
+}

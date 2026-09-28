@@ -1,0 +1,92 @@
+{
+  "batch": "013",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "HOWARD",
+      "county_code": "227",
+      "sample_account": "284839",
+      "endpoint": "https://iswdataclient.azurewebsites.net/webProperty.aspx?dbkey=HOWARDCAD&stype=geoid&sdata=B4830039800&id=R000008259",
+      "method": "GET",
+      "form_fields": [
+        "dbkey",
+        "stype",
+        "sdata",
+        "id"
+      ],
+      "account_sent": "B4830039800",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "GUTHRIE HARD HAT G LP",
+      "contact_excerpt": "611 S MAIN"
+    },
+    {
+      "state": "TX",
+      "county": "HUTCHINSON",
+      "county_code": "233",
+      "sample_account": "0125649",
+      "endpoint": "https://www.hutchinsoncad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "page",
+        "taxYear",
+        "filter",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType"
+      ],
+      "account_sent": "ABBOTT JOHNA",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ABBOTT JOHNA K",
+      "contact_excerpt": "PO BOX 556"
+    },
+    {
+      "state": "TX",
+      "county": "JACK",
+      "county_code": "237",
+      "sample_account": "0008143",
+      "endpoint": "https://www.jackcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "page",
+        "taxYear",
+        "filter",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType"
+      ],
+      "account_sent": "NUNLEY MIKEL G",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "NUNLEY MIKEL G",
+      "contact_excerpt": "113 TIMBERBLUFF LN"
+    },
+    {
+      "state": "TX",
+      "county": "JEFFERSON",
+      "county_code": "245",
+      "sample_account": "249620",
+      "endpoint": "https://esearch.jcad.org/property/view/249620",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "249620",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "NHP TRISUN LLC",
+      "contact_excerpt": "PO BOX 71970"
+    }
+  ]
+}

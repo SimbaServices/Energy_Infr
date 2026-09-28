@@ -1,0 +1,49 @@
+{
+  "batch": "002",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "BEE",
+      "county_code": "025",
+      "account": {
+        "prop_id": "0039060",
+        "geo_id": "0401300|267401|BETTY KENNEDY UNIT A W#3|0039060|AASEN RYAN R|0.002982",
+        "owner_name": "AASEN RYAN R",
+        "contact": "8800 S HARLEM AVE TRLR 1111, BRIDGEVIEW IL 60455-1995"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "BEXAR",
+      "county_code": "029",
+      "account": {
+        "prop_id": "117037",
+        "geo_id": "01545-017-0160",
+        "owner_name": "NASH ROBERT E",
+        "contact": "215 JEMISON ST, SAN ANTONIO TX 78203"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "BORDEN",
+      "county_code": "033",
+      "account": {
+        "prop_id": "8003344",
+        "geo_id": "8003344",
+        "owner_name": "A & D LAND & MINERALS INC",
+        "contact": "2890 BRIGHTON BLVD UNIT 219, DENVER CO 80216"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "BRAZORIA",
+      "county_code": "039",
+      "account": {
+        "prop_id": "160320",
+        "geo_id": "0126-0045-000",
+        "owner_name": "STATE OF TEXAS",
+        "contact": "PO BOX 1386, HOUSTON TX 77251"
+      }
+    }
+  ]
+}

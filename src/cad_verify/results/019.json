@@ -1,0 +1,65 @@
+{
+  "batch": "019",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "NACOGDOCHES",
+      "county_code": "347",
+      "sample_account": "0001483",
+      "endpoint": "https://esearch.nacocad.org/Property/View/329358?year=2026&ownerId=24716",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "329358",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A E D INVESTMENTS LLC",
+      "contact_excerpt": "6121 FERN AVE #102 SHREVEPORT , LA 71105"
+    },
+    {
+      "state": "TX",
+      "county": "NAVARRO",
+      "county_code": "349",
+      "sample_account": "0003822",
+      "endpoint": "https://navarrocad.com/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "filter", "searchObj", "page", "taxYear", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType"],
+      "account_sent": "0041177-1-0003858",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ABELL CATHLEEN",
+      "contact_excerpt": "7540 LINDSEY DR  HOLCOMB KS 67851"
+    },
+    {
+      "state": "TX",
+      "county": "NEWTON",
+      "county_code": "351",
+      "sample_account": "0022660",
+      "endpoint": "https://esearch.newtoncad.org/Property/View/107371?year=2026&ownerId=41051",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "107371",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "AAKD EXEMPT TRUST",
+      "contact_excerpt": "10112 CARANO CT IRVING , TX 75063-5943"
+    },
+    {
+      "state": "TX",
+      "county": "NOLAN",
+      "county_code": "353",
+      "sample_account": "0011996",
+      "endpoint": "https://www.texastaxtransparency.com/Nolan/Search/Results?Keyword=LUBBOCK",
+      "method": "GET",
+      "form_fields": ["Keyword"],
+      "account_sent": "LUBBOCK",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "AGUILAR ROBERT",
+      "contact_excerpt": "703 LUBBOCK ST SWEETWATER TX"
+    }
+  ]
+}

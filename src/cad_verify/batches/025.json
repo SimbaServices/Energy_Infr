@@ -1,0 +1,49 @@
+{
+  "batch": "025",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "THROCKMORTON",
+      "county_code": "447",
+      "account": {
+        "prop_id": "3957",
+        "geo_id": "",
+        "owner_name": "MCKNIGHT JAMES R",
+        "contact": "P O BOX 391, THROCKMORTON TX 76483"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "UPTON",
+      "county_code": "461",
+      "account": {
+        "prop_id": "0006846",
+        "geo_id": "0006846",
+        "owner_name": "ABOZENADAH BRITTNIE",
+        "contact": "370 NORTH ECOLS STREET, MONMOUTH OR 97361"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "VICTORIA",
+      "county_code": "469",
+      "account": {
+        "prop_id": "0025535",
+        "geo_id": "0025535",
+        "owner_name": "ABOUD BRENDA KAY",
+        "contact": "6710 LONG MEADOW, CORPUS CHRISTI TX 78413"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "WARD",
+      "county_code": "475",
+      "account": {
+        "prop_id": "0016584",
+        "geo_id": "0016584",
+        "owner_name": "A B OIL COMPANY",
+        "contact": "PO BOX 1505, MONAHANS TX 79756-1505"
+      }
+    }
+  ]
+}

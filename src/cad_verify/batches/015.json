@@ -1,0 +1,49 @@
+{
+  "batch": "015",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "KENT",
+      "county_code": "263",
+      "account": {
+        "prop_id": "0011950",
+        "geo_id": "0011950",
+        "owner_name": "5M PROPERTIES LP",
+        "contact": "220 W ELM, BRECKENRIDGE TX 76424"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "KIMBLE",
+      "county_code": "267",
+      "account": {
+        "prop_id": "1494",
+        "geo_id": "1494",
+        "owner_name": "BATES JOHN P",
+        "contact": "MIDLAND TX 79704"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "KING",
+      "county_code": "269",
+      "account": {
+        "prop_id": "0008016",
+        "geo_id": "0008016",
+        "owner_name": "ALBRIGHT JAMES LEE",
+        "contact": "720 W SWENSON AVE, ASPERMONT TX 79502-2100"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "LAMPASAS",
+      "county_code": "281",
+      "account": {
+        "prop_id": "6345",
+        "geo_id": "11160-000-045-00",
+        "owner_name": "HEIGES RICHARD ETUX ANDRIA",
+        "contact": "322 E CR 3064, LAMPASAS TX 76550"
+      }
+    }
+  ]
+}

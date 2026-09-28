@@ -1,0 +1,49 @@
+{
+  "batch": "018",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "MARTIN",
+      "county_code": "317",
+      "account": {
+        "prop_id": "0052190",
+        "geo_id": "0052190",
+        "owner_name": "A & Z INTERESTS LP",
+        "contact": "8100 W FM 846, KNOTT TX 79748-4018"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "MENARD",
+      "county_code": "327",
+      "account": {
+        "prop_id": "0000790",
+        "geo_id": "0000790",
+        "owner_name": "ACF II LP",
+        "contact": "PO BOX 926, CYPRESS TX 77410"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "MIDLAND",
+      "county_code": "329",
+      "account": {
+        "prop_id": "0189033",
+        "geo_id": "0189033",
+        "owner_name": "A H N CORPORATION",
+        "contact": "200 W CLEMENTS, ODESSA TX 79761"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "MILAM",
+      "county_code": "331",
+      "account": {
+        "prop_id": "20536348",
+        "geo_id": "20536348",
+        "owner_name": "ADA III IRREV TRUST",
+        "contact": "%ROBERT & CHRISTINA DRYER TTEE, ENCINITASISCO CA 92024"
+      }
+    }
+  ]
+}

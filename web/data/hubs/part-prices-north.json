@@ -1,0 +1,24 @@
+{
+  "operators": {},
+  "prices": {
+    "ventura": {
+      "period": "2026-09-01",
+      "usd_per_mmbtu": 2.51,
+      "source_url": "https://www.woodriverenergy.com/blog/spetemeber-2026-energy-news",
+      "source_name": "Wood River Energy first-of-month market, NNG Ventura"
+    },
+    "ngpl-midcontinent": {
+      "period": "2026-09-01",
+      "usd_per_mmbtu": 2.48,
+      "source_url": "https://www.woodriverenergy.com/blog/spetemeber-2026-energy-news",
+      "source_name": "Wood River Energy first-of-month market, NGPL Midcontinent"
+    },
+    "chicago": {
+      "period": "2026-09-25",
+      "usd_per_mmbtu": 2.64,
+      "source_url": "https://www.eia.gov/todayinenergy/prices.php",
+      "source_name": "EIA Today in Energy Daily Prices, Midwest natural gas (Chicago Citygate)"
+    }
+  },
+  "regions": {}
+}

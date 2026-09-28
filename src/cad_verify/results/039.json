@@ -1,0 +1,65 @@
+{
+  "batch": "039",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "MORA",
+      "county_code": "033",
+      "sample_account": "145400",
+      "endpoint": "https://liveweb.countyofmora.com/assessor.aspx?source=assessor&page=optUPC&searchterm=1094133401298&select=145400&selectyr=145400",
+      "method": "GET",
+      "form_fields": ["source", "page", "searchterm", "select", "selectyr"],
+      "account_sent": "1094133401298",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "POLLOCK FAMILY TRUST",
+      "contact_excerpt": "3632 SAN JOAQUIN AVE LOS ALAMITOS CA 90720"
+    },
+    {
+      "state": "NM",
+      "county": "OTERO",
+      "county_code": "035",
+      "sample_account": "R057403",
+      "endpoint": "https://oterocountynm-assessor.tylerhost.net/assessor/taxweb/results.jsp",
+      "method": "POST",
+      "form_fields": ["AccountNumID"],
+      "account_sent": "R057403",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ENGLER, KYLE E & ASHLEY",
+      "contact_excerpt": "3427 ESCONDIDO DR ALAMOGORDO 88310"
+    },
+    {
+      "state": "NM",
+      "county": "QUAY",
+      "county_code": "037",
+      "sample_account": "R907094",
+      "endpoint": "https://qctpayments.quaycounty-nm.gov/treasurer/treasurerweb/account.jsp?account=R907094",
+      "method": "GET",
+      "form_fields": ["account"],
+      "account_sent": "R907094",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ZEL-O INVESTMENTS LLC",
+      "contact_excerpt": "7650 S McCLINTOCK SUITE 103-150 TEMPE, AZ 85284"
+    },
+    {
+      "state": "NM",
+      "county": "RIO ARRIBA",
+      "county_code": "039",
+      "sample_account": "1047131446078",
+      "endpoint": "https://rac-ew-asr.rio-arriba.org/assessor/taxweb/account.jsp?accountNum=R014030",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R014030",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "GENERATION NEXT LLC., NEW MEXICO LLC",
+      "contact_excerpt": "1302 N. RIVERSIDE ESPANOLA, NM 87532"
+    }
+  ]
+}

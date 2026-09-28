@@ -3,3 +3,26 @@ __pycache__/
 .venv/
 data/raw/rrc/
 data/raw/agents/
+
+# Scratch scripts from the county surface-roll pulls. Root-anchored so the
+# patterns cannot swallow dunder modules such as agents/__main__.py.
+/_*.py
+/_*.sh
+/tmp_*.py
+/tmp_*.html
+/clay_post1.txt
+src/_*.py
+
+# SQLite sidecars and throwaway databases
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+src/_tx127.sqlite
+
+# Intermediate download caches for the basin builds; the served layers sit
+# alongside them and are tracked.
+data/*/_cache/
+data/*/cache/
+
+# Local staging for the batched surface-roll uploads
+data/surface-stage/

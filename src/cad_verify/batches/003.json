@@ -1,0 +1,49 @@
+{
+  "batch": "003",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "BREWSTER",
+      "county_code": "043",
+      "account": {
+        "prop_id": "13390",
+        "geo_id": "013000090102080100",
+        "owner_name": "MUNOZ MARTHA SUE HAYNES",
+        "contact": "ALPINE TX 79831"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "BROWN",
+      "county_code": "049",
+      "account": {
+        "prop_id": "59762",
+        "geo_id": "59762",
+        "owner_name": "SHERO, ALYSBELLE VIVIAN",
+        "contact": "BROWNWOOD TX 76801"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "CHAMBERS",
+      "county_code": "071",
+      "account": {
+        "prop_id": "217383",
+        "geo_id": "217383",
+        "owner_name": "HANKAMER CHARLES DOUGLAS",
+        "contact": "LEESBURG VA 20176"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "CHILDRESS",
+      "county_code": "075",
+      "account": {
+        "prop_id": "0000102",
+        "geo_id": "0000102",
+        "owner_name": "CORLENA OIL COMPANY",
+        "contact": "P O BOX 5677, ABILENE TX 79608-5677"
+      }
+    }
+  ]
+}

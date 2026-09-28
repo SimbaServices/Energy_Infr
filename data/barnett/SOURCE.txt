@@ -1,0 +1,166 @@
+Barnett Shale / Fort Worth Basin map files
+
+County list
+The 25 Texas counties named by the Railroad Commission of Texas for the
+Newark, East (Barnett Shale) field. The page says the productive part of the
+formation lies in Commission districts 5, 7B, and 9.
+https://www.rrc.texas.gov/oil-and-gas/major-oil-and-gas-formations/barnett-shale/
+
+FIPS codes are the Census county codes already stored in
+data/raw/geo/counties.geojson (state 48). The Commission spells Shackelford
+as Shackleford; the file uses the Census name.
+
+  48009  Archer
+  48035  Bosque
+  48077  Clay
+  48093  Comanche
+  48097  Cooke
+  48099  Coryell
+  48113  Dallas
+  48121  Denton
+  48133  Eastland
+  48139  Ellis
+  48143  Erath
+  48193  Hamilton
+  48217  Hill
+  48221  Hood
+  48237  Jack
+  48251  Johnson
+  48337  Montague
+  48363  Palo Pinto
+  48367  Parker
+  48417  Shackelford
+  48425  Somervell
+  48429  Stephens
+  48439  Tarrant
+  48497  Wise
+  48503  Young
+
+Oklahoma and Louisiana are not in this list.
+
+Lease volumes
+Railroad Commission Form PR gas-disposition tapes already on disk:
+  data/raw/rrc/olf102
+  data/raw/rrc/gsf102
+Record count file: data/raw/rrc/record.counts
+  NUMBER RECORDS IN  S.OLF102   =  49068
+  NUMBER RECORDS IN  S.GSF102   =  101831
+The Permian loader records these tapes as posted 2026-09-26. Each lease keeps
+its latest month on the tape. The volume is the single vented-or-flared Mcf
+column (oil bytes 131:140, gas bytes 130:137). Produced Mcf is oil bytes
+176:185 and gas bytes 172:179.
+Catalog page:
+https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/
+
+Lease locations
+Surface-well shapefiles, one zip per county, LAT83/LONG83:
+https://mft.rrc.texas.gov/link/d551fb20-442e-4b67-84fa-ac3f23ecabb4
+Statewide API extract folder 2026-09-23, files maf016.ccXXX:
+https://mft.rrc.texas.gov/link/701db9a3-32b5-488d-812b-cd6ff7d0fe85
+A well is kept when the gas or oil id on the API row matches a Form PR lease in
+district 05, 7B, or 09, and both the lease name and the field name on that row
+appear on the API record. On the disposition tapes those districts are stored as
+05, 08, and 13. Code 08 carries 7B county-regular fields such as Eastland and
+Palo Pinto. Code 13 carries District 09 fields, including Wise, Jack, Young,
+and NEWARK, EAST (BARNETT SHALE). Code 05 carries District 05 fields, including
+the small Newark, East rows outside that District 09 block. On the September 23, 2026 extract the completion date
+is not at byte 214 of the 2004 MAF016 manual
+(https://www.rrc.texas.gov/media/bkyl5qvx/well-api-manual.pdf). The field name
+is the 32 characters immediately before the completion date, which is the field
+width in that manual, and the lease id is the digit run directly before the
+field name. Gas ids are 6 digits. Oil lease numbers are 5. Surface latitude
+and longitude are LAT83 and LONG83.
+
+Circle coordinate: mean of the matched surface-well latitudes and longitudes.
+No coordinate was filled in when a lease had no surface well.
+
+Pipelines
+EIA natural gas pipeline centerlines already loaded in db/us_pipelines.sqlite.
+https://geo.dot.gov/server/rest/services/hosted/Natural_Gas_Pipelines_US_EIA/FeatureServer/0
+Described as updated January 2020. A segment is kept when it intersects the
+bounding box of the 25 county polygons.
+
+Transmission
+HIFLD lines of 230 kV and above already loaded in db/us_pipelines.sqlite.
+https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0
+Subset is VOLTAGE >= 230. Same bounding box as the pipelines.
+Tie-in points are an empty feature collection, matching the file src/load_permian.py writes.
+
+Points of interconnection
+Same services as src/build_pois.py. Texas substations and taps at 69 kV and
+above that fall inside one of these county polygons. Owner is the in-service
+line of 69 kV or higher within half a mile.
+https://services1.arcgis.com/7DRakJXKPEhwv0fM/arcgis/rest/services/Electric_Substations/FeatureServer/0/query
+https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_Electric_Power_Transmission_Lines/FeatureServer/0/query
+Raw responses are cached in data/barnett/_cache/.
+
+No hub is assigned and no price is stored.
+
+Counts written 2026-09-27T15:51:40+00:00
+  leases with flared gas: 536
+  flared Mcf: 95531
+  flared MMcfd: 3.08
+  oil leases: 107
+  gas wells: 429
+  pipelines: 598
+  transmission lines: 202
+  tie-ins: 0
+  points of interconnection: 812
+  substation service rows in the box: 1131
+  69 kV line rows in the box: 881
+
+Leases with flared gas by county
+     400  Montague
+     115  Cooke
+      13  Stephens
+       2  Archer
+       2  Shackelford
+       1  Denton
+       1  Jack
+       1  Young
+       1  Parker
+
+Surface wells whose lease name and field name matched a Form PR row.
+A lease with no flared Mcf on its latest month is not drawn.
+     184  Archer
+       0  Bosque
+      65  Clay
+      79  Comanche
+     632  Cooke
+       0  Coryell
+      63  Dallas
+    2372  Denton
+     433  Eastland
+      34  Ellis
+      92  Erath
+       5  Hamilton
+     176  Hill
+     492  Hood
+    1131  Jack
+    1985  Johnson
+     951  Montague
+     620  Palo Pinto
+     913  Parker
+     108  Shackelford
+      55  Somervell
+    1770  Stephens
+    3376  Tarrant
+    3572  Wise
+     401  Young
+
+Most common fields among those leases
+     497  NEWARK, EAST (BARNETT SHALE)
+      13  STEPHENS COUNTY REGULAR
+       5  ST. JO RIDGE (BARNETT SHALE)
+       3  MONTAGUE COUNTY REGULAR
+       2  ARCHER COUNTY REGULAR
+       2  GWE (CADDO CONGL.)
+       2  ARIES (CADDO)
+       2  JOHNSTAR (CONGLOMERATE)
+       1  LAC (CONGLOMERATE)
+       1  SAINT JO, SE. (VIOLA)
+       1  WALES (VIOLA)
+       1  BOLIVAR
+       1  BRYSON, EAST
+       1  M. P. C. (FLIPPEN)
+       1  SHACKELFORD COUNTY REGULAR

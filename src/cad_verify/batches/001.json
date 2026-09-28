@@ -1,0 +1,49 @@
+{
+  "batch": "001",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "ANDREWS",
+      "county_code": "003",
+      "account": {
+        "prop_id": "295119",
+        "geo_id": "N80-017506-000-1-012319-2|017506|295119|136R LLC",
+        "owner_name": "136R LLC",
+        "contact": "DALLAS TX 75230"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "ARANSAS",
+      "county_code": "007",
+      "account": {
+        "prop_id": "0007636",
+        "geo_id": "0007636",
+        "owner_name": "BHCH MINERAL LTD",
+        "contact": "5150 BROADWAY STREET, SAN ANTONIO TX 78209"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "ARCHER",
+      "county_code": "009",
+      "account": {
+        "prop_id": "0001511",
+        "geo_id": "0001511",
+        "owner_name": "UPSHAW ROY",
+        "contact": "133 AVIATOR DR, FORT WORTH TX 76179-5412"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "BANDERA",
+      "county_code": "019",
+      "account": {
+        "prop_id": "176093",
+        "geo_id": "176093",
+        "owner_name": "LEGACY ENERGY SERVICES",
+        "contact": "JOURDANTON TX 78026"
+      }
+    }
+  ]
+}

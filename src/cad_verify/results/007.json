@@ -1,0 +1,65 @@
+{
+  "batch": "007",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "DONLEY",
+      "county_code": "129",
+      "sample_account": "0000125",
+      "endpoint": "https://www.donleycad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "keyword", "taxYear"],
+      "account_sent": "JRP HOLDINGS",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "JRP HOLDINGS LLC",
+      "contact_excerpt": "1006 24TH AVE NW STE 120  NORMAN OK 73069 6344"
+    },
+    {
+      "state": "TX",
+      "county": "EASTLAND",
+      "county_code": "133",
+      "sample_account": "0021252",
+      "endpoint": "https://eastlandcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "keyword", "taxYear"],
+      "account_sent": "PRIVEE DIANE",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "PRIVEE DIANE C",
+      "contact_excerpt": "221 S JEFFERSON STREET  IRVING TX 75060"
+    },
+    {
+      "state": "TX",
+      "county": "ECTOR",
+      "county_code": "135",
+      "sample_account": "718072",
+      "endpoint": "https://actweb.acttax.com/ectorcad/ectorcad/search-result.jsp",
+      "method": "POST",
+      "form_fields": ["search-type", "criteria"],
+      "account_sent": "718072",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "COATS FAMILY PROPERTIES LP",
+      "contact_excerpt": "MIDLAND, TX 79702-8373"
+    },
+    {
+      "state": "TX",
+      "county": "EL PASO",
+      "county_code": "141",
+      "sample_account": "14453",
+      "endpoint": "https://epcad.org/Search/Details/14453/2026",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "14453",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "RIO BRAVO FARMS LTD",
+      "contact_excerpt": "PO BOX 540 TORNILLO TX 79853-0540"
+    }
+  ]
+}

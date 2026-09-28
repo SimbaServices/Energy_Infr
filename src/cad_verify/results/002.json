@@ -1,0 +1,65 @@
+{
+  "batch": "002",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "BEE",
+      "county_code": "025",
+      "sample_account": "0039060",
+      "endpoint": "https://esearch.beecad.org/Property/View/660159?year=2026&ownerId=9113",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "660159",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "AASEN RYAN R",
+      "contact_excerpt": "8800 S HARLEM AVE TRLR 1111 BRIDGEVIEW, IL 60455-1995"
+    },
+    {
+      "state": "TX",
+      "county": "BEXAR",
+      "county_code": "029",
+      "sample_account": "117037",
+      "endpoint": "https://bexar.trueautomation.com/ClientDB/SmartSearchResults.aspx?cid=110&taxYear=2026&propertyType=All&searchTerm=117037",
+      "method": "GET",
+      "form_fields": ["cid", "taxYear", "propertyType", "searchTerm"],
+      "account_sent": "117037",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "NASH ROBERT E",
+      "contact_excerpt": "215 JEMISON ST SAN ANTONIO, TX 78203"
+    },
+    {
+      "state": "TX",
+      "county": "BORDEN",
+      "county_code": "033",
+      "sample_account": "8003344",
+      "endpoint": "https://esearch.bordencad.org/Property/View/139425?year=2026&ownerId=M8003344",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "139425",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A & D LAND & MINERALS INC",
+      "contact_excerpt": "2890 BRIGHTON BLVD UNIT 219 DENVER, CO 80216"
+    },
+    {
+      "state": "TX",
+      "county": "BRAZORIA",
+      "county_code": "039",
+      "sample_account": "160320",
+      "endpoint": "https://esearch.brazoriacad.org/Property/View/160320?year=2026&ownerId=29944",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "160320",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "STATE OF TEXAS",
+      "contact_excerpt": "PO BOX 1386 HOUSTON, TX 77251-1386"
+    }
+  ]
+}

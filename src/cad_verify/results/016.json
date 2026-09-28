@@ -1,0 +1,65 @@
+{
+  "batch": "016",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "LAVACA",
+      "county_code": "285",
+      "sample_account": "0075117",
+      "endpoint": "https://esearch.lavacacad.com/Property/View/200991518",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "200991518",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A E TRUST DTD 7/28/2016",
+      "contact_excerpt": "534 COUNTY ROAD 337 SHINER, TX 77984-5340"
+    },
+    {
+      "state": "TX",
+      "county": "LEON",
+      "county_code": "289",
+      "sample_account": "0021073",
+      "endpoint": "https://www.leoncad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "keyword", "page", "taxYear", "filter", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType"],
+      "account_sent": "A & P OIL",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A & P OIL & GAS",
+      "contact_excerpt": "879 BERRY LN  MADISONVILLE TX 77864 4007"
+    },
+    {
+      "state": "TX",
+      "county": "LIBERTY",
+      "county_code": "291",
+      "sample_account": "53675",
+      "endpoint": "https://utility.arcgis.com/usrsvcs/servers/450c4ebf2346497ca2d3077feca13ee4/rest/services/LibertyCADWebService/FeatureServer/0/query",
+      "method": "GET",
+      "form_fields": ["where", "outFields", "returnGeometry", "f"],
+      "account_sent": "005450-000001-002",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "GRAY MARION W",
+      "contact_excerpt": "3821 OLD COLONY RD KALAMAZOO MI 49008"
+    },
+    {
+      "state": "TX",
+      "county": "LIVE OAK",
+      "county_code": "297",
+      "sample_account": "0000000",
+      "endpoint": "https://liveoakappraisal.com/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "keyword", "page", "taxYear", "filter", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType"],
+      "account_sent": "902 LTD",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "902 LTD TEXAS LTD PARTNERSHIP",
+      "contact_excerpt": "615 S 8TH ST  KENEDY                TX 78119 3009"
+    }
+  ]
+}

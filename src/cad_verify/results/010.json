@@ -1,0 +1,65 @@
+{
+  "batch": "010",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "GRAY",
+      "county_code": "179",
+      "sample_account": "113",
+      "endpoint": "https://esearch.graycad.org/Property/View/113",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "113",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BRUCE WAYNE L",
+      "contact_excerpt": "2116 W KENTUCKY PAMPA, TX 79065"
+    },
+    {
+      "state": "TX",
+      "county": "GREGG",
+      "county_code": "183",
+      "sample_account": "310148",
+      "endpoint": "https://search.gcad.org/search/p",
+      "method": "POST",
+      "form_fields": ["search_str", "token"],
+      "account_sent": "310148",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ZWERNEMAN JOHN FREDERICK",
+      "contact_excerpt": "6360 LEXINGTON CT APT 202, NAPLES, FL 34110-9064"
+    },
+    {
+      "state": "TX",
+      "county": "GUADALUPE",
+      "county_code": "187",
+      "sample_account": "62569",
+      "endpoint": "https://esearch.guadalupead.org/Property/View/62569",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "62569",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "HOERMANN CHARLES ET AL",
+      "contact_excerpt": "C/O JERRY WAYNE HOERMANN 1441 MESUITE PASS SEGUIN, TX 78155-0832"
+    },
+    {
+      "state": "TX",
+      "county": "HANSFORD",
+      "county_code": "195",
+      "sample_account": "0039201",
+      "endpoint": "https://hansford.propertytaxpayments.net/Accounts/AccountDetails?taxAccountNumber=2003341-1-0042505",
+      "method": "GET",
+      "form_fields": ["taxAccountNumber"],
+      "account_sent": "2003341-1-0042505",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "RUSSELL T RUDY ENERGY LLC",
+      "contact_excerpt": "320 WESTCOTT ST STE 100 HOUSTON, TX 77007-7027"
+    }
+  ]
+}

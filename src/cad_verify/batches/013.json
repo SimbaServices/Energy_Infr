@@ -1,0 +1,49 @@
+{
+  "batch": "013",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "HOWARD",
+      "county_code": "227",
+      "account": {
+        "prop_id": "284839",
+        "geo_id": "B4830039800",
+        "owner_name": "GUTHRIE HARD HAT G LP THOMPSON MARY G",
+        "contact": "611 S MAIN, BIG SPRING TX 79720"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "HUTCHINSON",
+      "county_code": "233",
+      "account": {
+        "prop_id": "0125649",
+        "geo_id": "0125649",
+        "owner_name": "ABBOTT JOHNA K",
+        "contact": "PO BOX 556, SKIATOOK OK 74070-0556"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "JACK",
+      "county_code": "237",
+      "account": {
+        "prop_id": "0008143",
+        "geo_id": "0008143",
+        "owner_name": "NUNLEY MIKEL G",
+        "contact": "113 TIMBERBLUFF LN, MURPHY TX 75094-4008"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "JEFFERSON",
+      "county_code": "245",
+      "account": {
+        "prop_id": "249620",
+        "geo_id": "062625-000-000100-00000",
+        "owner_name": "NHP TRISUN LLC",
+        "contact": "PO BOX 71970, PHOENIX AZ 85050"
+      }
+    }
+  ]
+}

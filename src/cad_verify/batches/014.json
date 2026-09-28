@@ -1,0 +1,49 @@
+{
+  "batch": "014",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "JIM HOGG",
+      "county_code": "247",
+      "account": {
+        "prop_id": "0014078",
+        "geo_id": "0014078",
+        "owner_name": "VEGA STEPHANIE CARRION",
+        "contact": "120 BROADMORE ST, FRESNO TX 77545"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "JIM WELLS",
+      "county_code": "249",
+      "account": {
+        "prop_id": "32751",
+        "geo_id": "1221510100200",
+        "owner_name": "GONZALEZ ISMAEL %FELICITA GONZALEZ",
+        "contact": "PO BOX 1993  ALICE TX  78333-1993"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "JONES",
+      "county_code": "253",
+      "account": {
+        "prop_id": "0030306",
+        "geo_id": "0030306",
+        "owner_name": "A & A CATTLE CO",
+        "contact": "1409 HUDSON RD, STAMFORD TX 79553-6107"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "KARNES",
+      "county_code": "255",
+      "account": {
+        "prop_id": "0151920",
+        "geo_id": "0151920",
+        "owner_name": "A & B ROYALTIES LTD",
+        "contact": "302 S CASSIDY DR, GEORGETOWN TX 78628-7117"
+      }
+    }
+  ]
+}

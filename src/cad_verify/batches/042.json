@@ -1,0 +1,204 @@
+{
+  "batch": "042",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "TORRANCE",
+      "county_code": "057",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/30"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/0"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/3"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/2"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/5"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/6"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/4"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/7"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/1"
+        }
+      ],
+      "account": {
+        "prop_id": "R002648",
+        "upc": "1036041059447000000",
+        "account_key": "ose|35057|R002648|1036041059447000000|12001",
+        "owner_name": "Karp Robert L",
+        "mail_line1": "6244 S Atlantic Ave",
+        "mail_city": "New Smyrna Beach",
+        "mail_state": "FL",
+        "mail_zip": "32169"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "UNION",
+      "county_code": "059",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/31"
+        },
+        {
+          "label": "agol:Padre Island National Seashore 2-mile Buffer (PADUS)",
+          "url": "https://services1.arcgis.com/YWG34dhJxrbxQWdF/arcgis/rest/services/Padre_Island_Shore_2_mile_Buffer/FeatureServer/50"
+        },
+        {
+          "label": "agol:MtTDT_NaturalAreas2020",
+          "url": "https://services3.arcgis.com/q5Jezm9AgzqyE7Q6/arcgis/rest/services/MtTDT_NaturalAreas2020/FeatureServer/0"
+        },
+        {
+          "label": "agol:protected_areas_2015",
+          "url": "https://services7.arcgis.com/yiuFazTjHE8F5gzQ/arcgis/rest/services/protected_areas_2015/FeatureServer/0"
+        },
+        {
+          "label": "agol:Padre Island National Seashore 2-3 mile Buffer (PADUS)",
+          "url": "https://services1.arcgis.com/YWG34dhJxrbxQWdF/arcgis/rest/services/Padre_Island_Shore_2_3_mile_Buffer/FeatureServer/51"
+        },
+        {
+          "label": "agol:NaturalAreas_RLIS_",
+          "url": "https://services3.arcgis.com/q5Jezm9AgzqyE7Q6/arcgis/rest/services/NaturalAreas_RLIS_/FeatureServer/0"
+        }
+      ],
+      "account": {
+        "prop_id": "840",
+        "upc": "1208151475513",
+        "account_key": "ose|35059|840|1208151475513|2001",
+        "owner_name": "Barquist, Rita J.",
+        "mail_line1": "308 Booster Station Hwy",
+        "mail_city": "Clayton",
+        "mail_state": "NM",
+        "mail_zip": "88415"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "VALENCIA",
+      "county_code": "061",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/32"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/0"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/3"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/1"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/6"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/2"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/5"
+        },
+        {
+          "label": "agol:BAM PROPERTIES VALENCIA COUNTY NM",
+          "url": "https://services7.arcgis.com/f4diowh62ikfhgaw/arcgis/rest/services/BAM_PROPERTIES_VALENCIA_COUNTY_NM/FeatureServer/0"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/4"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/7"
+        }
+      ],
+      "account": {
+        "prop_id": "R218589",
+        "upc": "1007039245032000000",
+        "account_key": "ose|35061|R218589|1007039245032000000|8001",
+        "owner_name": "Huning Ranch Owners Association",
+        "mail_line1": "Po Box 67590",
+        "mail_city": "Albuquerque",
+        "mail_state": "NM",
+        "mail_zip": "87193"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "STATEWIDE",
+      "county_code": "STATEWIDE",
+      "layers": [
+        {
+          "label": "slo-min-lease",
+          "url": "https://mapservice.nmstatelands.org/arcgis/rest/services/Public/SLO_Active_Leases_t/MapServer/1"
+        },
+        {
+          "label": "blm-mineral-estate",
+          "url": "https://gis.blm.gov/nmarcgis/rest/services/Lands/BLM_NM_Lands_Mineral_Estate/FeatureServer/0"
+        },
+        {
+          "label": "ose-plss",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/PLSS/Projected_PLSS_OSE/MapServer/1"
+        },
+        {
+          "label": "slo-og-lease",
+          "url": "https://mapservice.nmstatelands.org/arcgis/rest/services/Public/SLO_Active_Leases_t/MapServer/2"
+        },
+        {
+          "label": "slo-trust-land",
+          "url": "https://mapservice.nmstatelands.org/arcgis/rest/services/Public/LandStatus_t/MapServer/0"
+        },
+        {
+          "label": "slo-federal-min",
+          "url": "https://mapservice.nmstatelands.org/arcgis/rest/services/Public/Oil__Gas__and_Minerals/MapServer/5"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        }
+      ],
+      "account": null
+    }
+  ]
+}

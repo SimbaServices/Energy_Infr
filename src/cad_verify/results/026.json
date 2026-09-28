@@ -1,0 +1,65 @@
+{
+  "batch": "026",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "WASHINGTON",
+      "county_code": "477",
+      "sample_account": "73434",
+      "endpoint": "https://esearch.washingtoncad.org/Property/View/73434?year=2026&ownerId=146153",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "73434",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BRAVO KATHERINE A",
+      "contact_excerpt": "4658 CARLTON DUNES DR UNIT 2, FERNANDINA, FL 32034-5591"
+    },
+    {
+      "state": "TX",
+      "county": "WHEELER",
+      "county_code": "483",
+      "sample_account": "0042210",
+      "endpoint": "https://wheelercad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "filter", "searchObj"],
+      "account_sent": "WILDCAT",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "WILDCAT OG PROPERTIES LLC",
+      "contact_excerpt": "2800 N HENDERSON AVE STE 200 DALLAS TX 75206"
+    },
+    {
+      "state": "TX",
+      "county": "WICHITA",
+      "county_code": "485",
+      "sample_account": "160843",
+      "endpoint": "https://esearch.wadtx.com/Property/View/160843?year=2026&ownerId=48337",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "160843",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "RICE WILLIAM MARSH UNIVERISTY",
+      "contact_excerpt": "RICE/HALYCON, 6100 MAIN MS-91/204 D LOVETT, HOUSTON, TX 77005"
+    },
+    {
+      "state": "TX",
+      "county": "WINKLER",
+      "county_code": "495",
+      "sample_account": "0000267",
+      "endpoint": "https://winklercad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "filter", "searchObj"],
+      "account_sent": "PRODUCERS",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A & G PRODUCERS INC",
+      "contact_excerpt": "PO BOX 25 BARSTOW TX 79719"
+    }
+  ]
+}

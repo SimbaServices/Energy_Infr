@@ -1,0 +1,98 @@
+{
+  "batch": "005",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "CRANE",
+      "county_code": "103",
+      "sample_account": "0026451",
+      "endpoint": "https://www.cranecad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "filterData[searchObj]",
+        "filterData[keyword]",
+        "filterData[filter]",
+        "filterData[page]",
+        "filterData[taxYear]",
+        "filterData[rows]",
+        "filterData[taxDue]",
+        "filterData[PaymentStatus]",
+        "filterData[strSortBy]",
+        "filterData[PropertyType]"
+      ],
+      "account_sent": "ARS CONTROL",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A R S CONTROL ACCOUNT LIMITED",
+      "contact_excerpt": "PO BOX 22854  DENVER CO 80222 0854"
+    },
+    {
+      "state": "TX",
+      "county": "CROCKETT",
+      "county_code": "105",
+      "sample_account": "0157120",
+      "endpoint": "https://www.crockettcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "filterData[searchObj]",
+        "filterData[keyword]",
+        "filterData[filter]",
+        "filterData[page]",
+        "filterData[taxYear]",
+        "filterData[rows]",
+        "filterData[taxDue]",
+        "filterData[PaymentStatus]",
+        "filterData[strSortBy]",
+        "filterData[PropertyType]"
+      ],
+      "account_sent": "HAILEY",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ABAEE HAILEY NOELLE",
+      "contact_excerpt": "433 OAK SUMMIT RD  EDMOND OK 73025 2727"
+    },
+    {
+      "state": "TX",
+      "county": "CULBERSON",
+      "county_code": "109",
+      "sample_account": "0004247",
+      "endpoint": "https://www.culbersoncad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "filterData[searchObj]",
+        "filterData[keyword]",
+        "filterData[filter]",
+        "filterData[page]",
+        "filterData[taxYear]",
+        "filterData[rows]",
+        "filterData[taxDue]",
+        "filterData[PaymentStatus]",
+        "filterData[strSortBy]",
+        "filterData[PropertyType]"
+      ],
+      "account_sent": "0004247",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "DESERT PARTNERS VII LP",
+      "contact_excerpt": "PO BOX 3579  MIDLAND TX 79702"
+    },
+    {
+      "state": "TX",
+      "county": "DALLAS",
+      "county_code": "113",
+      "sample_account": "00000109249009600",
+      "endpoint": "https://www.dallascad.org/AcctDetailRes.aspx?ID=00000109249009600",
+      "method": "GET",
+      "form_fields": ["ID"],
+      "account_sent": "00000109249009600",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "DALLAS TERM RY & UN DEPOT",
+      "contact_excerpt": "1400 DOUGLAS ST STOP 1640 OMAHA, NEBRASKA 681791001"
+    }
+  ]
+}

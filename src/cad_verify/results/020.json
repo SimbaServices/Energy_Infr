@@ -1,0 +1,65 @@
+{
+  "batch": "020",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "OCHILTREE",
+      "county_code": "357",
+      "sample_account": "0000000",
+      "endpoint": "https://www.ochiltreecad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "filter", "searchObj", "page", "taxYear", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType"],
+      "account_sent": "9MGC",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "9MGC",
+      "contact_excerpt": "PO BOX 7698 TYLER TX 75711"
+    },
+    {
+      "state": "TX",
+      "county": "ORANGE",
+      "county_code": "361",
+      "sample_account": "0036925",
+      "endpoint": "https://esearch.orangecad.net/Property/View/N335408?year=2026&ownerId=O0033062",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "N335408",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "SRKR EXEMPT TRUST",
+      "contact_excerpt": "2106 STREAMHURST LN SUGAR LAND, TX 77479-2218"
+    },
+    {
+      "state": "TX",
+      "county": "PALO PINTO",
+      "county_code": "363",
+      "sample_account": "36670",
+      "endpoint": "https://iswdataclient.azurewebsites.net/webProperty.aspx?dbkey=PALOPINTOCAD&stype=id&sdata=R36670&id=R000036670",
+      "method": "GET",
+      "form_fields": ["stype", "sdata", "id"],
+      "account_sent": "R000036670",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "L & O PROPERTIES LLC",
+      "contact_excerpt": "426 FROG BRANCH CT GRAFORD, TX 76449"
+    },
+    {
+      "state": "TX",
+      "county": "PANOLA",
+      "county_code": "365",
+      "sample_account": "0481218",
+      "endpoint": "https://www.panolacad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "filter", "searchObj", "page", "taxYear", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType"],
+      "account_sent": "ELLUM JOHN",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": false,
+      "owner_excerpt": ".ELLUM JOHN L",
+      "contact_excerpt": ""
+    }
+  ]
+}

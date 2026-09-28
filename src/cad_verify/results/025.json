@@ -1,0 +1,77 @@
+{
+  "batch": "025",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "THROCKMORTON",
+      "county_code": "447",
+      "sample_account": "3957",
+      "endpoint": "https://throckmortoncad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "filter"
+      ],
+      "account_sent": "3957",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "MCKNIGHT JAMES R",
+      "contact_excerpt": "P O BOX 391   THROCKMORTON TX 76483 0391"
+    },
+    {
+      "state": "TX",
+      "county": "UPTON",
+      "county_code": "461",
+      "sample_account": "0004385",
+      "endpoint": "https://www.uptoncad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "filter"
+      ],
+      "account_sent": "4385",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ARANA VICKY JONES",
+      "contact_excerpt": "PO BOX 335  MCCAMEY TX 79752"
+    },
+    {
+      "state": "TX",
+      "county": "VICTORIA",
+      "county_code": "469",
+      "sample_account": "0025535",
+      "endpoint": "https://esearch.victoriacad.org/Property/View/28840",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "28840",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ABOUD BRENDA KAY & MARK STEPHEN",
+      "contact_excerpt": "5626 KITTY HAWK DR<br />CORPUS CHRISTI, TX 78414"
+    },
+    {
+      "state": "TX",
+      "county": "WARD",
+      "county_code": "475",
+      "sample_account": "0016584",
+      "endpoint": "https://www.wardcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "filter"
+      ],
+      "account_sent": "A B OIL",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A B OIL COMPANY",
+      "contact_excerpt": "PO BOX 1505  MONAHANS TX 79756 1505"
+    }
+  ]
+}

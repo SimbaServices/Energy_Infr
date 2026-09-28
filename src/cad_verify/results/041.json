@@ -1,0 +1,65 @@
+{
+  "batch": "041",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "SANTA FE",
+      "county_code": "049",
+      "sample_account": "910004011",
+      "endpoint": "https://sfcomaps.santafecountynm.gov/restsvc/rest/services/TaxParcelsDB/MapServer/0/query",
+      "method": "GET",
+      "form_fields": ["where", "outFields"],
+      "account_sent": "910004011",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "GOULD, WALTER R",
+      "contact_excerpt": "704 S RIVERSIDE DR ESPANOLA NM 87507"
+    },
+    {
+      "state": "NM",
+      "county": "SIERRA",
+      "county_code": "051",
+      "sample_account": "8514",
+      "endpoint": "http://liveweb.sierraco.org/assessor.aspx?source=assessor&page=optUPC&searchterm=3020077435275&select=8514&selectyr=8514",
+      "method": "GET",
+      "form_fields": ["searchterm", "select", "selectyr"],
+      "account_sent": "3020077435275",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "LEE GREGORY",
+      "contact_excerpt": "457 RODEO ARENA RD T OR C NM 87901"
+    },
+    {
+      "state": "NM",
+      "county": "SOCORRO",
+      "county_code": "053",
+      "sample_account": "R032586",
+      "endpoint": "https://socorrocountynm-assessor.tylerhost.net/assessor/taxweb/account.jsp?accountNum=R032586",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R032586",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "MAYEDA, JACK MINORU",
+      "contact_excerpt": "759 35TH AVE SAN FRANCISCO, CA 94121"
+    },
+    {
+      "state": "NM",
+      "county": "TAOS",
+      "county_code": "055",
+      "sample_account": "12704",
+      "endpoint": "http://lookup.taoscounty.org/assessor.aspx?source=assessor&page=optUPC&searchterm=1073153254103U168&select=12704&selectyr=12704",
+      "method": "GET",
+      "form_fields": ["searchterm", "select", "selectyr"],
+      "account_sent": "1073153254103U168",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "MAYER, ILSE P REVOCABLE TRUST",
+      "contact_excerpt": "10 CAMINO NOPAL EL PRADO NM 87529"
+    }
+  ]
+}

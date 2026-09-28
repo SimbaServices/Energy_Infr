@@ -1,0 +1,50 @@
+{
+  "batch": "042",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "TORRANCE",
+      "county_code": "057",
+      "sample_account": "R002648",
+      "endpoint": "https://torrancecountynm-assessor.tylerhost.net/assessor/taxweb/account.jsp?accountNum=R002648",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R002648",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "KARP ROBERT L",
+      "contact_excerpt": "71 MANZANO SPRINGS RD EDGEWOOD, NM 87015"
+    },
+    {
+      "state": "NM",
+      "county": "UNION",
+      "county_code": "059",
+      "sample_account": "1208151475513",
+      "endpoint": "https://unioncountynm-assessor.tylerhost.net/assessor/taxweb/account.jsp?accountNum=R009312",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R009312",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BARQUIST, RITA J.",
+      "contact_excerpt": "1400 CINNAMON ST. LONGMONT, CO 80501"
+    },
+    {
+      "state": "NM",
+      "county": "VALENCIA",
+      "county_code": "061",
+      "sample_account": "R218589",
+      "endpoint": "https://valenciacountynm-assessorweb.tylerhost.net/assessor/taxweb/account.jsp?accountNum=R218589",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R218589",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "HUNING RANCH OWNERS ASSOCIATION",
+      "contact_excerpt": "PO BOX 67590 ALBUQUERQUE, NM 87193"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "batch": "012",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "HIDALGO",
+      "county_code": "215",
+      "sample_account": "245223",
+      "endpoint": "https://prod-container.trueprodigyapi.com/public/property/search?page=1&pageSize=5",
+      "method": "POST",
+      "form_fields": ["pid", "pYear"],
+      "account_sent": "245223",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "KNK FARMS LLC",
+      "contact_excerpt": "PO BOX 959 EDINBURG TX 78540-0959"
+    },
+    {
+      "state": "TX",
+      "county": "HOCKLEY",
+      "county_code": "219",
+      "sample_account": "0026279",
+      "endpoint": "https://esearch.hockleycad.org/property/view/8909644",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "8909644",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A B HARMON TRUST",
+      "contact_excerpt": "11207 OAK VIEW DR AUSTIN , TX 78759-4632"
+    },
+    {
+      "state": "TX",
+      "county": "HOOD",
+      "county_code": "221",
+      "sample_account": "104340",
+      "endpoint": "https://iswdataclient.azurewebsites.net/webProperty.aspx?dbkey=HOODCAD&stype=id&sdata=R104340&id=R000104340",
+      "method": "GET",
+      "form_fields": ["stype", "sdata", "id"],
+      "account_sent": "R000104340",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ROLLING CREEK RANCH PROPERTY OWNERS ASSO INC",
+      "contact_excerpt": "10340 ALTA VISTA RD KELLER, TX 76244"
+    },
+    {
+      "state": "TX",
+      "county": "HOUSTON",
+      "county_code": "225",
+      "sample_account": "0004365",
+      "endpoint": "https://www.houstoncad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "keyword", "page", "taxYear", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType", "filter"],
+      "account_sent": "ABELL-HANGER",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ABELL-HANGER FDN",
+      "contact_excerpt": "112 CORPORATE DR  MIDLAND TX 79705 2105"
+    }
+  ]
+}

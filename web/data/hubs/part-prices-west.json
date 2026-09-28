@@ -1,0 +1,30 @@
+{
+  "operators": {},
+  "prices": {
+    "opal": {
+      "period": "2026-08-31",
+      "usd_per_mmbtu": 2.75,
+      "source_url": "https://drive.google.com/file/d/10L3qTQizQ7uLDSVcxMhxu7z1cKWtKQ7X/view?usp=drive_link",
+      "source_name": "Wyoming Insight, August 2026, Opal Hub monthly spot average"
+    },
+    "cheyenne": {
+      "period": "2026-08-31",
+      "usd_per_mmbtu": 2.40,
+      "source_url": "https://drive.google.com/file/d/10L3qTQizQ7uLDSVcxMhxu7z1cKWtKQ7X/view?usp=drive_link",
+      "source_name": "Wyoming Insight, August 2026, Cheyenne Hub monthly spot average"
+    },
+    "socal-border": {
+      "period": "2026-08-06",
+      "usd_per_mmbtu": 2.975,
+      "source_url": "https://naturalgasintel.com/news/socal-citygate-prices-inflate-as-storage-draws-accelerate/",
+      "source_name": "Natural Gas Intelligence, SoCal Border Avg. daily spot"
+    },
+    "socal-citygate": {
+      "period": "2026-08-06",
+      "usd_per_mmbtu": 3.850,
+      "source_url": "https://naturalgasintel.com/news/socal-citygate-prices-inflate-as-storage-draws-accelerate/",
+      "source_name": "Natural Gas Intelligence, SoCal Citygate daily spot"
+    }
+  },
+  "regions": {}
+}

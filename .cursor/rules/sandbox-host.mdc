@@ -1,0 +1,29 @@
+---
+description: Publish Energy_Infr updates to the sandbox on the remote host, not production
+alwaysApply: true
+---
+
+# Sandbox first
+
+All updates to the hosted map go to the sandbox on the remote host. Leave production unchanged until Sam says to move the sandbox onto it.
+
+- Sandbox: https://204.168.132.89:8444, files in `/var/www/energy-sandbox`, nginx site `energy-sandbox`
+- Production: https://204.168.132.89:8443, files in `/var/www/energy`, nginx site `energy`. Do not copy new files there.
+- Do not point the monthly publisher or `ENERGY_WEB_ROOT` at the sandbox.
+- Do not change the property app, or ports 80, 443, 2222, or 5050.
+
+Publish by copying changed web files into `/var/www/energy-sandbox/` only. Afterward, confirm `/var/www/energy` does not contain the new markup.
+
+## What production already carries
+
+Sam authorized one promotion on 2026-09-27, so production is no longer the pre-surface build. It now serves the surface-ownership front end, the six Texas basin datasets (`eagle-ford`, `barnett`, `haynesville-tx`, `east-texas`, `gulf-coast`, `panhandle`), and a 16-region `data/regions.json`. Its nginx site proxies `location /api/` to `http://127.0.0.1:8766`, the same `energy-surface.service` the sandbox uses. Pre-promotion backup: `/var/backups/energy-20260927-2213`.
+
+This does not relax the rule above. Later changes still land on the sandbox first and wait for Sam.
+
+When editing production, keep the `agents` block in `data/regions.json` as it is unless Sam asks otherwise. It covers nine states in production where the sandbox copy had only `sd`.
+
+Tie-ins are a retired derived layer, not measured data: a stored 230 kV-or-higher line midpoint within 3 miles of a gas-pipeline midpoint. `web/app.js` never fetches `tieins.geojson`, and `publishedMethod()` strips the tie-in sentence out of rendered method text. `agents/infra.py` no longer queries the `interconnects` table and writes an empty collection instead, in both the local repo and the host checkout. The next agent pass shrinks the nine state `tieins.geojson` files to 45 bytes and sets `"tieins": 0`; that is expected, not data loss.
+
+Points of interconnection are a different, real layer: substations and taps of 69 kV and above, built by `agents/pois.py`. Keep it working.
+
+`agents/__main__.py` `publish()` mirrors `web/` into `ENERGY_WEB_ROOT` **and deletes every target file absent from the source**. Anything added to a web root by hand must also exist in `/home/propeval/Energy_Infr/web/`, or the next `energy-agents.timer` run removes it.

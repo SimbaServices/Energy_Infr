@@ -1,0 +1,65 @@
+{
+  "batch": "004",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "CLAY",
+      "county_code": "077",
+      "sample_account": "0016152",
+      "endpoint": "https://www.claycad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "ownerName"],
+      "account_sent": "LANDRUM",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "2007 LANDRUM-TX LTD",
+      "contact_excerpt": "111 N AVENUE DD  BURKBURNETT TX 76354"
+    },
+    {
+      "state": "TX",
+      "county": "COKE",
+      "county_code": "081",
+      "sample_account": "1-11-002240071001000000",
+      "endpoint": "https://www.cokecad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "account"],
+      "account_sent": "1-11-002240071001000000",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "GARRETT DOUGLASS H",
+      "contact_excerpt": "1533 FICKEY RD   BRYAN TX 77808 0000"
+    },
+    {
+      "state": "TX",
+      "county": "COLLINGSWORTH",
+      "county_code": "087",
+      "sample_account": "0005139",
+      "endpoint": "https://www.collingsworthcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "ownerName"],
+      "account_sent": "ADAMS DEAN",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ADAMS DEAN",
+      "contact_excerpt": "3015 DAPHNEY CT  SIMI VALLEY CA 93063"
+    },
+    {
+      "state": "TX",
+      "county": "COTTLE",
+      "county_code": "101",
+      "sample_account": "6206",
+      "endpoint": "https://www.texastaxtransparency.com/Cottle/Search/Results?Keyword=6206",
+      "method": "GET",
+      "form_fields": ["Keyword"],
+      "account_sent": "6206",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "1109  THE GOBER STREET TRUST",
+      "contact_excerpt": "1109 GOBER ST PADUCAH TX  79248"
+    }
+  ]
+}

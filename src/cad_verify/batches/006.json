@@ -1,0 +1,49 @@
+{
+  "batch": "006",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "DAWSON",
+      "county_code": "115",
+      "account": {
+        "prop_id": "0078749",
+        "geo_id": "0078749",
+        "owner_name": "OVERTON PARK ROY SUB HOLDINGS",
+        "contact": "PO BOX 2667, FORT WORTH TX 76113"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "DE WITT",
+      "county_code": "123",
+      "account": {
+        "prop_id": "0074283",
+        "geo_id": "0074283",
+        "owner_name": "MC MENGDEN OIL LLC",
+        "contact": "12227 KNOBCREST DR, HOUSTON TX 77070-2437"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "DICKENS",
+      "county_code": "125",
+      "account": {
+        "prop_id": "0001275",
+        "geo_id": "0001275",
+        "owner_name": "(UNKNOWN OWNERSHIP)",
+        "contact": "% BAD ADDRESS/RETURNED MAIL"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "DIMMIT",
+      "county_code": "127",
+      "account": {
+        "prop_id": "35868",
+        "geo_id": "35868",
+        "owner_name": "BOWMAN BARBARA TRUST",
+        "contact": "BARBARA BOWMAN TRUSTEE, KATY TX 77492"
+      }
+    }
+  ]
+}

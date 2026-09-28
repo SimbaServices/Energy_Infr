@@ -1,0 +1,49 @@
+{
+  "batch": "010",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "GRAY",
+      "county_code": "179",
+      "account": {
+        "prop_id": "113",
+        "geo_id": "1-10-300130031163450000",
+        "owner_name": "BRUCE WAYNE L",
+        "contact": "2116 W KENTUCKY, PAMPA TX 79065"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "GREGG",
+      "county_code": "183",
+      "account": {
+        "prop_id": "310148",
+        "geo_id": "310148",
+        "owner_name": "ZWERNEMAN JOHN FREDERICK",
+        "contact": "NAPLES FL 34110"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "GUADALUPE",
+      "county_code": "187",
+      "account": {
+        "prop_id": "62569",
+        "geo_id": "2G0106-0000-03110-0-00",
+        "owner_name": "HOERMANN CHARLES ET AL",
+        "contact": "C/O JERRY WAYNE HOERMANN, 1441 MESUITE PASS, SEGUIN TX 78155"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "HANSFORD",
+      "county_code": "195",
+      "account": {
+        "prop_id": "0039201",
+        "geo_id": "0039201",
+        "owner_name": "RUSSELL T RUDY ENERGY LLC",
+        "contact": "320 WESTCOTT ST STE 100, HOUSTON TX 77007-7027"
+      }
+    }
+  ]
+}

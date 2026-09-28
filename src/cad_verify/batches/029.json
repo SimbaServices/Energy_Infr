@@ -1,0 +1,127 @@
+{
+  "batch": "029",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "COFFEY",
+      "county_code": "031",
+      "layers": [
+        {
+          "label": "CF_Lot_Lines",
+          "url": "https://services6.arcgis.com/cdij5k796ilcvPYN/arcgis/rest/services/CF_Lot_Lines/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "CF_Parcels",
+          "url": "https://services6.arcgis.com/cdij5k796ilcvPYN/arcgis/rest/services/CF_Parcels/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "COMANCHE",
+      "county_code": "033",
+      "layers": [
+        {
+          "label": "Comanche County DASC parcels",
+          "url": "https://services.kansasgis.org/arcgis3/rest/services/forka/CM_Parcels/MapServer/0",
+          "has_owner": 1
+        }
+      ],
+      "account": {
+        "prop_id": "2",
+        "geo_id": "",
+        "account_key": "ks|033|0170110100000002000|layer",
+        "owner_name": "KANSAS DEPT OF WILDLIFE & PARKS",
+        "contact": null,
+        "mail_line1": "512 SE 25TH AVE\nPRATT, KS 67124",
+        "mail_city": "",
+        "mail_state": "KS",
+        "mail_zip": ""
+      }
+    },
+    {
+      "state": "KS",
+      "county": "DICKINSON",
+      "county_code": "041",
+      "layers": [
+        {
+          "label": "Dickinson County Geographic Data Layers",
+          "url": "https://services6.arcgis.com/XBUaJ9z59sKeDhyY/arcgis/rest/services/Data_Dictionary/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "DOUGLAS",
+      "county_code": "045",
+      "layers": [
+        {
+          "label": "Douglas County AGOL ownership parcels",
+          "url": "https://services.arcgis.com/8O9UlSTnqjKptoda/arcgis/rest/services/Parcel/FeatureServer/0",
+          "has_owner": 1
+        },
+        {
+          "label": "Land Use 2026",
+          "url": "https://services.arcgis.com/8O9UlSTnqjKptoda/arcgis/rest/services/Land_Use_2026/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Douglas County Parcel Suitability",
+          "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/arcgis/rest/services/Douglas_County_Parcel_Suitability_v1/FeatureServer/0",
+          "has_owner": 1
+        },
+        {
+          "label": "Address Point",
+          "url": "https://services.arcgis.com/8O9UlSTnqjKptoda/arcgis/rest/services/Address_Point/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "PrecipitationBasemap72Hours",
+          "url": "https://services5.arcgis.com/wb2dkDj6yTkvZmS4/arcgis/rest/services/Douglas_County_72_Hour_Observed_Precipitation_WFL1/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Douglas County, Kansas Boundary",
+          "url": "https://gis.dgcoks.gov/server/rest/services/County_Boundary/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Douglas County tax parcels",
+          "url": "https://gis.dgcoks.gov/server/rest/services/Tax_Parcel/MapServer/0",
+          "has_owner": 1
+        },
+        {
+          "label": "Tax Parcel",
+          "url": "https://gis.dgcoks.gov/server/rest/services/Tax_Parcel/FeatureServer/0",
+          "has_owner": 1
+        },
+        {
+          "label": "Field Station Boundaries",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Field_Station_Boundaries/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Lawrence City Building Suitability",
+          "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/arcgis/rest/services/Lawrence_City_Building_Suitability_v1/FeatureServer/0",
+          "has_owner": 1
+        }
+      ],
+      "account": {
+        "prop_id": "R25273",
+        "geo_id": "",
+        "account_key": "ks|045|R25273|layer",
+        "owner_name": "COLLINS JACK J",
+        "contact": null,
+        "mail_line1": "",
+        "mail_city": "LAWRENCE",
+        "mail_state": "KS",
+        "mail_zip": ""
+      }
+    }
+  ]
+}

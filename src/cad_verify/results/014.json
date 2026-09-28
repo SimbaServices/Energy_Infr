@@ -1,0 +1,94 @@
+{
+  "batch": "014",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "JIM HOGG",
+      "county_code": "247",
+      "sample_account": "0014078",
+      "endpoint": "https://jimhogg-cad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "page",
+        "taxYear",
+        "filter",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType"
+      ],
+      "account_sent": "VEGA",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "VEGA STEPHANIE CARRION",
+      "contact_excerpt": "120 BROADMORE ST"
+    },
+    {
+      "state": "TX",
+      "county": "JIM WELLS",
+      "county_code": "249",
+      "sample_account": "32751",
+      "endpoint": "https://prod-container.trueprodigyapi.com/public/property/search",
+      "method": "POST",
+      "form_fields": [
+        "pid"
+      ],
+      "account_sent": "32751",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "GONZALEZ ISMAEL",
+      "contact_excerpt": "PO BOX 1993"
+    },
+    {
+      "state": "TX",
+      "county": "JONES",
+      "county_code": "253",
+      "sample_account": "0030306",
+      "endpoint": "https://gisdata.pandai.com/pamaps02/rest/services/Jones/JonesCADPublic/MapServer/0/query",
+      "method": "GET",
+      "form_fields": [
+        "where",
+        "outFields",
+        "returnGeometry",
+        "f"
+      ],
+      "account_sent": "A&A CATTLE CO",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A&A CATTLE CO",
+      "contact_excerpt": "1409 HUDSON RD"
+    },
+    {
+      "state": "TX",
+      "county": "KARNES",
+      "county_code": "255",
+      "sample_account": "0151920",
+      "endpoint": "https://karnescad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "page",
+        "taxYear",
+        "filter",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType"
+      ],
+      "account_sent": "A & B ROYALTIES",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A & B ROYALTIES LTD",
+      "contact_excerpt": "302 S CASSIDY DR"
+    }
+  ]
+}

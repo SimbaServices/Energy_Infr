@@ -1,0 +1,41 @@
+{
+  "operators": {},
+  "prices": {
+    "henry": {
+      "period": "2026-09-22",
+      "usd_per_mmbtu": 2.9,
+      "source_url": "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm",
+      "source_name": "EIA Henry Hub natural gas spot price, daily"
+    },
+    "waha": {
+      "period": "2026-09-09",
+      "usd_per_mmbtu": 2.08,
+      "source_url": "https://intelligence.inhedge.mx/en/energy/waha-holds-its-rebound-in-positive-2/",
+      "source_name": "InHedge Intelligence, Waha close at the September 9 cut"
+    },
+    "el-paso-permian": {
+      "period": "2026-06-17",
+      "usd_per_mmbtu": 1.62,
+      "source_url": "https://www.naturalgasintel.com/news/southwest-tightening-waha-rally-lift-cash-natural-gas-prices/",
+      "source_name": "NGI Daily Gas Price Index, El Paso Permian cash traded Wednesday for Thursday flow"
+    },
+    "katy": {
+      "period": "2026-07-01",
+      "usd_per_mmbtu": 2.7,
+      "source_url": "https://www.naturalgasintel.com/news/xrg-deepens-us-lng-bet-with-expanded-rio-grande-equity-deal/",
+      "source_name": "NGI Daily Gas Price Index, Katy hub spot"
+    },
+    "agua-dulce": {
+      "period": "2026-07-01",
+      "usd_per_mmbtu": 2.735,
+      "source_url": "https://www.naturalgasintel.com/news/xrg-deepens-us-lng-bet-with-expanded-rio-grande-equity-deal/",
+      "source_name": "NGI Daily Gas Price Index, Agua Dulce spot"
+    }
+  },
+  "regions": {
+    "data": {
+      "hub": "waha",
+      "note": "NGI’s Waha index includes transactions at the Waha Hub within the Permian Basin in West Texas."
+    }
+  }
+}

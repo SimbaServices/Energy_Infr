@@ -1,0 +1,65 @@
+{
+  "batch": "038",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "LINCOLN",
+      "county_code": "027",
+      "sample_account": "4071062124025000000",
+      "endpoint": "http://liveweb.lincolncountynm.gov/assessor.aspx?source=assessor&page=optUPC&searchterm=4071062124025000000&select=312680&selectyr=312680",
+      "method": "GET",
+      "form_fields": ["source", "page", "searchterm", "select", "selectyr"],
+      "account_sent": "4071062124025000000",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "TIGHE, PATRICK J",
+      "contact_excerpt": "6900 VAIL RIDGE AUSTIN TX 78744"
+    },
+    {
+      "state": "NM",
+      "county": "LOS ALAMOS",
+      "county_code": "028",
+      "sample_account": "R008150",
+      "endpoint": "https://eagleweb.losalamosnm.us/assessor/taxweb/results.jsp",
+      "method": "POST",
+      "form_fields": ["AccountNumID", "AllTypes", "docTypeTotal"],
+      "account_sent": "R008150",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "HENDERSON BRADLEY G",
+      "contact_excerpt": "5060 EATON PLACE LOS ALAMOS 87544"
+    },
+    {
+      "state": "NM",
+      "county": "LUNA",
+      "county_code": "029",
+      "sample_account": "3032147328042",
+      "endpoint": "https://records.lunacountynm.us/assessor.aspx?source=assessor&page=optUPC&searchterm=3032147328042&select=50640&selectyr=50640",
+      "method": "GET",
+      "form_fields": ["source", "page", "searchterm", "select", "selectyr"],
+      "account_sent": "3032147328042",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "FILIPPELLI, MICHAEL A",
+      "contact_excerpt": "4 CHERWAL ST WEST BABYLON NY 11704"
+    },
+    {
+      "state": "NM",
+      "county": "MCKINLEY",
+      "county_code": "031",
+      "sample_account": "R036315",
+      "endpoint": "https://eagleweb.co.mckinley.nm.us:8443/assessor/taxweb/account.jsp?accountNum=R036315",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R036315",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "DUKE RENTALS, LLC",
+      "contact_excerpt": "611 JULIE DR. GALLUP, NM 87301-4818"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "batch": "023",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "SCURRY",
+      "county_code": "415",
+      "account": {
+        "prop_id": "97751",
+        "geo_id": "97751",
+        "owner_name": "ADDISON ROBERT MARION",
+        "contact": "Not Available, FORT SUMNER NM 88119"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "SHELBY",
+      "county_code": "419",
+      "account": {
+        "prop_id": "0027812",
+        "geo_id": "0027812",
+        "owner_name": "SKIPDUNN LP",
+        "contact": "13848 FALL SPRINGS WAY, MANOR TX 78653-3951"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "SHERMAN",
+      "county_code": "421",
+      "account": {
+        "prop_id": "0008350",
+        "geo_id": "0008350",
+        "owner_name": "A CHANCE TO CHANGE FOUNDATION",
+        "contact": "2113 W BRITTON RD, THE VILLAGE OK 73120"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "SMITH",
+      "county_code": "423",
+      "account": {
+        "prop_id": "G800003",
+        "geo_id": "G800003",
+        "owner_name": "COCHRAN CAROLYN",
+        "contact": "12271 COIT RD APT 3414, DALLAS TX 75251"
+      }
+    }
+  ]
+}

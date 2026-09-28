@@ -1,0 +1,148 @@
+{
+  "batch": "027",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "YOAKUM",
+      "county_code": "501",
+      "account": {
+        "prop_id": "175116",
+        "geo_id": "175116",
+        "owner_name": "BRINKLEY CHARLOTTE A",
+        "contact": "% JOSEPH BRINKLEY, ROUND ROCK TX 78664"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "ZAVALA",
+      "county_code": "507",
+      "account": {
+        "prop_id": "19457",
+        "geo_id": "003400005001100",
+        "owner_name": "BLACKMAN RUSSELL ALAN",
+        "contact": "BATESVILLE TX 78829"
+      }
+    },
+    {
+      "state": "KS",
+      "county": "",
+      "county_code": "",
+      "layers": [
+        {
+          "label": "Oil and Gas Wells",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Oil_and_Gas_Wells_Download/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Oil and Gas Wells Full",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Oil_and_Gas_Wells/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Oil and Gas Wells Log LAS Depths",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Oil_and_Gas_Wells_Log_LAS_Depths/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Oil and Gas Wells Map View",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Oil_and_Gas_Wells_Map_View/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Class I Wells",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Class_I_Wells/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Dakota Aquifer",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Dakota_Aquifer/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Harper Property Valuation Parcels",
+          "url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/HarperValue/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Sandbox Class II Wells",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Sandbox_Class_II_Wells/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "KS Shapefiles_FWS Stations",
+          "url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_Shapefiles_FWS_Stations/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Aquifer Extents",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Kansas_Aquifers/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Non Kansas Oil and Gas Wells",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Non_Kansas_Oil_and_Gas_Wells/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Class II Wells",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Class_II_Wells/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Kansas active gas wells June 2024",
+          "url": "https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/Kansas_active_gas_wells_June_2024/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Kansas Petro Wells June 2024",
+          "url": "https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/Kansas_Petro_Wells_June_2024/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Mines Near National Parks",
+          "url": "https://services1.arcgis.com/rvD4Y1nm1VbVDxJv/arcgis/rest/services/Mines_Near_National_Parks/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "KS_County_Website_Links_FL",
+          "url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/KS_County_Website_Links_SHP/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "New Fields",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/New_Fields/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Kansas Oil and Gas Wells",
+          "url": "https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/Kansas_Oil_and_Gas_Wells/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Waterflood",
+          "url": "https://services2.arcgis.com/ZOdjAzAQ2B0f85zi/arcgis/rest/services/Waterflood/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "WELLS_KANSAS_EAGER_MASTER",
+          "url": "https://services3.arcgis.com/SBVelvjTzPGISLro/arcgis/rest/services/WELLS_KANSAS_EAGER_MASTER/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "ANDERSON",
+      "county_code": "003",
+      "layers": [
+        {
+          "label": "Anderson_Mobile_ORKA_WFL1",
+          "url": "https://services1.arcgis.com/q2CglofYX6ACNEeu/arcgis/rest/services/Anderson_Mobile_ORKA_WFL1/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    }
+  ]
+}

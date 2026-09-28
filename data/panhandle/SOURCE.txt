@@ -1,0 +1,71 @@
+Texas Panhandle dataset
+
+Counties (Texas FIPS, state 48). Oklahoma is not included. Permian counties are not included.
+  011  Armstrong
+  045  Briscoe
+  065  Carson
+  069  Castro
+  075  Childress
+  087  Collingsworth
+  111  Dallam
+  117  Deaf Smith
+  129  Donley
+  179  Gray
+  191  Hall
+  195  Hansford
+  205  Hartley
+  211  Hemphill
+  233  Hutchinson
+  295  Lipscomb
+  341  Moore
+  357  Ochiltree
+  359  Oldham
+  369  Parmer
+  375  Potter
+  381  Randall
+  393  Roberts
+  421  Sherman
+  437  Swisher
+  483  Wheeler
+
+Gas disposition
+  Files: data/raw/rrc/olf102 (oil) and data/raw/rrc/gsf102 (gas)
+  Record counts file: data/raw/rrc/record.counts (49068 oil rows, 101831 gas rows)
+  Page: https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/
+  Same field positions as src/load_permian.py. One vented-or-flared column. Latest month on the tape for each lease.
+  Tape district 14 is the district these counties join to. Its gas rows include the Lipscomb and Panhandle West fields, and the wells that match those lease numbers sit in these counties.
+  The Permian loader reads the same tapes and maps tape 09 to RRC 7C, tape 10 to RRC 08, and tape 11 to RRC 8A. This build uses tape district 14 and labels it RRC District 10.
+  Checked against the Permian tape row oil district 10 lease 51695, flared_mcf 5324600.
+
+Well locations
+  Surface LAT83/LONG83 from the RRC well shapefiles, files wellNNN.zip, layer *s.dbf.
+  https://mft.rrc.texas.gov/link/d551fb20-442e-4b67-84fa-ac3f23ecabb4
+  Downloaded 2026-09-27 into data/raw/rrc/wells/.
+
+API / lease join
+  Statewide API extract folder 2026-09-23, files maf016.ccNNN stored as data/raw/rrc/api/ccNNN.
+  https://mft.rrc.texas.gov/link/701db9a3-32b5-488d-812b-cd6ff7d0fe85
+  A lease is drawn only when the lease number and the lease name agree, same test as the Permian loader, limited to tape district 14.
+  Every district 14 gas row on this tape, for months 2024-08 through 2026-07, has 0 in the vented-or-flared column. Oil rows have non-zero values. The map uses the latest month, which leaves 8 oil leases.
+  The point is the mean of surface wells on that lease whose coordinates fall inside these county polygons.
+
+Pipelines and transmission
+  Clipped from db/us_pipelines.sqlite tables pipelines and transmission_lines.
+  A line is included only when a vertex falls inside one of these Texas county polygons, so Oklahoma, Kansas, and New Mexico segments that miss the polygons are left out.
+  Tie-ins: data/panhandle/tieins.geojson is an empty collection. src/load_permian.py also writes no tie-in points from these sources.
+
+Points of interconnection
+  Substations: https://services1.arcgis.com/7DRakJXKPEhwv0fM/arcgis/rest/services/Electric_Substations/FeatureServer/0
+  Lines used to name the owner: https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_Electric_Power_Transmission_Lines/FeatureServer/0
+  Same rules as src/build_pois.py: 69 kV and above, inside these counties, state TX.
+
+Layers taken from the project database
+  Pipelines: EIA natural gas pipeline centerlines, https://geo.dot.gov/server/rest/services/hosted/Natural_Gas_Pipelines_US_EIA/FeatureServer/0
+    EIA compilation described as updated January 2020, stored in db/us_pipelines.sqlite.
+  Transmission: HIFLD electric power transmission lines, 230 kV and above, https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0
+    Feature service last edited 2023-09-05. The stored subset is VOLTAGE >= 230.
+  RRC Form PR row in that database: https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/
+    Tape posted 2026-09-26; API folder 2026-09-23; well layers for the Permian were 2026-09-26. Panhandle well zips were downloaded 2026-09-27 from the same well link.
+
+Not written
+  No hub file and no price file. None of the hub points already in web/data/hubs.json fall in these counties, and this build does not assign a hub or a price.

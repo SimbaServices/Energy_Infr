@@ -1,0 +1,37 @@
+{
+  "operators": {
+    "Colorado Interstate Gas Co": {
+      "hub": "cheyenne",
+      "source_url": "https://www.eia.gov/naturalgas/archive/analysis_publications/ngpipeline/central.html",
+      "note": "Gas from Wyoming and Colorado on this system is delivered to the Cheyenne Hub in northeastern Colorado."
+    },
+    "Northwest Pipeline": {
+      "hub": "opal",
+      "source_url": "https://www.northwest.williams.com/NWP_Portal/file_download?hfFileURL=Files%2FNorthwest%2FOther%2FNorthwest_Rockies_Columbia_Connector_Non-Binding_Open_Season.pdf",
+      "note": "Wyoming gas is received at the Opal Plant receipt point in Lincoln County."
+    },
+    "Questar Pipeline Co": {
+      "hub": "opal",
+      "source_url": "https://www.mwpipe.com/mwpipe/pdf/MountainWest_Overview_Presentation.pdf",
+      "note": "Wyoming gas is received from the Opal plant onto this system at the points labeled Opal Plant to QPC."
+    },
+    "Wyoming Interstate PL Co": {
+      "hub": "cheyenne",
+      "source_url": "https://pipeline2.kindermorgan.com/Documents/WIC/WIC_CI_Cpny_Overview.pdf",
+      "note": "The mainline carries gas from western Wyoming to the Cheyenne Hub in Colorado."
+    }
+  },
+  "prices": {},
+  "regions": {
+    "data/states/wy": {
+      "hub": "opal",
+      "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=63504",
+      "note": "Opal is a key natural gas pricing hub in southwestern Wyoming."
+    },
+    "data/states/co": {
+      "hub": "cheyenne",
+      "source_url": "https://www.eia.gov/naturalgas/archive/analysis_publications/ngpipeline/central.html",
+      "note": "Rockies production has been directed to the Cheyenne Hub in northeastern Colorado."
+    }
+  }
+}

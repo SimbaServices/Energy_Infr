@@ -1,0 +1,87 @@
+{
+  "batch": "030",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "ELK",
+      "county_code": "049",
+      "layers": [
+        {
+          "label": "Elk County DASC tax-roll parcels",
+          "url": "https://services.kansasgis.org/arcgis3/rest/services/forka/EK_Parcels/MapServer/0",
+          "has_owner": 1
+        }
+      ],
+      "account": {
+        "prop_id": "27",
+        "geo_id": "",
+        "account_key": "ks|049|0250152100000003000|smoke",
+        "owner_name": "MILLER, GREGORY J",
+        "contact": null,
+        "mail_line1": "2552 BURLINGTON CT\nPARK CITY, KS 67219",
+        "mail_city": "",
+        "mail_state": "KS",
+        "mail_zip": ""
+      }
+    },
+    {
+      "state": "KS",
+      "county": "ELLIS",
+      "county_code": "051",
+      "layers": [
+        {
+          "label": "Ellis County ORKA leaseholds",
+          "url": "https://services.kansasgis.org/arcgis3/rest/services/forka/PVD_Spatial_Supplemental/MapServer/261",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "FINNEY",
+      "county_code": "055",
+      "layers": [
+        {
+          "label": "Arkansas River Mineralization Study - WWC5 Wells Clipped",
+          "url": "https://services9.arcgis.com/Q6wTdPdCh608iNrJ/arcgis/rest/services/WWC5_Wells_Arkansas_River/FeatureServer/0",
+          "has_owner": 1
+        }
+      ],
+      "account": {
+        "prop_id": "",
+        "geo_id": "",
+        "account_key": "ks|055|GARDEN CITY COOP, INC|agol",
+        "owner_name": "Garden City Coop, Inc.",
+        "contact": null,
+        "mail_line1": "",
+        "mail_city": "",
+        "mail_state": "KS",
+        "mail_zip": ""
+      }
+    },
+    {
+      "state": "KS",
+      "county": "FORD",
+      "county_code": "057",
+      "layers": [
+        {
+          "label": "Zoning Parcels",
+          "url": "https://services7.arcgis.com/QfD34vvHtHcH5kGh/arcgis/rest/services/Zoning_Parcels/FeatureServer/0",
+          "has_owner": 1
+        }
+      ],
+      "account": {
+        "prop_id": "",
+        "geo_id": "",
+        "account_key": "ks|057|029-093-07-0-00-00-003.00-0|agol",
+        "owner_name": "Elder Family Farm Corp",
+        "contact": null,
+        "mail_line1": "",
+        "mail_city": "",
+        "mail_state": "KS",
+        "mail_zip": ""
+      }
+    }
+  ]
+}

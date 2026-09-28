@@ -1,0 +1,65 @@
+{
+  "batch": "035",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "CHAVES",
+      "county_code": "005",
+      "sample_account": "R022341",
+      "endpoint": "https://chavescountynm-assessor.tylerhost.net/assessor/taxweb/results.jsp",
+      "method": "POST",
+      "form_fields": ["AccountNumID", "AllTypes", "docTypeTotal"],
+      "account_sent": "R022341",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "CARRETE,JUAN F ; CARRERA,MARIA DELOURDES",
+      "contact_excerpt": "1613 S MICHIGAN AVE ROSWELL 88203"
+    },
+    {
+      "state": "NM",
+      "county": "CIBOLA",
+      "county_code": "006",
+      "sample_account": "R09879",
+      "endpoint": "https://services.arcgis.com/4YineAQdtmx0tv46/arcgis/rest/services/ParcelPoly_CibolaNM/FeatureServer/0/query?where=LOWPARCELI%3D%27R09879%27&outFields=NAME,ADDRESS1,CITY,STATE,ZIPCODE&returnGeometry=false&f=json",
+      "method": "GET",
+      "form_fields": ["where", "outFields", "returnGeometry", "f"],
+      "account_sent": "R09879",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ARNELL, CARL",
+      "contact_excerpt": "31 TENNIS CT. NW ALBUQUERQUE NM 87120"
+    },
+    {
+      "state": "NM",
+      "county": "COLFAX",
+      "county_code": "007",
+      "sample_account": "R015346",
+      "endpoint": "http://68.66.87.241/assessor/taxweb/account.jsp?accountNum=R015346",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R015346",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "GALLERO NEW MEXICO LAND HOLDING, TRUST",
+      "contact_excerpt": "PO BOX 1686 RATON, NM 87740"
+    },
+    {
+      "state": "NM",
+      "county": "CURRY",
+      "county_code": "009",
+      "sample_account": "1211010482435",
+      "endpoint": "http://lookup.currycounty.org:8080/assessor.aspx?source=assessor&page=optUPC&searchterm=1211010482435&select=10253&selectyr=2026&nextp=121101048243500",
+      "method": "GET",
+      "form_fields": ["source", "page", "searchterm", "select", "selectyr", "nextp"],
+      "account_sent": "1211010482435",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "RODRIGUEZ GLORIA &",
+      "contact_excerpt": "404 ROSS ST CLOVIS NM 88101"
+    }
+  ]
+}

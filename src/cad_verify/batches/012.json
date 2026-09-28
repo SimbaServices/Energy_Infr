@@ -1,0 +1,49 @@
+{
+  "batch": "012",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "HIDALGO",
+      "county_code": "215",
+      "account": {
+        "prop_id": "245223",
+        "geo_id": "N1600-00-002-0002-01",
+        "owner_name": "KNK FARMS LLC",
+        "contact": "PO BOX 959, EDINBURG TX 78540-0959"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "HOCKLEY",
+      "county_code": "219",
+      "account": {
+        "prop_id": "0026279",
+        "geo_id": "0026279",
+        "owner_name": "A B HARMON TRUST",
+        "contact": "11207 OAK VIEW DR, AUSTIN TX 78759-4632"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "HOOD",
+      "county_code": "221",
+      "account": {
+        "prop_id": "104340",
+        "geo_id": "17751.001.0000.1",
+        "owner_name": "ROLLING CREEK RANCH PROPERTY OWNERS ASSO INC",
+        "contact": "10340 ALTA VISTA RD, KELLER TX 76244"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "HOUSTON",
+      "county_code": "225",
+      "account": {
+        "prop_id": "0004365",
+        "geo_id": "0004365",
+        "owner_name": "ABELL-HANGER FDN",
+        "contact": "112 CORPORATE DR, MIDLAND TX 79705-2105"
+      }
+    }
+  ]
+}

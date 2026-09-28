@@ -1,0 +1,197 @@
+{
+  "batch": "039",
+  "counties": [
+    {
+      "state": "NM",
+      "county": "MORA",
+      "county_code": "033",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/18"
+        }
+      ],
+      "account": {
+        "prop_id": "145400",
+        "upc": "1094133401298",
+        "account_key": "ose|35033|145400|1094133401298|1",
+        "owner_name": "Pollock Family Trust",
+        "mail_line1": "3632 San Joaquin Ave",
+        "mail_city": "Los Alamitos",
+        "mail_state": "CA",
+        "mail_zip": "90720"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "OTERO",
+      "county_code": "035",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/19"
+        },
+        {
+          "label": "agol:Otero County Property Lines",
+          "url": "https://services7.arcgis.com/bgz8gagoCo8zWA4H/arcgis/rest/services/Cloudcroft_Property_lines/FeatureServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Firewise Spring Cleanup Sign Up",
+          "url": "https://services5.arcgis.com/MuetKt2X4gaxiKvl/arcgis/rest/services/Firewise_Spring_Cleanup/FeatureServer/4"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/0"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Parcels View All Fields",
+          "url": "https://services1.arcgis.com/tZhkGVr1gXGPSz0S/arcgis/rest/services/Parcels_View_All_Fields/FeatureServer/275"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/1"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:Cloudcroft Properties",
+          "url": "https://services7.arcgis.com/bgz8gagoCo8zWA4H/arcgis/rest/services/Cloudcroft_Properties/FeatureServer/0"
+        },
+        {
+          "label": "agol:Cloudcroft Subdivisions",
+          "url": "https://services7.arcgis.com/bgz8gagoCo8zWA4H/arcgis/rest/services/Otero_County_Property_Lines_view/FeatureServer/0"
+        },
+        {
+          "label": "agol:Parcels view",
+          "url": "https://services1.arcgis.com/tZhkGVr1gXGPSz0S/arcgis/rest/services/Parcels_view/FeatureServer/275"
+        },
+        {
+          "label": "agol:SierraBlancaPeak_NAD83_MapExtentPoly_BUFF1000m",
+          "url": "https://services3.arcgis.com/lFN5OWmnCvFpcgMz/arcgis/rest/services/SierraBlancaPeak_NAD83_MapExtentPoly_BUFF1000m/FeatureServer/10"
+        }
+      ],
+      "account": {
+        "prop_id": "R057403",
+        "upc": "01N4053092444420",
+        "account_key": "ose|35035|R057403|01N4053092444420|2001",
+        "owner_name": "Engler, Kyle E & Ashley",
+        "mail_line1": "3427 Escondido Dr",
+        "mail_city": "Alamogordo",
+        "mail_state": "NM",
+        "mail_zip": "88310"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "QUAY",
+      "county_code": "037",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/20"
+        }
+      ],
+      "account": {
+        "prop_id": "R907094",
+        "upc": "120305039613200",
+        "account_key": "ose|35037|R907094|120305039613200|1",
+        "owner_name": "Zel-O Investments Llc",
+        "mail_line1": "9920 S Rural Rd Ste 108-20",
+        "mail_city": "Tempe",
+        "mail_state": "AZ",
+        "mail_zip": "85284"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "RIO ARRIBA",
+      "county_code": "039",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/21"
+        },
+        {
+          "label": "agol:NCSWA_BASEMAP",
+          "url": "https://services2.arcgis.com/WexOnM0vIyrVcdaI/arcgis/rest/services/NCSWA_BASEMAP/FeatureServer/32"
+        },
+        {
+          "label": "agol:NM OCD Aztec District",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/NM_OCD_Aztec_District/FeatureServer/7"
+        },
+        {
+          "label": "agol:NCSWA_BASEMAP",
+          "url": "https://services2.arcgis.com/WexOnM0vIyrVcdaI/arcgis/rest/services/NCSWA_BASEMAP/FeatureServer/26"
+        },
+        {
+          "label": "agol:NCSWA_BASEMAP",
+          "url": "https://services2.arcgis.com/WexOnM0vIyrVcdaI/arcgis/rest/services/NCSWA_BASEMAP/FeatureServer/28"
+        },
+        {
+          "label": "agol:NCSWA_BASEMAP",
+          "url": "https://services2.arcgis.com/WexOnM0vIyrVcdaI/arcgis/rest/services/NCSWA_BASEMAP/FeatureServer/30"
+        },
+        {
+          "label": "agol:NCSWA_BASEMAP",
+          "url": "https://services2.arcgis.com/WexOnM0vIyrVcdaI/arcgis/rest/services/NCSWA_BASEMAP/FeatureServer/31"
+        },
+        {
+          "label": "agol:NCSWA_BASEMAP",
+          "url": "https://services2.arcgis.com/WexOnM0vIyrVcdaI/arcgis/rest/services/NCSWA_BASEMAP/FeatureServer/25"
+        },
+        {
+          "label": "agol:NCSWA_BASEMAP",
+          "url": "https://services2.arcgis.com/WexOnM0vIyrVcdaI/arcgis/rest/services/NCSWA_BASEMAP/FeatureServer/27"
+        },
+        {
+          "label": "agol:NCSWA_BASEMAP",
+          "url": "https://services2.arcgis.com/WexOnM0vIyrVcdaI/arcgis/rest/services/NCSWA_BASEMAP/FeatureServer/29"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/18"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/14"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/12"
+        },
+        {
+          "label": "agol:Chaco Canyon Land Management and BLM Withdrawal Orders",
+          "url": "https://services.arcgis.com/jDGuO8tYggdCCnUJ/arcgis/rest/services/Chaco_Canyon_Land_Management_and_BLM_Withdrawal_Orders/FeatureServer/17"
+        }
+      ],
+      "account": {
+        "prop_id": "1047131446078",
+        "upc": "1047131446078",
+        "account_key": "ose|35039|1047131446078|1047131446078|14001",
+        "owner_name": "Generation Next Llc., New Mexico Llc",
+        "mail_line1": "1302 N. Riverside",
+        "mail_city": "Espanola",
+        "mail_state": "NM",
+        "mail_zip": "87532"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "batch": "024",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "STERLING",
+      "county_code": "431",
+      "sample_account": "0006039",
+      "endpoint": "https://www.texastaxtransparency.com/Sterling/Search/Results?Keyword=FITCHETT",
+      "method": "GET",
+      "form_fields": ["Keyword"],
+      "account_sent": "FITCHETT",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "FITCHETT ALEX",
+      "contact_excerpt": "808 1ST AVENUE STERLING CITY TX  76951"
+    },
+    {
+      "state": "TX",
+      "county": "STONEWALL",
+      "county_code": "433",
+      "sample_account": "0017382",
+      "endpoint": "https://www.stonewallcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "filter", "searchObj"],
+      "account_sent": "SMITH",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "SMITH PAUL SLOAN",
+      "contact_excerpt": "657 GEER CT  MODESTO CA 95354 0123"
+    },
+    {
+      "state": "TX",
+      "county": "TARRANT",
+      "county_code": "439",
+      "sample_account": "10272127",
+      "endpoint": "https://www.tad.org/search-results",
+      "method": "POST",
+      "form_fields": ["searchType", "query", "filter[]"],
+      "account_sent": "BOAZ",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BOAZ HAZEL",
+      "contact_excerpt": "PO BOX 79264"
+    },
+    {
+      "state": "TX",
+      "county": "TAYLOR",
+      "county_code": "441",
+      "sample_account": "106549",
+      "endpoint": "https://esearch.taylor-cad.org/Property/View/106549?year=2026",
+      "method": "GET",
+      "form_fields": ["year"],
+      "account_sent": "106549",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "JAMES DILMUS DELANO SPOUSE'S",
+      "contact_excerpt": "TULSA, OK 74135-7483"
+    }
+  ]
+}

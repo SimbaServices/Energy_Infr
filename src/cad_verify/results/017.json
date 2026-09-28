@@ -1,0 +1,101 @@
+{
+  "batch": "017",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "LLANO",
+      "county_code": "299",
+      "sample_account": "9182",
+      "endpoint": "https://esearch.llanocad.net/Property/View/9182?year=2026&ownerId=75006",
+      "method": "GET",
+      "form_fields": [
+        "year",
+        "ownerId"
+      ],
+      "account_sent": "9182",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "STANFORD NANCY JO",
+      "contact_excerpt": "134 LAKEVIEW DR BUCHANAN DAM, TX 78609"
+    },
+    {
+      "state": "TX",
+      "county": "LOVING",
+      "county_code": "301",
+      "sample_account": "0024555",
+      "endpoint": "https://www.lovingcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "keyword",
+        "filter",
+        "page",
+        "taxYear",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType",
+        "searchObj"
+      ],
+      "account_sent": "BEAUCHAMP",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ADRIENNE S W BEAUCHAMP",
+      "contact_excerpt": "8150 N CENTRAL EXPY STE 1400  DALLAS TX 75206 1875"
+    },
+    {
+      "state": "TX",
+      "county": "LYNN",
+      "county_code": "305",
+      "sample_account": "0001801",
+      "endpoint": "https://www.lynncad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "keyword",
+        "filter",
+        "page",
+        "taxYear",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType",
+        "searchObj"
+      ],
+      "account_sent": "TACKETT",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "TACKETT TERESA",
+      "contact_excerpt": "5012 SAILWIND DR  FORT WORTH TX 76135 1839"
+    },
+    {
+      "state": "TX",
+      "county": "MCCULLOCH",
+      "county_code": "307",
+      "sample_account": "0000000",
+      "endpoint": "https://www.mccullochcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "keyword",
+        "filter",
+        "page",
+        "taxYear",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType",
+        "searchObj"
+      ],
+      "account_sent": "VARNADORE MIKE",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "VARNADORE MIKE",
+      "contact_excerpt": "PO BOX 60798  SAN ANGELO TX 76906 0798"
+    }
+  ]
+}

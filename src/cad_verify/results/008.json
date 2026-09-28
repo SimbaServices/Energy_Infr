@@ -1,0 +1,109 @@
+{
+  "batch": "008",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "FOARD",
+      "county_code": "155",
+      "sample_account": "0700965",
+      "endpoint": "https://www.foardcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "filterData[searchObj]",
+        "filterData[keyword]",
+        "filterData[filter]",
+        "filterData[page]",
+        "filterData[taxYear]",
+        "filterData[rows]",
+        "filterData[taxDue]",
+        "filterData[PaymentStatus]",
+        "filterData[strSortBy]",
+        "filterData[PropertyType]"
+      ],
+      "account_sent": "0700965",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BURGESS JANE SLEMP",
+      "contact_excerpt": "PO BOX 9900  AMARILLO TX 79105 5900"
+    },
+    {
+      "state": "TX",
+      "county": "FRANKLIN",
+      "county_code": "159",
+      "sample_account": "0004032",
+      "endpoint": "https://www.franklin-cad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "filterData[searchObj]",
+        "filterData[keyword]",
+        "filterData[filter]",
+        "filterData[page]",
+        "filterData[taxYear]",
+        "filterData[rows]",
+        "filterData[taxDue]",
+        "filterData[PaymentStatus]",
+        "filterData[strSortBy]",
+        "filterData[PropertyType]"
+      ],
+      "account_sent": "ACF II",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ACF II LP",
+      "contact_excerpt": "PO BOX 926  CYPRESS TX 77410"
+    },
+    {
+      "state": "TX",
+      "county": "FREESTONE",
+      "county_code": "161",
+      "sample_account": "0009323",
+      "endpoint": "https://www.freestonecad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "filterData[searchObj]",
+        "filterData[keyword]",
+        "filterData[filter]",
+        "filterData[page]",
+        "filterData[taxYear]",
+        "filterData[rows]",
+        "filterData[taxDue]",
+        "filterData[PaymentStatus]",
+        "filterData[strSortBy]",
+        "filterData[PropertyType]"
+      ],
+      "account_sent": "NIGHTENGALE",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "NIGHTENGALE KRISTI P CRAIG",
+      "contact_excerpt": "PO BOX 420  PINE CO 80470 0420"
+    },
+    {
+      "state": "TX",
+      "county": "FRIO",
+      "county_code": "163",
+      "sample_account": "0042224",
+      "endpoint": "https://friocad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "filterData[searchObj]",
+        "filterData[keyword]",
+        "filterData[filter]",
+        "filterData[page]",
+        "filterData[taxYear]",
+        "filterData[rows]",
+        "filterData[taxDue]",
+        "filterData[PaymentStatus]",
+        "filterData[strSortBy]",
+        "filterData[PropertyType]"
+      ],
+      "account_sent": "ARNETT MINERAL",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": ".ARNETT MINERAL HOLDINGS LLC",
+      "contact_excerpt": "PO BOX 1199  PORTSMOUTH NH 03802 0127"
+    }
+  ]
+}

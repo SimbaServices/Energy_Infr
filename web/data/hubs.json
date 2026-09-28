@@ -223,48 +223,135 @@
       "color": "#c2311f",
       "lat": 31.581973259,
       "lon": -103.189521718
+    },
+    {
+      "id": "houston-ship-channel",
+      "name": "Houston Ship Channel",
+      "color": "#ea580c",
+      "lat": 29.70833,
+      "lon": -95.005
     }
   ],
   "operators": {
     "Gulf South Pipeline Co": {
       "hub": "henry",
-      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
-      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Gulf South Pipeline."
     },
     "Southern Natural Gas Co": {
       "hub": "henry",
-      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
-      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Southern Natural Gas."
     },
     "Natural Gas PL Co of Am": {
       "hub": "henry",
-      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
-      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Natural Gas Pipeline Co. of America. Kansas deliveries at station 103 are in the NGPL Midcontinent index."
     },
     "Texas Gas Transmission Co": {
-      "hub": "henry",
-      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
-      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+      "hub": "texas-gas-z1",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from Louisiana is sold at Texas Gas Zone 1, the price for deliveries into Texas Gas Transmission starting just south of the Pineville compressor station in Rapides Parish."
     },
     "Transcontinental Gas PL": {
-      "hub": "henry",
-      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
-      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+      "hub": "transco-z3",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from Louisiana is sold at Transco Zone 3, the price for deliveries into Transcontinental Gas Pipe Line from station 45 in Beauregard Parish to station 65 in St. Helena Parish."
     },
     "Trunkline Gas Co": {
       "hub": "henry",
-      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
-      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Trunkline Gas."
     },
     "Acadian Gas Pipeline Sys": {
       "hub": "henry",
-      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
-      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Acadian Gas."
     },
     "Columbia Gulf Pipeline": {
-      "hub": "henry",
-      "source_url": "https://en.wikipedia.org/wiki/Henry_Hub",
-      "note": "Named on a published Henry Hub interconnect list. That list is not a current Sabine tariff and does not prove every segment delivers only to Henry Hub."
+      "hub": "columbia-gulf",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from Louisiana is sold on the Columbia Gulf mainline, the price for deliveries into Columbia Gulf Transmission from Rayne through the mainline zone in Louisiana and Mississippi."
+    },
+    "California Gas Transmission Co": {
+      "hub": "pge-citygate",
+      "source_url": "https://services2.arcgis.com/LYMgRMwHfrWWEg3s/arcgis/rest/services/HIFLD_US_Natural_Gas_Market_Hubs/FeatureServer/0/query?where=Hub_name%3D%27Golden%20Gate%20Center%27&outFields=Hub_name,Operator,Platform&returnGeometry=false&f=json",
+      "note": "The Golden Gate Center record names California Gas Transmission Co as operator and lists the trading platform as NGI, Gas Daily PG&E Citygate, the northern California price."
+    },
+    "Southern California Gas Co": {
+      "hub": "socal-citygate",
+      "source_url": "https://ngi-content.s3.amazonaws.com/Methodology/NGIMethodology.pdf",
+      "note": "NGI\u2019s SoCal Citygate index is deliveries to customers behind Southern California Gas\u2019 local distribution system in Southern California, and the same point list treats PG&E Citygate as the separate northern California price."
+    },
+    "El Paso Natural Gas Co": {
+      "hub": "el-paso-permian",
+      "source_url": "https://www.naturalgasintel.com/data-snapshot/daily-gpi/WTXEPP/",
+      "note": "NGI defines El Paso Permian as deliveries into El Paso Natural Gas in the Permian Basin, including that system's Keystone, Plains, and Waha pools. Deliveries into Southern California Gas are priced at SoCal Border, a separate point."
+    },
+    "Northern Natural Gas Co": {
+      "hub": "ventura",
+      "source_url": "https://www.psc.nd.gov/webdocs/case/26-0052/001-020.pdf",
+      "note": "Northern Border carries Bakken gas to the Ventura Hub in Iowa, where it connects with Northern Natural Gas."
+    },
+    "WBI Energy Transmission": {
+      "hub": "ventura",
+      "source_url": "https://transmission.wbienergy.com/Tariff_Documents/Fourth%20Revised%20Volume%20No.%201.pdf",
+      "note": "WBI Energy Transmission\u2019s tariff prices imbalances for gas it moves in North Dakota and South Dakota at the Gas Daily midpoint for Northern Natural Gas at Ventura or for CIG\u2019s northern system."
+    },
+    "Colorado Interstate Gas Co": {
+      "hub": "cheyenne",
+      "source_url": "https://www.eia.gov/naturalgas/archive/analysis_publications/ngpipeline/central.html",
+      "note": "Gas from Wyoming and Colorado on this system is delivered to the Cheyenne Hub in northeastern Colorado."
+    },
+    "Northwest Pipeline": {
+      "hub": "opal",
+      "source_url": "https://www.northwest.williams.com/NWP_Portal/file_download?hfFileURL=Files%2FNorthwest%2FOther%2FNorthwest_Rockies_Columbia_Connector_Non-Binding_Open_Season.pdf",
+      "note": "Wyoming gas is received at the Opal Plant receipt point in Lincoln County."
+    },
+    "Questar Pipeline Co": {
+      "hub": "opal",
+      "source_url": "https://www.mwpipe.com/mwpipe/pdf/MountainWest_Overview_Presentation.pdf",
+      "note": "Wyoming gas is received from the Opal plant onto this system at the points labeled Opal Plant to QPC."
+    },
+    "Wyoming Interstate PL Co": {
+      "hub": "cheyenne",
+      "source_url": "https://pipeline2.kindermorgan.com/Documents/WIC/WIC_CI_Cpny_Overview.pdf",
+      "note": "The mainline carries gas from western Wyoming to the Cheyenne Hub in Colorado."
+    },
+    "El Paso Texas Pipeline Co": {
+      "hub": "waha",
+      "source_url": "https://abarrelfull.co.uk/Natural_Gas_Hubs",
+      "note": "A market-center list names El Paso Texas Pipeline LP as the operator of the Waha (EPGT) Texas Hub in West Texas, the Permian Basin point for that system."
+    },
+    "Kinder Morgan Texas Pipeline Co": {
+      "hub": "katy",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Platts defines Katy as deliveries into Kinder Morgan Texas Pipelines in the Katy area, a Texas Gulf Coast market."
+    },
+    "Atmos Pipeline - Texas": {
+      "hub": "waha",
+      "source_url": "https://www.ferc.gov/sites/default/files/2020-07/07-2019-G-1.pdf",
+      "note": "FERC states Atmos Pipeline\u2013Texas operates the Waha Header, the Permian Basin trading hub at the western end of its West Texas system."
+    },
+    "Houston Pipeline Co": {
+      "hub": "houston-ship-channel",
+      "source_url": "https://www.ice.com/publicdocs/NA_Phys_Gas_hubs.pdf",
+      "note": "ICE lists the Houston Ship Channel contract as the Houston Pipe Line pool, the Gulf Coast point where that system sells gas."
+    },
+    "ONEOK Westex Pipeline": {
+      "hub": "waha",
+      "source_url": "https://www.oneok.com/owt",
+      "note": "ONEOK says WesTex moves Permian Basin gas in West Texas to the Waha Hub, where other pipelines can take it onward."
+    },
+    "Energy Transfer": {
+      "hub": "waha",
+      "source_url": "https://www.naturalgasintel.com/data-snapshot/daily-gpi/WTXWAHA/",
+      "note": "NGI includes Energy Transfer among the pipelines trading at the Waha Hub for Permian Basin gas in West Texas."
+    },
+    "Transwestern Gas Co": {
+      "hub": "waha",
+      "source_url": "https://www.naturalgasintel.com/data-snapshot/daily-gpi/WTXWAHA/",
+      "note": "NGI includes Transwestern among the pipelines trading at the Waha Hub for Permian Basin gas in West Texas."
     }
   },
   "prices": {
@@ -273,12 +360,104 @@
       "usd_per_mmbtu": 2.9,
       "source_url": "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm",
       "source_name": "EIA Henry Hub natural gas spot price, daily"
+    },
+    "ventura": {
+      "period": "2026-09-01",
+      "usd_per_mmbtu": 2.51,
+      "source_url": "https://www.woodriverenergy.com/blog/spetemeber-2026-energy-news",
+      "source_name": "Wood River Energy first-of-month market, NNG Ventura"
+    },
+    "ngpl-midcontinent": {
+      "period": "2026-09-01",
+      "usd_per_mmbtu": 2.48,
+      "source_url": "https://www.woodriverenergy.com/blog/spetemeber-2026-energy-news",
+      "source_name": "Wood River Energy first-of-month market, NGPL Midcontinent"
+    },
+    "chicago": {
+      "period": "2026-09-25",
+      "usd_per_mmbtu": 2.64,
+      "source_url": "https://www.eia.gov/todayinenergy/prices.php",
+      "source_name": "EIA Today in Energy Daily Prices, Midwest natural gas (Chicago Citygate)"
+    },
+    "opal": {
+      "period": "2026-08-31",
+      "usd_per_mmbtu": 2.75,
+      "source_url": "https://drive.google.com/file/d/10L3qTQizQ7uLDSVcxMhxu7z1cKWtKQ7X/view?usp=drive_link",
+      "source_name": "Wyoming Insight, August 2026, Opal Hub monthly spot average"
+    },
+    "cheyenne": {
+      "period": "2026-08-31",
+      "usd_per_mmbtu": 2.4,
+      "source_url": "https://drive.google.com/file/d/10L3qTQizQ7uLDSVcxMhxu7z1cKWtKQ7X/view?usp=drive_link",
+      "source_name": "Wyoming Insight, August 2026, Cheyenne Hub monthly spot average"
+    },
+    "socal-border": {
+      "period": "2026-08-06",
+      "usd_per_mmbtu": 2.975,
+      "source_url": "https://naturalgasintel.com/news/socal-citygate-prices-inflate-as-storage-draws-accelerate/",
+      "source_name": "Natural Gas Intelligence, SoCal Border Avg. daily spot"
+    },
+    "socal-citygate": {
+      "period": "2026-08-06",
+      "usd_per_mmbtu": 3.85,
+      "source_url": "https://naturalgasintel.com/news/socal-citygate-prices-inflate-as-storage-draws-accelerate/",
+      "source_name": "Natural Gas Intelligence, SoCal Citygate daily spot"
+    },
+    "waha": {
+      "period": "2026-09-09",
+      "usd_per_mmbtu": 2.08,
+      "source_url": "https://intelligence.inhedge.mx/en/energy/waha-holds-its-rebound-in-positive-2/",
+      "source_name": "InHedge Intelligence, Waha close at the September 9 cut"
+    },
+    "el-paso-permian": {
+      "period": "2026-06-17",
+      "usd_per_mmbtu": 1.62,
+      "source_url": "https://www.naturalgasintel.com/news/southwest-tightening-waha-rally-lift-cash-natural-gas-prices/",
+      "source_name": "NGI Daily Gas Price Index, El Paso Permian cash traded Wednesday for Thursday flow"
+    },
+    "katy": {
+      "period": "2026-07-01",
+      "usd_per_mmbtu": 2.7,
+      "source_url": "https://www.naturalgasintel.com/news/xrg-deepens-us-lng-bet-with-expanded-rio-grande-equity-deal/",
+      "source_name": "NGI Daily Gas Price Index, Katy hub spot"
+    },
+    "agua-dulce": {
+      "period": "2026-07-01",
+      "usd_per_mmbtu": 2.735,
+      "source_url": "https://www.naturalgasintel.com/news/xrg-deepens-us-lng-bet-with-expanded-rio-grande-equity-deal/",
+      "source_name": "NGI Daily Gas Price Index, Agua Dulce spot"
     }
   },
   "regions": {
     "data/states/la": {
       "hub": "henry",
       "note": "Henry Hub at Erath is the benchmark for gas sold out of southern Louisiana."
+    },
+    "data/states/nd": {
+      "hub": "ventura",
+      "note": "Most gas purchased from the Bakken formation for North Dakota is bought at the Ventura Hub in Hancock County, Iowa."
+    },
+    "data/states/wy": {
+      "hub": "opal",
+      "note": "Opal is a key natural gas pricing hub in southwestern Wyoming.",
+      "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=63504"
+    },
+    "data/states/co": {
+      "hub": "cheyenne",
+      "note": "Rockies production has been directed to the Cheyenne Hub in northeastern Colorado.",
+      "source_url": "https://www.eia.gov/naturalgas/archive/analysis_publications/ngpipeline/central.html"
+    },
+    "data": {
+      "hub": "waha",
+      "note": "EIA describes Waha as the pricing hub for Permian Basin production in West Texas."
+    },
+    "data/states/nm": {
+      "hub": "waha",
+      "note": "EIA says Waha indicates pricing for southeastern New Mexico Permian Basin production."
+    },
+    "data/states/ks": {
+      "hub": "ngpl-midcontinent",
+      "note": "The NGPL Midcontinent index includes deliveries at station 103 in south-central Kansas."
     }
   }
 }

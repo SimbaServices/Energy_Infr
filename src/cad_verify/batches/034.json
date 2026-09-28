@@ -1,0 +1,130 @@
+{
+  "batch": "034",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "SUMNER",
+      "county_code": "191",
+      "layers": [
+        {
+          "label": "SU_Parcels",
+          "url": "https://services6.arcgis.com/1T9VnnU2vFIMRmpS/arcgis/rest/services/SU_Parcels/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "WYANDOTTE",
+      "county_code": "209",
+      "layers": [
+        {
+          "label": "poi_pt",
+          "url": "https://services1.arcgis.com/Qo2HHQp8vgPs2wg3/arcgis/rest/services/poi_pt/FeatureServer/0",
+          "has_owner": 0
+        },
+        {
+          "label": "Parks",
+          "url": "https://services1.arcgis.com/Qo2HHQp8vgPs2wg3/arcgis/rest/services/Parks/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "NM",
+      "county": "BERNALILLO",
+      "county_code": "001",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/0"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/0"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/2"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/5"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/1"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/3"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/6"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/4"
+        },
+        {
+          "label": "agol:Natural Resource Inventory_WFL1",
+          "url": "https://services1.arcgis.com/i3mLmgyL55IkFf81/arcgis/rest/services/Natural_Resource_Inventory_WFL1/FeatureServer/7"
+        }
+      ],
+      "account": {
+        "prop_id": "101006510132221140",
+        "upc": "101006510132221140",
+        "account_key": "ose|35001|101006510132221140|101006510132221140|8001",
+        "owner_name": "Durbin Ethan P & Vanessa M",
+        "mail_line1": "1218 Avenida Espendida Nw",
+        "mail_city": "Los Lunas",
+        "mail_state": "NM",
+        "mail_zip": "87031"
+      }
+    },
+    {
+      "state": "NM",
+      "county": "CATRON",
+      "county_code": "003",
+      "layers": [
+        {
+          "label": "ose-trd-parcels",
+          "url": "https://gis.ose.nm.gov/server_s/rest/services/Parcels/County_Parcels_2025/MapServer/1"
+        },
+        {
+          "label": "agol:Tax Parcel_Polygon20241007",
+          "url": "https://services3.arcgis.com/fneA3L2J0387Pb3S/arcgis/rest/services/Tax_Parcel_Polygon20241007/FeatureServer/0"
+        },
+        {
+          "label": "agol:GrouseMountain_NAD83_MapExtentPoly_BUFF1000m",
+          "url": "https://services3.arcgis.com/lFN5OWmnCvFpcgMz/arcgis/rest/services/GrouseMountain_NAD83_MapExtentPoly_BUFF1000m/FeatureServer/11"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/0"
+        },
+        {
+          "label": "agol:BLM NM Lands Dingell Act Organ Mountains-Desert Peaks National Monument - Land Exchange",
+          "url": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_NM_Lands_OMDPNM_DingellAct_Land_Exchange/FeatureServer/1"
+        },
+        {
+          "label": "agol:Catron County Tax Parcels_Polygon",
+          "url": "https://services3.arcgis.com/fneA3L2J0387Pb3S/arcgis/rest/services/Tax_Parcels_Polygon/FeatureServer/0"
+        }
+      ],
+      "account": {
+        "prop_id": "R002415",
+        "upc": "2075009412309",
+        "account_key": "ose|35003|R002415|2075009412309|1",
+        "owner_name": "Steinke, Dale M. & Kim R.",
+        "mail_line1": "Hc65 Box 22",
+        "mail_city": "Pie Town",
+        "mail_state": "NM",
+        "mail_zip": "87827"
+      }
+    }
+  ]
+}

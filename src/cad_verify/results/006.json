@@ -1,0 +1,98 @@
+{
+  "batch": "006",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "DAWSON",
+      "county_code": "115",
+      "sample_account": "0078749",
+      "endpoint": "https://www.dawsoncad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "page",
+        "taxYear",
+        "filter",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType"
+      ],
+      "account_sent": "OVERTON PARK",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "OVERTON PARK ROY SUB HOLDINGS",
+      "contact_excerpt": "PO BOX 2667  FORT WORTH TX 76113"
+    },
+    {
+      "state": "TX",
+      "county": "DE WITT",
+      "county_code": "123",
+      "sample_account": "0074283",
+      "endpoint": "https://www.dewittcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "page",
+        "taxYear",
+        "filter",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType"
+      ],
+      "account_sent": "MC MENGDEN",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "MC MENGDEN OIL LLC",
+      "contact_excerpt": "12227 KNOBCREST DR  HOUSTON TX 77070 2437"
+    },
+    {
+      "state": "TX",
+      "county": "DICKENS",
+      "county_code": "125",
+      "sample_account": "10",
+      "endpoint": "https://www.dickenscad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "searchObj",
+        "keyword",
+        "page",
+        "taxYear",
+        "filter",
+        "rows",
+        "taxDue",
+        "PaymentStatus",
+        "strSortBy",
+        "PropertyType"
+      ],
+      "account_sent": "10",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "PITCHFORK LAND & CATTLE CO",
+      "contact_excerpt": "PO BOX 120   GUTHRIE TX 79236"
+    },
+    {
+      "state": "TX",
+      "county": "DIMMIT",
+      "county_code": "127",
+      "sample_account": "35868",
+      "endpoint": "https://esearch.dimmit-cad.org/Property/View/35868",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "35868",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BOWMAN BARBARA TRUST",
+      "contact_excerpt": "BARBARA BOWMAN TRUSTEE PO BOX 68 KATY, TX 77492-0146"
+    }
+  ]
+}

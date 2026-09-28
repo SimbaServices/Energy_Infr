@@ -1,0 +1,65 @@
+{
+  "batch": "034",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "SUMNER",
+      "county_code": "191",
+      "sample_account": "R8386",
+      "endpoint": "https://ks-search-sumner.publicaccessnow.com/parcel/NCPullLev2.asp",
+      "method": "POST",
+      "form_fields": ["txtQuickRefID", "submit5"],
+      "account_sent": "8386",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "THOMPSON, RHONDA L",
+      "contact_excerpt": "1517 N KEYES ST WELLINGTON, KS 67152"
+    },
+    {
+      "state": "KS",
+      "county": "WYANDOTTE",
+      "county_code": "209",
+      "sample_account": "R24933",
+      "endpoint": "https://appr.wycokck.org/Property-Detail/PropertyQuickRefID/R24933/PartyQuickRefID/O0055788/",
+      "method": "GET",
+      "form_fields": ["PropertyQuickRefID", "PartyQuickRefID"],
+      "account_sent": "R24933",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "WILLMON, CARRIE",
+      "contact_excerpt": "13715 MINNESOTA AVE BONNER SPRINGS, KS 66012"
+    },
+    {
+      "state": "NM",
+      "county": "BERNALILLO",
+      "county_code": "001",
+      "sample_account": "101006510132221140",
+      "endpoint": "https://assessor.bernco.gov/public.access/search/commonsearch.aspx?mode=realprop",
+      "method": "POST",
+      "form_fields": ["inpSuf", "hdAction", "btSearch"],
+      "account_sent": "101006510132221140",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "DURBIN ETHAN P & VANESSA M",
+      "contact_excerpt": "10004 CALLE CANTA NW ALBUQUERQUE NM 87114"
+    },
+    {
+      "state": "NM",
+      "county": "CATRON",
+      "county_code": "003",
+      "sample_account": "R002415",
+      "endpoint": "https://catroncountynm-assessor.tylerhost.net/assessor/taxweb/account.jsp?accountNum=R002415",
+      "method": "GET",
+      "form_fields": ["accountNum"],
+      "account_sent": "R002415",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "STEINKE, DALE M. & KIM R.",
+      "contact_excerpt": "HC65 BOX 22 PIE TOWN, NM 87827"
+    }
+  ]
+}

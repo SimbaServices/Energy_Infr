@@ -1,0 +1,73 @@
+East Texas Basin and Cotton Valley, Texas
+Retrieved 2026-09-27
+
+Counties
+001  Anderson County
+005  Angelina County
+063  Camp County
+073  Cherokee County
+159  Franklin County
+161  Freestone County
+213  Henderson County
+223  Hopkins County
+225  Houston County
+289  Leon County
+293  Limestone County
+313  Madison County
+343  Morris County
+349  Navarro County
+379  Rains County
+395  Robertson County
+423  Smith County
+459  Upshur County
+467  Van Zandt County
+499  Wood County
+
+Not included, Haynesville worker: Harrison, Panola, Shelby, Rusk, Nacogdoches, San Augustine, Sabine, Gregg.
+Not included, Sabine uplift next to Harrison: Cass, Marion.
+Not included: Oklahoma, Louisiana, and Texas counties outside this basin set (Ellis, Kaufman, Hill, Falls, McLennan, Brazos, Trinity, Walker).
+
+Flare volumes
+Texas Railroad Commission Form PR gas disposition, files olf102 (oil) and gsf102 (gas) in data/raw/rrc.
+Catalog: https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/
+The project source table records this tape posting as 2026-09-26. One vented-or-flared column, latest month on the tape for each lease. Mcf for that month, divided by days in the month, is MMcfd.
+Oil tape districts 05, 06, and 07 are RRC districts 5, 6, and 6E. 6E is the East Texas field. District 03 is included because Madison sits on that line.
+A lease is drawn only when its number, lease name, and field name occur on a well record in one of the counties above. The point is the centroid of those surface wells. The volume is the whole lease, not a split for wells outside the county list.
+
+Well locations
+Surface latitude and longitude (LAT83, LONG83, NAD83) from the RRC well shapefiles.
+https://mft.rrc.texas.gov/link/d551fb20-442e-4b67-84fa-ac3f23ecabb4
+API extract folder 2026-09-23, file maf016:
+https://mft.rrc.texas.gov/link/701db9a3-32b5-488d-812b-cd6ff7d0fe85
+The number in the API extract is not in one fixed column, so the join reads the 5-digit oil and 6-digit gas ids packed in that record and keeps a row only when the lease name and field name both agree.
+
+Pipelines
+EIA natural gas pipeline centerlines in db/us_pipelines.sqlite, kept when a vertex falls in one of the counties.
+https://geo.dot.gov/server/rest/services/hosted/Natural_Gas_Pipelines_US_EIA/FeatureServer/0
+
+Transmission
+Public 230 kV-and-above lines in the same database, kept when a vertex falls in one of the counties.
+https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0
+
+Tie-ins
+Rows already computed in the interconnects table: the midpoint of a transmission line within 3 miles of a gas pipeline midpoint, thinned to the highest voltage in each cell. A point is kept only when it falls in one of the counties. No new points were calculated for this folder.
+
+Points of interconnection
+Public substation republish, 69 kV and above, and in-service transmission lines used to name the utility within half a mile. Same services as src/build_pois.py.
+https://services1.arcgis.com/7DRakJXKPEhwv0fM/arcgis/rest/services/Electric_Substations/FeatureServer/0/query
+https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_Electric_Power_Transmission_Lines/FeatureServer/0/query
+Substations were filtered to the counties above after a bounding-box query.
+
+No hub assignments or prices are in this folder.
+
+Record counts
+leases with flared gas: 102
+leases with reported gas and a surface well, including those with no flare: 7366
+flared Mcf in the latest month on each lease: 185425
+flared MMcfd: 6.01
+oil leases: 79
+gas wells: 23
+pipelines: 640
+transmission lines: 65
+tie-ins: 15
+points of interconnection: 276

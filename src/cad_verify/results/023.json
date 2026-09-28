@@ -1,0 +1,65 @@
+{
+  "batch": "023",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "SCURRY",
+      "county_code": "415",
+      "sample_account": "97751",
+      "endpoint": "https://esearch.scurrytex.com/Property/View/97751",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "97751",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ADDISON ROBERT MARION",
+      "contact_excerpt": "PO BOX 550, FORT SUMNER, NM 88119-0550"
+    },
+    {
+      "state": "TX",
+      "county": "SHELBY",
+      "county_code": "419",
+      "sample_account": "0027812",
+      "endpoint": "https://esearch.shelbycad.com/Property/View/605034",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "605034",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "SKIPDUNN LP",
+      "contact_excerpt": "13848 FALL SPRINGS WAY, MANOR , TX 78653-3951"
+    },
+    {
+      "state": "TX",
+      "county": "SHERMAN",
+      "county_code": "421",
+      "sample_account": "0008350",
+      "endpoint": "https://www.shermancad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "keyword", "page", "taxYear", "filter", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType"],
+      "account_sent": "CHANCE TO CHANGE",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "A CHANCE TO CHANGE FOUNDATION",
+      "contact_excerpt": "2113 W BRITTON RD  THE VILLAGE OK 73120"
+    },
+    {
+      "state": "TX",
+      "county": "SMITH",
+      "county_code": "423",
+      "sample_account": "G800003",
+      "endpoint": "https://smithcad-search.gsacorp.io/account/065000207000R012919",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "065000207000R012919",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "COCHRAN CAROLYN",
+      "contact_excerpt": "12271 COIT RD APT 3414, DALLAS, TX 75251-2318"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "batch": "001",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "ANDREWS",
+      "county_code": "003",
+      "sample_account": "295119",
+      "endpoint": "https://esearch.andrewscad.org/Property/View/452408?year=2026&ownerId=295119",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "452408",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "136R LLC",
+      "contact_excerpt": "12900 PRESTON RD STE 1117 DALLAS, TX 75230-1383"
+    },
+    {
+      "state": "TX",
+      "county": "ARANSAS",
+      "county_code": "007",
+      "sample_account": "0007636",
+      "endpoint": "https://esearch.aransascad.org/Property/View/8811063?year=2026&ownerId=116896",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "8811063",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BHCH MINERAL LTD",
+      "contact_excerpt": "PMB 240 5150 BROADWAY STREET SAN ANTONIO , TX 78209"
+    },
+    {
+      "state": "TX",
+      "county": "ARCHER",
+      "county_code": "009",
+      "sample_account": "24570",
+      "endpoint": "https://www.texastaxtransparency.com/Archer/Search/Results?Keyword=FORT",
+      "method": "GET",
+      "form_fields": ["Keyword"],
+      "account_sent": "FORT",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "7B RANCH LLC",
+      "contact_excerpt": "2835 WESTFORK RD OLNEY TX"
+    },
+    {
+      "state": "TX",
+      "county": "BANDERA",
+      "county_code": "019",
+      "sample_account": "176093",
+      "endpoint": "https://esearch.bancad.org/Property/View/176093?year=2026&ownerId=74595",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "176093",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "LEGACY ENERGY SERVICES",
+      "contact_excerpt": "3276 CR 303 JOURDANTON, TX 78026"
+    }
+  ]
+}

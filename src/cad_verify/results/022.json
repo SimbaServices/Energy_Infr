@@ -1,0 +1,65 @@
+{
+  "batch": "022",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "SABINE",
+      "county_code": "403",
+      "sample_account": "R000167001",
+      "endpoint": "https://iswdataclient.azurewebsites.net/webProperty.aspx?dbkey=SABINECAD&id=R000167001",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "R000167001",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BREAUX CODY",
+      "contact_excerpt": "2273 QUAIL RIDGE DR"
+    },
+    {
+      "state": "TX",
+      "county": "SAN AUGUSTINE",
+      "county_code": "405",
+      "sample_account": "0063228",
+      "endpoint": "https://sanaugustinecad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "searchObj"],
+      "account_sent": "AAA MUSIC",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "AAA MUSIC & VENDING INC",
+      "contact_excerpt": "1121 WEST STATE HIGHWAY 21  SAN AUGUSTINE TX 75972"
+    },
+    {
+      "state": "TX",
+      "county": "SAN PATRICIO",
+      "county_code": "409",
+      "sample_account": "0017566",
+      "endpoint": "https://esearch.sanpatcad.org/Property/View/1006178?year=2026",
+      "method": "GET",
+      "form_fields": [],
+      "account_sent": "1006178",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ABERCROMBIE MILO H",
+      "contact_excerpt": "PO BOX 38"
+    },
+    {
+      "state": "TX",
+      "county": "SAN SABA",
+      "county_code": "411",
+      "sample_account": "1428",
+      "endpoint": "https://www.sansabacad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["keyword", "searchObj"],
+      "account_sent": "1428",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "TEXAS ARCH AGG INC",
+      "contact_excerpt": "PO BOX 608   SAN SABA TX 76877 0608"
+    }
+  ]
+}

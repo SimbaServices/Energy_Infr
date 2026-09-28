@@ -1,0 +1,49 @@
+{
+  "batch": "024",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "STERLING",
+      "county_code": "431",
+      "account": {
+        "prop_id": "0006039",
+        "geo_id": "0006039",
+        "owner_name": "A D BROWNFIELD LLC",
+        "contact": "PO BOX 57, MESILLA NM 88046-0057"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "STONEWALL",
+      "county_code": "433",
+      "account": {
+        "prop_id": "0017382",
+        "geo_id": "0017382",
+        "owner_name": "SMITH PAUL SLOAN",
+        "contact": "657 GEER CT, MODESTO CA 95354-0123"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "TARRANT",
+      "county_code": "439",
+      "account": {
+        "prop_id": "10272127",
+        "geo_id": "10272127",
+        "owner_name": "BOAZ HAZEL",
+        "contact": "PO BOX 79264, SAGINAW TX 76179"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "TAYLOR",
+      "county_code": "441",
+      "account": {
+        "prop_id": "106549",
+        "geo_id": "106549",
+        "owner_name": "JAMES DILMUS DELANO SPOUSE'S",
+        "contact": "TRUST - %FARMERS NATIONAL CO, TULSA OK 74135"
+      }
+    }
+  ]
+}

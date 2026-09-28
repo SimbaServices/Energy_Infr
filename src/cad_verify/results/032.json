@@ -1,0 +1,65 @@
+{
+  "batch": "032",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "MORRIS",
+      "county_code": "127",
+      "sample_account": "R3124",
+      "endpoint": "https://ks288.cichosting.com/webportal/Appraiser/Details.aspx?id=3124&pid=064-124-18-1-20-01-001.03-1&qref=R3124",
+      "method": "GET",
+      "form_fields": ["id", "pid", "qref"],
+      "account_sent": "R3124",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "BENNETT RENTALS, LLC",
+      "contact_excerpt": "3744 N Ritchfield St Wichita, KS 67226-0400"
+    },
+    {
+      "state": "KS",
+      "county": "NEMAHA",
+      "county_code": "131",
+      "sample_account": "R301941",
+      "endpoint": "https://ks284.cichosting.com/webportal/Appraiser/Details.aspx?id=8650&pid=066-011-02-0-00-00-002.01-0&qref=R301941",
+      "method": "GET",
+      "form_fields": ["id", "pid", "qref"],
+      "account_sent": "R301941",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "HERTZEL,ERIK & SHELLI",
+      "contact_excerpt": "3075 X Rd Sabetha, KS 66534"
+    },
+    {
+      "state": "KS",
+      "county": "RENO",
+      "county_code": "155",
+      "sample_account": "0820400000002000",
+      "endpoint": "https://beacon.schneidercorp.com/Application.aspx?AppID=1063&LayerID=25050&PageTypeID=4&PageID=10269&KeyValue=0820400000002000",
+      "method": "GET",
+      "form_fields": ["AppID", "LayerID", "PageTypeID", "PageID", "KeyValue"],
+      "account_sent": "0820400000002000",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "Albrecht Smith, Angela Kay Liv Trust",
+      "contact_excerpt": "4709 Mahogany CT Land O Lakes, FL 34639-5616"
+    },
+    {
+      "state": "KS",
+      "county": "RILEY",
+      "county_code": "161",
+      "sample_account": "R1",
+      "endpoint": "https://services.arcgis.com/6WmEmDp2YlKJjhJt/arcgis/rest/services/Parcels/FeatureServer/0/query",
+      "method": "GET",
+      "form_fields": ["where", "outFields"],
+      "account_sent": "R1",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "UNITED STATES OF AMERICA TUTTLE CREEK LAKE",
+      "contact_excerpt": "5020 Tuttle Creek Blvd Manhattan, KS 66502-9806"
+    }
+  ]
+}

@@ -24,8 +24,8 @@
       <label><input type="checkbox" id="show-leases" checked> Leases</label>
       <label><input type="checkbox" id="show-pipes" checked> Gas pipelines</label>
       <label><input type="checkbox" id="show-hubs"> Hub colors</label>
+      <label><input type="checkbox" id="show-hub-points" checked> Hubs</label>
       <label><input type="checkbox" id="show-pois" checked> Interconnection points</label>
-      <label><input type="checkbox" id="show-tieins" checked> Grid tie-in points</label>
       <label><input type="checkbox" id="show-grid"> Transmission lines</label>
     </section>
     <section>
@@ -37,6 +37,59 @@
       <p id="method"></p>
     </details>
   </aside>
+  <aside id="owners-panel" hidden>
+    <header class="owners-head">
+      <h2>Surface owners</h2>
+      <button type="button" id="owners-close">Close</button>
+    </header>
+    <p id="owners-status" class="owners-status"></p>
+    <div class="owners-scroll">
+      <table id="owners-table">
+        <thead>
+          <tr><th>Owner</th><th>Contact</th><th>County</th><th class="owners-year">Tax year</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="owners-nav">
+      <button type="button" id="owners-prev">Previous</button>
+      <span id="owners-page"></span>
+      <button type="button" id="owners-next">Next</button>
+    </div>
+  </aside>
+  <aside id="notes-panel">
+    <button type="button" id="notes-toggle" aria-expanded="false" aria-controls="notes-body">
+      <span>Notes</span>
+      <svg class="notes-chevron" viewBox="0 0 12 8" aria-hidden="true">
+        <path d="M1 1.2 L6 6.2 L11 1.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </button>
+    <div id="notes-body" hidden>
+      <p id="note-hint" class="note-hint" hidden>Click the map to drop the pin.</p>
+      <form id="note-form" hidden>
+        <label class="note-label" for="note-text">Note for this pin</label>
+        <textarea id="note-text" rows="3" maxlength="2000" required placeholder="What should this pin remember?"></textarea>
+        <div class="note-actions">
+          <button type="submit">Save note</button>
+          <button type="button" id="note-cancel">Cancel</button>
+        </div>
+      </form>
+      <button type="button" id="note-add">Drop a pin</button>
+      <ol id="note-list"></ol>
+    </div>
+  </aside>
+  <aside id="prices-panel" class="open">
+    <button type="button" id="prices-toggle" aria-expanded="true" aria-controls="prices-body">
+      <span>Take points</span>
+      <svg class="notes-chevron" viewBox="0 0 12 8" aria-hidden="true">
+        <path d="M1 1.2 L6 6.2 L11 1.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </button>
+    <div id="prices-body">
+      <p class="take-caption">The price received where gas from that area is sold.</p>
+      <ol id="take-points"></ol>
+    </div>
+  </aside>
   <div id="legend">
     <p class="legend-title">Vented or flared, MMcfd</p>
     <div class="swatch"><i style="background:#f6e0b8"></i><span>Under 0.05</span></div>
@@ -46,6 +99,8 @@
     <div class="swatch"><i style="background:#c2311f"></i><span>5 – 20</span></div>
     <div class="swatch"><i style="background:#6e1220"></i><span>20 and above</span></div>
     <div id="hub-legend" hidden></div>
+    <p class="legend-title">Hub</p>
+    <div class="swatch"><i class="hub-key"></i><span>Sale point</span></div>
     <p class="legend-title">Gas pipelines</p>
     <div class="swatch"><i class="line interstate"></i><span>Interstate</span></div>
     <div class="swatch"><i class="line intrastate"></i><span>Intrastate</span></div>
@@ -55,10 +110,45 @@
     <div class="swatch"><i class="dot poi-230"></i><span>230 kV</span></div>
     <div class="swatch"><i class="dot poi-138"></i><span>138–229 kV</span></div>
     <div class="swatch"><i class="dot poi-69"></i><span>69–137 kV</span></div>
-    <p class="legend-title">Grid</p>
-    <div class="swatch"><i class="diamond"></i><span>Tie-in point</span></div>
+    <p class="legend-title">Transmission</p>
     <div class="swatch"><i class="line grid"></i><span>230 kV and above</span></div>
   </div>
+  <button type="button" id="sources-open">Sources</button>
+  <dialog id="sources" aria-labelledby="sources-title">
+    <div class="sources-card">
+      <header class="sources-head">
+        <h2 id="sources-title">Data sources</h2>
+        <button type="button" id="sources-close" aria-label="Close">×</button>
+      </header>
+      <h3 class="sources-volumes">Vented and flared gas</h3>
+      <p class="sources-lead">Read again on the first of each month. The month drawn is the latest complete filing.</p>
+      <div class="source-row"><div><div class="source-name">Texas Permian leases</div><div class="source-detail">Railroad Commission Form PR. The tape used here was posted September 26, 2026.</div></div><span class="freq monthly">Monthly</span></div>
+      <div class="source-row"><div><div class="source-name">New Mexico</div><div class="source-detail">Oil Conservation Division natural gas waste layer.</div></div><span class="freq monthly">Monthly</span></div>
+      <div class="source-row"><div><div class="source-name">Colorado</div><div class="source-detail">Energy and Carbon Management Commission monthly production.</div></div><span class="freq monthly">Monthly</span></div>
+      <div class="source-row"><div><div class="source-name">Wyoming</div><div class="source-detail">Oil and Gas Conservation Commission flaring report.</div></div><span class="freq monthly">Monthly</span></div>
+      <div class="source-row"><div><div class="source-name">North Dakota</div><div class="source-detail">Department of Mineral Resources monthly production.</div></div><span class="freq monthly">Monthly</span></div>
+      <div class="source-row"><div><div class="source-name">California fields</div><div class="source-detail">CalGEM form OG110D, gas blown, drawn by field because the filing is not a well location.</div></div><span class="freq monthly">Monthly</span></div>
+      <div class="source-row"><div><div class="source-name">Louisiana</div><div class="source-detail">EPA greenhouse-gas reporting, Subpart W, reporting year 2023. Completion flares in Caddo Parish, not a statewide monthly volume.</div></div><span class="freq annual">Annual</span></div>
+      <div class="source-row"><div><div class="source-name">South Dakota, Arkansas, Kansas</div><div class="source-detail">No located flare filing was found. The EIA annual state total is the figure shown, and it is zero.</div></div><span class="freq annual">Annual</span></div>
+      <h3 class="sources-prices">Take-point prices</h3>
+      <p class="sources-lead">The dollar on the map is the dated print named beside it. It is not recalculated from a basis spread.</p>
+      <div class="source-row"><div><div class="source-name">Henry Hub</div><div class="source-detail">EIA daily Henry Hub spot.</div></div><span class="freq daily">Daily</span></div>
+      <div class="source-row"><div><div class="source-name">Chicago Citygate</div><div class="source-detail">EIA Today in Energy daily prices, Midwest row.</div></div><span class="freq daily">Daily</span></div>
+      <div class="source-row"><div><div class="source-name">Waha</div><div class="source-detail">InHedge Intelligence close.</div></div><span class="freq daily">Daily</span></div>
+      <div class="source-row"><div><div class="source-name">El Paso Permian, Katy, Agua Dulce, SoCal</div><div class="source-detail">Natural Gas Intelligence daily spot, from the article linked on the price.</div></div><span class="freq daily">Daily</span></div>
+      <div class="source-row"><div><div class="source-name">Ventura and NGPL Midcontinent</div><div class="source-detail">Wood River Energy first-of-month market.</div></div><span class="freq monthly">Monthly</span></div>
+      <div class="source-row"><div><div class="source-name">Opal and Cheyenne</div><div class="source-detail">Wyoming Insight monthly average.</div></div><span class="freq monthly">Monthly</span></div>
+      <h3 class="sources-plant">Infrastructure</h3>
+      <p class="sources-lead">These layers stay as the published snapshot until a newer public file replaces them.</p>
+      <div class="source-row"><div><div class="source-name">Gas pipelines</div><div class="source-detail">EIA natural gas pipeline centerlines, January 2020.</div></div><span class="freq snapshot">Snapshot</span></div>
+      <div class="source-row"><div><div class="source-name">Hub locations</div><div class="source-detail">The coordinate stored with each hub, from the public page named for that hub.</div></div><span class="freq snapshot">Snapshot</span></div>
+      <div class="source-row"><div><div class="source-name">Hub colors</div><div class="source-detail">The producing-end sale point for that pipeline, from the tariff or methodology named on the line. Not a delivery right.</div></div><span class="freq snapshot">As sourced</span></div>
+      <div class="source-row"><div><div class="source-name">Transmission lines</div><div class="source-detail">Public lines of 230 kV and above held in this project.</div></div><span class="freq snapshot">Snapshot</span></div>
+      <div class="source-row"><div><div class="source-name">Interconnection points</div><div class="source-detail">Substations and taps of 69 kV and above from the public republish of the former HIFLD Open substation layer, December 1, 2025. The utility name is the owner on an in-service line within half a mile.</div></div><span class="freq snapshot">Snapshot</span></div>
+      <div class="source-row"><div><div class="source-name">Notes</div><div class="source-detail">Saved in this browser until you delete them. They are not shared.</div></div><span class="freq local">This browser</span></div>
+      <p class="sources-foot">A monthly refresh leaves a state’s existing rows in place when the new filing has no located volumes.</p>
+    </div>
+  </dialog>
   <script src="vendor/leaflet.js"></script>
   <script src="app.js"></script>
 </body>

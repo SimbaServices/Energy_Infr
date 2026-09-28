@@ -1,0 +1,49 @@
+{
+  "batch": "017",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "LLANO",
+      "county_code": "299",
+      "account": {
+        "prop_id": "9182",
+        "geo_id": "20838-000-0020-0",
+        "owner_name": "STANFORD NANCY JO",
+        "contact": "134 LAKEVIEW DR, BUCHANAN DAM TX 78609"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "LOVING",
+      "county_code": "301",
+      "account": {
+        "prop_id": "0024555",
+        "geo_id": "0024555",
+        "owner_name": "ADRIENNE S W BEAUCHAMP",
+        "contact": "8150 N CENTRAL EXPY STE 1400, DALLAS TX 75206-1875"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "LYNN",
+      "county_code": "305",
+      "account": {
+        "prop_id": "0001801",
+        "geo_id": "0001801",
+        "owner_name": "TACKETT TERESA",
+        "contact": "5012 SAILWIND DR, FORT WORTH TX 76135-1839"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "MCCULLOCH",
+      "county_code": "307",
+      "account": {
+        "prop_id": "0000000",
+        "geo_id": "0000000",
+        "owner_name": "VARNADORE MIKE",
+        "contact": "PO BOX 60798, SAN ANGELO TX 76906-0798"
+      }
+    }
+  ]
+}

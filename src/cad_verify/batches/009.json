@@ -1,0 +1,49 @@
+{
+  "batch": "009",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "GAINES",
+      "county_code": "165",
+      "account": {
+        "prop_id": "12297",
+        "geo_id": "12297",
+        "owner_name": "ROBINSON INTERESTS I LTD",
+        "contact": "HOUSTON TX 77056"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "GLASSCOCK",
+      "county_code": "173",
+      "account": {
+        "prop_id": "1A01290-WI-222488-CRESCENT ENERGY OPERATING   WI",
+        "geo_id": "1A01290-WI-222488-CRESCENT ENERGY OPERATING   WI",
+        "owner_name": "CRESCENT ENERGY OPERATING   WI",
+        "contact": "600 TRAVIS ST STE 7200, HOUSTON TX 77002"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "GOLIAD",
+      "county_code": "175",
+      "account": {
+        "prop_id": "0002128",
+        "geo_id": "0002128",
+        "owner_name": "A 3 MINERALS LP",
+        "contact": "PO BOX 190464, DALLAS TX 75219-0464"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "GONZALES",
+      "county_code": "177",
+      "account": {
+        "prop_id": "0038816",
+        "geo_id": "0038816",
+        "owner_name": "A & C MENGDEN OIL LLC",
+        "contact": "1214 TURICUM ROAD, LAKE FOREST IL 60045"
+      }
+    }
+  ]
+}

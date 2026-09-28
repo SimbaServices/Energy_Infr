@@ -1,0 +1,16 @@
+{
+  "operators": {
+    "Natural Gas PL Co of Am": {
+      "hub": "ngpl-midcontinent",
+      "source_url": "https://www.ercot.com/files/docs/2014/08/07/ngi_price_methodology_july_2014.pdf",
+      "note": "Kansas deliveries into Natural Gas Pipeline Company of America at station 103 in south-central Kansas are in the NGPL Midcontinent index, the sourced Midcontinent sale point, and the same pipeline also interconnects at Henry Hub."
+    }
+  },
+  "prices": {},
+  "regions": {
+    "data/states/ks": {
+      "hub": "ngpl-midcontinent",
+      "note": "The NGPL Midcontinent index includes deliveries at station 103 in south-central Kansas."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "batch": "031",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "FRANKLIN",
+      "county_code": "059",
+      "sample_account": "R4184",
+      "endpoint": "https://franklinks-atpro-pa.tylerhost.net/Property-Detail/PropertyQuickRefID/R4184/PartyQuickRefID/0000003563/",
+      "method": "GET",
+      "form_fields": ["PropertyQuickRefID", "PartyQuickRefID"],
+      "account_sent": "R4184",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "LARSEN, TERRY L",
+      "contact_excerpt": "3202 STEELE RD KANSAS CITY, KS 66106-4264"
+    },
+    {
+      "state": "KS",
+      "county": "LYON",
+      "county_code": "111",
+      "sample_account": "0142000000001000",
+      "endpoint": "https://ks1058.cichosting.com/ttp/tax/search/search_tax.aspx",
+      "method": "POST",
+      "form_fields": ["txtMAP", "txtSEC", "txtSHT", "txtQTR", "txtBLK", "txtPRE", "txtSUF", "txtOWN", "chkRealEstate", "btnFindNow"],
+      "account_sent": "0142000000001000",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "PRICE, EDDIE L & KAREN S",
+      "contact_excerpt": "2087 ROAD 400 BURLINGAME, KS 66413-8663"
+    },
+    {
+      "state": "KS",
+      "county": "MARION",
+      "county_code": "115",
+      "sample_account": "50",
+      "endpoint": "https://marion.kansasgov.com/parcel/NCPullLev2.asp",
+      "method": "POST",
+      "form_fields": ["txtQuickRefID", "submit5"],
+      "account_sent": "50",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "HANSCHU, BARBARA K TRUST",
+      "contact_excerpt": "133 QUAIL RD RAMONA, KS 67475"
+    },
+    {
+      "state": "KS",
+      "county": "MIAMI",
+      "county_code": "121",
+      "sample_account": "R28",
+      "endpoint": "https://ks244.cichosting.com/ttp/tax/Search/search_tax.aspx",
+      "method": "POST",
+      "form_fields": ["txtMAP", "txtSEC", "txtSHT", "txtQTR", "txtBLK", "txtPRE", "txtSUF", "txtOWN", "chkRealEstate", "btnFindNow"],
+      "account_sent": "0142000000001020",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "GAST, WILLIAM GEORGE BARBARA LUCILLE GAST",
+      "contact_excerpt": "6255 W 215TH ST BUCYRUS, KS 66013-9039"
+    }
+  ]
+}

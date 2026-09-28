@@ -1,0 +1,57 @@
+{
+  "batch": "031",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "FRANKLIN",
+      "county_code": "059",
+      "layers": [
+        {
+          "label": "OttawaKSCadastral",
+          "url": "https://services5.arcgis.com/dqsuVCxPy9LTxdOJ/arcgis/rest/services/OttawaKSCadastral/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "LYON",
+      "county_code": "111",
+      "layers": [
+        {
+          "label": "Lyon County Parcels",
+          "url": "https://services8.arcgis.com/dw5aksXsLRAhbdxH/arcgis/rest/services/Lyon_County_Parcels/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "18003",
+      "county_code": "115",
+      "layers": [
+        {
+          "label": "Fritz Rd Parcels view layer",
+          "url": "https://services5.arcgis.com/Fq0TUmdRNerGcci4/arcgis/rest/services/Fritz_Rd_Parcels_view_layer/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "MIAMI",
+      "county_code": "121",
+      "layers": [
+        {
+          "label": "Housing_Analysis",
+          "url": "https://services5.arcgis.com/1LNf6OXwtRXKrgaG/arcgis/rest/services/Housing_Analysis/FeatureServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    }
+  ]
+}

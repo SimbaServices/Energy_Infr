@@ -1,0 +1,49 @@
+{
+  "batch": "019",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "NACOGDOCHES",
+      "county_code": "347",
+      "account": {
+        "prop_id": "0001483",
+        "geo_id": "0217400|16790|TRAWICK G/U 32|0001483|A E D INVESTMENTS LLC|0.001631",
+        "owner_name": "A E D INVESTMENTS LLC",
+        "contact": "6121 FERN AVE #102, SHREVEPORT LA 71105"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "NAVARRO",
+      "county_code": "349",
+      "account": {
+        "prop_id": "0003822",
+        "geo_id": "0217500|3858|HONATH-NELSON|0003822|ABELL CATHLEEN|0.00213",
+        "owner_name": "ABELL CATHLEEN",
+        "contact": "7540 LINDSEY DR, HOLCOMB KS 67851"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "NEWTON",
+      "county_code": "351",
+      "account": {
+        "prop_id": "0022660",
+        "geo_id": "0022660",
+        "owner_name": "AAKD EXEMPT TRUST",
+        "contact": "10112 CARANO CT, IRVING TX 75063-5943"
+      }
+    },
+    {
+      "state": "TX",
+      "county": "NOLAN",
+      "county_code": "353",
+      "account": {
+        "prop_id": "0011996",
+        "geo_id": "0011996",
+        "owner_name": "LUBBOCK CHRISTIAN UNIVERSITY",
+        "contact": "5601 19TH ST, LUBBOCK TX 79407-2099"
+      }
+    }
+  ]
+}

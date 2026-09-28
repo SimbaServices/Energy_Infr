@@ -1,0 +1,65 @@
+{
+  "batch": "030",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "ELK",
+      "county_code": "049",
+      "sample_account": "27",
+      "endpoint": "https://services.kansasgis.org/arcgis3/rest/services/forka/EK_Parcels/MapServer/0/query",
+      "method": "GET",
+      "form_fields": ["where", "outFields"],
+      "account_sent": "27",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "MILLER, GREGORY J",
+      "contact_excerpt": "2552 BURLINGTON CT PARK CITY, KS 67219"
+    },
+    {
+      "state": "KS",
+      "county": "ELLIS",
+      "county_code": "051",
+      "sample_account": "026-138-28-0-30-08-005.00-0",
+      "endpoint": "https://ks292.cichosting.com/webportal/Appraiser/Details.aspx?id=4417&pid=026-138-28-0-30-08-005.00-0&qref=R4417",
+      "method": "GET",
+      "form_fields": ["id", "pid", "qref"],
+      "account_sent": "HAYS CITY",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "CHURCH FIRST PRESBYTERIAN AND SOCIETY OF HAYS CITY",
+      "contact_excerpt": "2900 Hall St Hays, KS 67601-1875"
+    },
+    {
+      "state": "KS",
+      "county": "FINNEY",
+      "county_code": "055",
+      "sample_account": "GARDEN CITY COOP, INC",
+      "endpoint": "https://ks821.cichosting.com/webportal/Appraiser/Details.aspx?id=625&pid=028-071-02-0-20-01-003.00-0&qref=R625",
+      "method": "GET",
+      "form_fields": ["id", "pid", "qref"],
+      "account_sent": "GARDEN CITY CO-OP",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "GARDEN CITY CO-OP INC",
+      "contact_excerpt": "PO BOX 838 GARDEN CITY, KS 67846-0838"
+    },
+    {
+      "state": "KS",
+      "county": "FORD",
+      "county_code": "057",
+      "sample_account": "029-093-07-0-00-00-003.00-0",
+      "endpoint": "https://ford.kansasgov.com/parcel/NCPullLev2.asp",
+      "method": "POST",
+      "form_fields": ["txtOwner", "txtprimaryowner", "submit5"],
+      "account_sent": "ELDER FAMILY FARM",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ELDER FAMILY FARM CORP",
+      "contact_excerpt": "1926 PARKDALE CT WICHITA, KS 67212-6431"
+    }
+  ]
+}

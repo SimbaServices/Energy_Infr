@@ -1,0 +1,64 @@
+{
+  "operators": {
+    "El Paso Texas Pipeline Co": {
+      "hub": "waha",
+      "source_url": "https://abarrelfull.co.uk/Natural_Gas_Hubs",
+      "note": "A market-center list names El Paso Texas Pipeline LP as the operator of the Waha (EPGT) Texas Hub in West Texas, the Permian Basin point for that system."
+    },
+    "El Paso Natural Gas Co": {
+      "hub": "el-paso-permian",
+      "source_url": "https://www.naturalgasintel.com/data-snapshot/daily-gpi/WTXEPP/",
+      "note": "NGI defines El Paso Permian as deliveries into El Paso Natural Gas in the Permian Basin, including that system's Keystone, Plains, and Waha pools."
+    },
+    "Kinder Morgan Texas Pipeline Co": {
+      "hub": "katy",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Platts defines Katy as deliveries into Kinder Morgan Texas Pipelines in the Katy area, a Texas Gulf Coast market."
+    },
+    "Atmos Pipeline - Texas": {
+      "hub": "waha",
+      "source_url": "https://www.ferc.gov/sites/default/files/2020-07/07-2019-G-1.pdf",
+      "note": "FERC states Atmos Pipeline–Texas operates the Waha Header, the Permian Basin trading hub at the western end of its West Texas system."
+    },
+    "Houston Pipeline Co": {
+      "hub": "houston-ship-channel",
+      "source_url": "https://www.ice.com/publicdocs/NA_Phys_Gas_hubs.pdf",
+      "note": "ICE lists the Houston Ship Channel contract as the Houston Pipe Line pool, the Gulf Coast point where that system sells gas."
+    },
+    "ONEOK Westex Pipeline": {
+      "hub": "waha",
+      "source_url": "https://www.oneok.com/owt",
+      "note": "ONEOK says WesTex moves Permian Basin gas in West Texas to the Waha Hub, where other pipelines can take it onward."
+    },
+    "Energy Transfer": {
+      "hub": "waha",
+      "source_url": "https://www.naturalgasintel.com/data-snapshot/daily-gpi/WTXWAHA/",
+      "note": "NGI includes Energy Transfer among the pipelines trading at the Waha Hub for Permian Basin gas in West Texas."
+    },
+    "Transwestern Gas Co": {
+      "hub": "waha",
+      "source_url": "https://www.naturalgasintel.com/data-snapshot/daily-gpi/WTXWAHA/",
+      "note": "NGI includes Transwestern among the pipelines trading at the Waha Hub for Permian Basin gas in West Texas."
+    }
+  },
+  "prices": {},
+  "regions": {
+    "data": {
+      "hub": "waha",
+      "note": "EIA describes Waha as the pricing hub for Permian Basin production in West Texas."
+    },
+    "data/states/nm": {
+      "hub": "waha",
+      "note": "EIA says Waha indicates pricing for southeastern New Mexico Permian Basin production."
+    }
+  },
+  "hubs": [
+    {
+      "id": "houston-ship-channel",
+      "name": "Houston Ship Channel",
+      "lat": 29.70833,
+      "lon": -95.005,
+      "source_url": "https://en.wikipedia.org/wiki/Houston_Ship_Channel"
+    }
+  ]
+}

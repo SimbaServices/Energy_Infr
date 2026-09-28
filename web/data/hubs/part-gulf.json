@@ -1,0 +1,46 @@
+{
+  "operators": {
+    "Gulf South Pipeline Co": {
+      "hub": "henry",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Gulf South Pipeline."
+    },
+    "Southern Natural Gas Co": {
+      "hub": "henry",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Southern Natural Gas."
+    },
+    "Natural Gas PL Co of Am": {
+      "hub": "henry",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Natural Gas Pipeline Co. of America."
+    },
+    "Texas Gas Transmission Co": {
+      "hub": "texas-gas-z1",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from Louisiana is sold at Texas Gas Zone 1, the price for deliveries into Texas Gas Transmission starting just south of the Pineville compressor station in Rapides Parish."
+    },
+    "Transcontinental Gas PL": {
+      "hub": "transco-z3",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from Louisiana is sold at Transco Zone 3, the price for deliveries into Transcontinental Gas Pipe Line from station 45 in Beauregard Parish to station 65 in St. Helena Parish."
+    },
+    "Trunkline Gas Co": {
+      "hub": "henry",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Trunkline Gas."
+    },
+    "Acadian Gas Pipeline Sys": {
+      "hub": "henry",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from southern Louisiana is sold at Henry Hub in Vermilion Parish, where that price includes deliveries from the hub outlet into Acadian Gas."
+    },
+    "Columbia Gulf Pipeline": {
+      "hub": "columbia-gulf",
+      "source_url": "https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/natural-gas/us-canada-natural-gas-methodology.pdf",
+      "note": "Gas from Louisiana is sold on the Columbia Gulf mainline, the price for deliveries into Columbia Gulf Transmission from Rayne through the mainline zone in Louisiana and Mississippi."
+    }
+  },
+  "prices": {},
+  "regions": {}
+}

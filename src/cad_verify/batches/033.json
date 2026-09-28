@@ -1,0 +1,67 @@
+{
+  "batch": "033",
+  "counties": [
+    {
+      "state": "KS",
+      "county": "ROOKS",
+      "county_code": "163",
+      "layers": [
+        {
+          "label": "Rooks County ORKA leaseholds",
+          "url": "https://services.kansasgis.org/arcgis3/rest/services/forka/PVD_Spatial_Supplemental/MapServer/260",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "RUSSELL",
+      "county_code": "167",
+      "layers": [
+        {
+          "label": "Russell County ORKA leaseholds",
+          "url": "https://services.kansasgis.org/arcgis3/rest/services/forka/PVD_Spatial_Supplemental/MapServer/263",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "SEDGWICK",
+      "county_code": "173",
+      "layers": [
+        {
+          "label": "Sedgwick County tax parcels",
+          "url": "https://gismaps.sedgwickcounty.org/arcgis/rest/services/Map/Op_Parcel_Dynamic_SP/MapServer/0",
+          "has_owner": 0
+        }
+      ],
+      "account": null
+    },
+    {
+      "state": "KS",
+      "county": "SHAWNEE",
+      "county_code": "177",
+      "layers": [
+        {
+          "label": "Shawnee County current parcels",
+          "url": "https://gis.sncoapps.us/arcgis2/rest/services/Appraiser/AppraisalDataPro/MapServer/4",
+          "has_owner": 1
+        }
+      ],
+      "account": {
+        "prop_id": "R302234",
+        "geo_id": "",
+        "account_key": "ks|177|48|layer",
+        "owner_name": "COOK, THOMAS W",
+        "contact": null,
+        "mail_line1": "",
+        "mail_city": "",
+        "mail_state": "KS",
+        "mail_zip": ""
+      }
+    }
+  ]
+}

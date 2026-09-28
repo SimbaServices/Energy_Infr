@@ -1,0 +1,58 @@
+Texas Gulf Coast dataset for the Energy_Infr map.
+Built the same way as src/load_permian.py and src/build_pois.py.
+No flare volumes, coordinates, hub assignments, or prices were filled in by hand.
+
+Counties
+The named upper Texas Gulf Coast gas counties, plus coastal counties that share a boundary with that set.
+Calhoun shares a boundary with Matagorda and is on the Gulf. Jackson shares boundaries with Matagorda and Wharton; it is the coastal-prairie county between Wharton and Calhoun in RRC District 02.
+Victoria, Refugio, and Aransas do not share a boundary with the named counties, so they are not in this set.
+Inland neighbors left out because they are not coastal: Austin, Waller, Montgomery, Colorado, Polk, Tyler, Angelina, Sabine, San Augustine, San Jacinto, Lavaca.
+Eagle Ford core counties are not included: Webb, Dimmit, La Salle, McMullen, Karnes, DeWitt, Gonzales.
+Oklahoma and Louisiana are not included.
+
+Harris County, Texas FIPS 48201, RRC district 03, surface wells 5547, name-matched API rows 708
+Galveston County, Texas FIPS 48167, RRC district 03, surface wells 2314, name-matched API rows 206
+Brazoria County, Texas FIPS 48039, RRC district 03, surface wells 4847, name-matched API rows 782
+Chambers County, Texas FIPS 48071, RRC district 03, surface wells 3861, name-matched API rows 44
+Jefferson County, Texas FIPS 48245, RRC district 03, surface wells 3280, name-matched API rows 160
+Orange County, Texas FIPS 48361, RRC district 03, surface wells 1230, name-matched API rows 151
+Liberty County, Texas FIPS 48291, RRC district 03, surface wells 4180, name-matched API rows 1000
+Hardin County, Texas FIPS 48199, RRC district 03, surface wells 5095, name-matched API rows 149
+Jasper County, Texas FIPS 48241, RRC district 03, surface wells 768, name-matched API rows 84
+Newton County, Texas FIPS 48351, RRC district 03, surface wells 861, name-matched API rows 32
+Matagorda County, Texas FIPS 48321, RRC district 03, surface wells 3707, name-matched API rows 200
+Wharton County, Texas FIPS 48481, RRC district 03, surface wells 5826, name-matched API rows 737
+Fort Bend County, Texas FIPS 48157, RRC district 03, surface wells 3706, name-matched API rows 640
+Calhoun County, Texas FIPS 48057, RRC district 02, surface wells 1871, name-matched API rows 27
+Jackson County, Texas FIPS 48239, RRC district 02, surface wells 5248, name-matched API rows 941
+
+Sources
+RRC Form PR oil disposition file olf102 and gas disposition file gsf102, already on disk at data/raw/rrc/. Catalog page: https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/
+The Permian loader records these tapes as posted 2026-09-26. Each lease uses its latest month on the tape. The tape has one vented-or-flared column and does not split flare from vent.
+MMcfd is that month's Mcf divided by the days in the month, then by 1,000. Latest period in the built leases: 202607.
+Statewide API extract maf016, folder 2026-09-23: https://mft.rrc.texas.gov/link/701db9a3-32b5-488d-812b-cd6ff7d0fe85
+Saved as data/raw/rrc/api/ccXXX. Records starting with 2 or 3 are read. The lease number is the oil or gas id immediately before the field name. A 12-digit block is two 6-digit ids. The lease name on that row must match the Form PR name, and the field name must agree. The match is limited to the county's RRC district (03 for the named counties, 02 for Calhoun and Jackson). The operator name is the name on that API row, not a separate directory.
+Surface-well shapefiles, LAT83 and LONG83: https://mft.rrc.texas.gov/link/d551fb20-442e-4b67-84fa-ac3f23ecabb4
+Saved as data/raw/rrc/wells/wellXXX.zip. The map point is the centroid of the matched surface wells on that lease.
+County outlines: data/raw/geo/counties.geojson in this repo (Census GEO_ID county codes, state 48).
+Gas pipeline centerlines: db/us_pipelines.sqlite table pipelines, from https://geo.dot.gov/server/rest/services/hosted/Natural_Gas_Pipelines_US_EIA/FeatureServer/0
+EIA compilation described in src/ingest.py as updated January 2020. A line is kept when any vertex falls in the bounding box of these counties.
+Bounding box (min lon, min lat, max lon, max lat): -96.93859, 28.06134, -93.52764, 31.18660.
+Transmission, 230 kV and above: db/us_pipelines.sqlite table transmission_lines, from https://services1.arcgis.com/Hp6G80Pky0om7QvQ/arcgis/rest/services/Electric_Power_Transmission_Lines/FeatureServer/0
+Same bounding-box test as the pipelines.
+Tie-ins: db/us_pipelines.sqlite table interconnects. Each point is the midpoint of a 230 kV-or-higher line within 3 miles of a gas pipeline midpoint, built by src/ingest.py. A point is kept only when it falls inside one of these county polygons.
+Points of interconnection, 69 kV and above: https://services1.arcgis.com/7DRakJXKPEhwv0fM/arcgis/rest/services/Electric_Substations/FeatureServer/0/query
+Line owners from in-service lines within half a mile: https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/US_Electric_Power_Transmission_Lines/FeatureServer/0/query
+Substation query returned 1120 features in the bounding box; 69 kV line query returned 1218. 883 points fall inside these counties at 69 kV or above.
+No hub list and no prices are in this folder.
+
+Record counts
+Leases drawn (vented or flared greater than zero): 52
+Oil leases: 14
+Gas wells: 38
+Vented or flared: 2.2 MMcfd, 68128 Mcf
+Pipeline features: 2484
+Transmission features: 137
+Tie-in points: 26
+Points of interconnection: 883
+Counties: 15

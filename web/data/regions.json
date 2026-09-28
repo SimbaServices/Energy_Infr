@@ -8,6 +8,36 @@
       "path": "data"
     },
     {
+      "id": "eagle-ford",
+      "label": "Eagle Ford",
+      "path": "data/eagle-ford"
+    },
+    {
+      "id": "barnett",
+      "label": "Barnett",
+      "path": "data/barnett"
+    },
+    {
+      "id": "haynesville-tx",
+      "label": "Haynesville (Texas)",
+      "path": "data/haynesville-tx"
+    },
+    {
+      "id": "east-texas",
+      "label": "East Texas",
+      "path": "data/east-texas"
+    },
+    {
+      "id": "gulf-coast",
+      "label": "Gulf Coast",
+      "path": "data/gulf-coast"
+    },
+    {
+      "id": "panhandle",
+      "label": "Panhandle",
+      "path": "data/panhandle"
+    },
+    {
       "id": "nm",
       "label": "New Mexico",
       "path": "data/states/nm"

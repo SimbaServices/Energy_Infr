@@ -1,0 +1,65 @@
+{
+  "batch": "003",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "BREWSTER",
+      "county_code": "043",
+      "sample_account": "13390",
+      "endpoint": "https://esearch.brewstercotad.org/Property/View/13390?year=2026&ownerId=37838",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "13390",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "MUNOZ MARTHA SUE HAYNES",
+      "contact_excerpt": "P.O. BOX 427 ALPINE, TX 79831"
+    },
+    {
+      "state": "TX",
+      "county": "BROWN",
+      "county_code": "049",
+      "sample_account": "59762",
+      "endpoint": "https://esearch.brown-cad.org/Property/View/59762?year=2026&ownerId=171355",
+      "method": "GET",
+      "form_fields": ["year", "ownerId"],
+      "account_sent": "59762",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "SHERO, ALYSBELLE VIVIAN",
+      "contact_excerpt": "4741 RIVER OAKS DR BROWNWOOD, TX 76801"
+    },
+    {
+      "state": "TX",
+      "county": "CHAMBERS",
+      "county_code": "071",
+      "sample_account": "217383",
+      "endpoint": "https://chamberscad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "keyword", "page", "taxYear", "filter", "rows", "taxDue", "PaymentStatus", "strSortBy", "PropertyType"],
+      "account_sent": "217383",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "HANKAMER CHARLES DOUGLAS",
+      "contact_excerpt": "43051 WATERS OVERLOOK CT  LEESBURG VA 20176 6806"
+    },
+    {
+      "state": "TX",
+      "county": "CHILDRESS",
+      "county_code": "075",
+      "sample_account": "11000-00002-00000-000000",
+      "endpoint": "https://childresscad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": ["searchObj", "account"],
+      "account_sent": "11000-00002-00000-000000",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "HACKLER JAMES RAY",
+      "contact_excerpt": "905 HILLCREST   CHILDRESS TX 79201"
+    }
+  ]
+}

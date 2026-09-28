@@ -1,0 +1,81 @@
+{
+  "batch": "011",
+  "counties": [
+    {
+      "state": "TX",
+      "county": "HARDEMAN",
+      "county_code": "197",
+      "sample_account": "0008357",
+      "endpoint": "https://www.hardemancad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "keyword",
+        "taxYear",
+        "searchObj"
+      ],
+      "account_sent": "ZEJ ENTERPRISES",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "ZEJ ENTERPRISES LLC",
+      "contact_excerpt": "500 N AKARD ST STE 2150 DALLAS TX 75201"
+    },
+    {
+      "state": "TX",
+      "county": "HARRIS",
+      "county_code": "201",
+      "sample_account": "0041184",
+      "endpoint": "https://search.hcad.org/",
+      "method": "POST",
+      "form_fields": [
+        "Account Number",
+        "Search"
+      ],
+      "account_sent": "0041184",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "PWC US GROUP LLP",
+      "contact_excerpt": "PO BOX 30026 TAMPA, FL 33630-3026"
+    },
+    {
+      "state": "TX",
+      "county": "HASKELL",
+      "county_code": "207",
+      "sample_account": "0002980",
+      "endpoint": "https://gisdata.pandai.com/pamaps02/rest/services/Haskell/HaskellCADPublic/MapServer/0/query",
+      "method": "GET",
+      "form_fields": [
+        "where",
+        "outFields",
+        "returnGeometry",
+        "f"
+      ],
+      "account_sent": "2980",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "CITY OF ROCHESTER",
+      "contact_excerpt": "PO BOX 186 ROCHESTER TX 79544"
+    },
+    {
+      "state": "TX",
+      "county": "HEMPHILL",
+      "county_code": "211",
+      "sample_account": "0015685",
+      "endpoint": "https://www.hemphillcad.org/Home/SearchTableV2",
+      "method": "POST",
+      "form_fields": [
+        "keyword",
+        "taxYear",
+        "searchObj"
+      ],
+      "account_sent": "WRIGHT SONDRA",
+      "http_status": 200,
+      "owner_returned": true,
+      "contact_returned": true,
+      "owner_excerpt": "WRIGHT SONDRA BETH LIFE ESTATE",
+      "contact_excerpt": "519 WILLOW VALLEY LAMAR CO 81052"
+    }
+  ]
+}
