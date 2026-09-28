@@ -22,7 +22,8 @@ process:
   bind: 127.0.0.1:8766
   listen_public: false
   runtime: /api/ on both 8443 and 8444; map tiles and layer data stay static nginx
-store: db/us_pipelines.sqlite
+store: SQLite db/us_pipelines.sqlite layers · db/parcels/surface/surface_all.sqlite 2.9 GB
+  Texas appraisal rolls behind /api/
 edge_steps:
   - title: nginx :8443
     detail: 204.168.132.89 · /var/www/energy
