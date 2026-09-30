@@ -29,16 +29,8 @@ ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / "web" / "data"
 STATES = WEB / "states"
 
-# Basin views live under web/data/<id> and are built by data/<id>/build.py,
-# outside this agent pass. They are listed here so the region index keeps them.
-BASINS: tuple[tuple[str, str], ...] = (
-    ("eagle-ford", "Eagle Ford"),
-    ("barnett", "Barnett"),
-    ("haynesville-tx", "Haynesville (Texas)"),
-    ("east-texas", "East Texas"),
-    ("gulf-coast", "Gulf Coast"),
-    ("panhandle", "Panhandle"),
-)
+# Texas basin folders stay under web/data for the statewide join in
+# data/texas/build.py. They are not separate region-menu entries.
 
 
 def _now() -> str:
@@ -155,20 +147,16 @@ def run_one(agent) -> dict:
 
 def write_index(results: dict) -> None:
     regions = [{
-        "id": "permian",
-        "label": "Texas Permian",
-        "path": "data",
+        "id": "texas",
+        "label": "Texas",
+        "path": "data/texas",
     }]
-    regions.extend(
-        {"id": code, "label": label, "path": f"data/{code}"}
-        for code, label in BASINS
-    )
     regions.extend(
         {"id": agent.code, "label": agent.name, "path": f"data/states/{agent.code}"}
         for agent in AGENTS
     )
     payload = {
-        "default": "permian",
+        "default": "texas",
         "updated_at": _now(),
         "regions": regions,
         "agents": results,

@@ -11,6 +11,7 @@ let hubCatalog = { hubs: [], operators: {}, prices: {}, regions: {} };
 let hubById = {};
 let currentPipes = [];
 let showHubs = false;
+let poiSource = null;
 
 function flareColor(value) {
   if (value >= 20) return "#6e1220";
@@ -344,6 +345,35 @@ function poiColor(kv) {
   return "#2f7d4a";
 }
 
+const TOWER_BODY = "M20 2 L22.4 6.2 H31.5 L30 11.2 H25.2 L39 54 H29.5 L20 14.5 L10.5 54 H1 L14.8 11.2 H10 L8.5 6.2 H17.6 Z";
+const TOWER_ARM = "M8.2 32 H31.8 L33.6 38 H6.4 Z";
+
+function towerMarkup(color, width, height) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 40 56" aria-hidden="true"><g fill="${color}" stroke="#1c1915" stroke-width="2.6" stroke-linejoin="round" paint-order="stroke fill"><path d="${TOWER_BODY}"/><path d="${TOWER_ARM}"/></g></svg>`;
+}
+
+function poiMarkerIcon(props) {
+  const kv = props.max_kv || 0;
+  const color = poiColor(kv);
+  if (poiBucket(props.status) === "service") {
+    const width = kv >= 345 ? 20 : kv >= 230 ? 18 : 16;
+    const height = Math.round(width * 1.4);
+    return L.divIcon({
+      className: "poi-marker poi-tower",
+      html: towerMarkup(color, width, height),
+      iconSize: [width, height],
+      iconAnchor: [width / 2, height],
+    });
+  }
+  const size = kv >= 345 ? 15 : kv >= 230 ? 13 : 12;
+  return L.divIcon({
+    className: "poi-marker",
+    html: `<div style="box-sizing:border-box;width:${size}px;height:${size}px;background:${color};border:2px solid #1c1915;border-radius:50%;box-shadow:0 0 0 1.5px #fff"></div>`,
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+  });
+}
+
 const OWNER_NOTES = {
   "ONCOR ELECTRIC DELIVERY CO.": {
     label: "Oncor Electric Delivery",
@@ -556,6 +586,63 @@ function poiTooltip(props) {
   return lines.join("<br>");
 }
 
+function poiBucket(status) {
+  const token = String(status || "").trim().toLowerCase();
+  if (token === "in service") return "service";
+  if (token === "status not published") return "unpublished";
+  return "";
+}
+
+function poiFeatureVisible(feature) {
+  const bucket = poiBucket((feature.properties || {}).status);
+  if (bucket === "service") return document.getElementById("show-pois-service").checked;
+  if (bucket === "unpublished") return document.getElementById("show-pois-unpublished").checked;
+  return true;
+}
+
+function renderPois() {
+  if (layers.pois) {
+    map.removeLayer(layers.pois);
+    delete layers.pois;
+  }
+  const parentOn = document.getElementById("show-pois").checked;
+  const subs = document.getElementById("poi-status-filters");
+  subs.classList.toggle("is-off", !parentOn);
+  subs.querySelectorAll("input").forEach((input) => {
+    input.disabled = !parentOn;
+  });
+  if (!poiSource || !parentOn) return;
+  const features = (poiSource.features || []).filter(poiFeatureVisible);
+  layers.pois = L.geoJSON({ type: "FeatureCollection", features }, {
+    pointToLayer(feature, latlng) {
+      const kv = feature.properties.max_kv || 0;
+      return L.marker(latlng, {
+        icon: poiMarkerIcon(feature.properties || {}),
+        zIndexOffset: kv,
+      });
+    },
+    onEachFeature(feature, layer) {
+      const html = poiTooltip(feature.properties);
+      layer.bindTooltip(html, {
+        className: "poi-tip",
+        direction: "auto",
+        opacity: 1,
+      });
+      layer.bindPopup(html, { maxWidth: 320 });
+    },
+  }).addTo(map);
+  if (map.hasLayer(hubLayer) && typeof hubLayer.bringToFront === "function") hubLayer.bringToFront();
+  if (placingNote) setPlacementPassthrough(true);
+}
+
+function paintPoiLegend() {
+  document.querySelectorAll("#legend i.tower-key").forEach((node) => {
+    node.innerHTML = towerMarkup(poiColor(Number(node.dataset.kv) || 0), 16, 22);
+  });
+}
+
+paintPoiLegend();
+
 function bindToggle(id, key) {
   document.getElementById(id).addEventListener("change", (event) => {
     const layer = layers[key];
@@ -567,8 +654,10 @@ function bindToggle(id, key) {
 
 bindToggle("show-leases", "leases");
 bindToggle("show-pipes", "pipes");
-bindToggle("show-pois", "pois");
 bindToggle("show-grid", "grid");
+document.getElementById("show-pois").addEventListener("change", renderPois);
+document.getElementById("show-pois-service").addEventListener("change", renderPois);
+document.getElementById("show-pois-unpublished").addEventListener("change", renderPois);
 
 document.getElementById("show-hub-points").addEventListener("change", (event) => {
   if (event.target.checked) hubLayer.addTo(map);
@@ -595,6 +684,7 @@ async function loadJson(url) {
 function clearMap() {
   Object.values(layers).forEach((layer) => map.removeLayer(layer));
   for (const key of Object.keys(layers)) delete layers[key];
+  poiSource = null;
   document.getElementById("ranking").replaceChildren();
 }
 
@@ -624,7 +714,9 @@ async function showRegion(base) {
   ]);
 
   const chosen = document.querySelector("#region option:checked");
-  document.getElementById("kicker").textContent = summary.kicker || (chosen && chosen.textContent) || "Texas Permian";
+  const place = summary.kicker || (chosen && chosen.textContent) || "Texas";
+  document.getElementById("kicker").textContent = place;
+  document.title = `${place} — vented and flared gas`;
   document.getElementById("title").textContent = summary.title || "Vented and flared gas by lease";
   showHubPrice(base);
   document.getElementById("headline").textContent = summary.headline || (
@@ -699,31 +791,7 @@ async function showRegion(base) {
   }).addTo(map);
   paintHubLegend();
 
-  layers.pois = L.geoJSON(pois, {
-    pointToLayer(feature, latlng) {
-      const kv = feature.properties.max_kv || 0;
-      const size = kv >= 345 ? 14 : kv >= 230 ? 12 : 10;
-      const color = poiColor(kv);
-      return L.marker(latlng, {
-        icon: L.divIcon({
-          className: "poi-marker",
-          html: `<div style="width:${size}px;height:${size}px;background:${color};border:2px solid #fff;border-radius:50%;box-shadow:0 0 0 1px ${color}"></div>`,
-          iconSize: [size + 2, size + 2],
-          iconAnchor: [(size + 2) / 2, (size + 2) / 2],
-        }),
-        zIndexOffset: kv,
-      });
-    },
-    onEachFeature(feature, layer) {
-      const html = poiTooltip(feature.properties);
-      layer.bindTooltip(html, {
-        className: "poi-tip",
-        direction: "auto",
-        opacity: 1,
-      });
-      layer.bindPopup(html, { maxWidth: 320 });
-    },
-  }).addTo(map);
+  poiSource = pois;
 
   const leaseByKey = new Map();
   const features = leases.features || [];
@@ -777,6 +845,7 @@ async function showRegion(base) {
     document.getElementById(id).checked = true;
   });
   document.getElementById("show-grid").checked = false;
+  renderPois();
   if (placingNote) setPlacementPassthrough(true);
   if (map.hasLayer(hubLayer) && typeof hubLayer.bringToFront === "function") hubLayer.bringToFront();
   placeTakePoints();
@@ -1104,8 +1173,8 @@ async function main() {
   }
   hubById = Object.fromEntries((hubCatalog.hubs || []).map((hub) => [hub.id, hub]));
   let catalog = {
-    default: "permian",
-    regions: [{ id: "permian", label: "Texas Permian", path: "data" }],
+    default: "texas",
+    regions: [{ id: "texas", label: "Texas", path: "data/texas" }],
   };
   try {
     catalog = await loadJson("data/regions.json");

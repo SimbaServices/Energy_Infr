@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Texas Permian — vented and flared gas</title>
+  <title>Texas — vented and flared gas</title>
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,7 +15,7 @@
         <span class="kicker">Region</span>
         <select id="region"></select>
       </label>
-      <p class="kicker" id="kicker">Texas Permian</p>
+      <p class="kicker" id="kicker">Texas</p>
       <h1 id="title">Vented and flared gas by lease</h1>
       <p id="headline" class="headline"></p>
       <p id="hub-price" class="hub-price" hidden></p>
@@ -25,7 +25,13 @@
       <label><input type="checkbox" id="show-pipes" checked> Gas pipelines</label>
       <label><input type="checkbox" id="show-hubs"> Hub colors</label>
       <label><input type="checkbox" id="show-hub-points" checked> Hubs</label>
-      <label><input type="checkbox" id="show-pois" checked> Interconnection points</label>
+      <div class="control-pois">
+        <label><input type="checkbox" id="show-pois" checked> Interconnection points</label>
+        <div class="control-sub" id="poi-status-filters">
+          <label><input type="checkbox" id="show-pois-service" checked> In Service</label>
+          <label><input type="checkbox" id="show-pois-unpublished" checked> Status not published</label>
+        </div>
+      </div>
       <label><input type="checkbox" id="show-grid"> Transmission lines</label>
     </section>
     <section>
@@ -106,10 +112,11 @@
     <div class="swatch"><i class="line intrastate"></i><span>Intrastate</span></div>
     <div class="swatch"><i class="line gathering"></i><span>Gathering</span></div>
     <p class="legend-title">Interconnection point</p>
-    <div class="swatch"><i class="dot poi-345"></i><span>345 kV and above</span></div>
-    <div class="swatch"><i class="dot poi-230"></i><span>230 kV</span></div>
-    <div class="swatch"><i class="dot poi-138"></i><span>138–229 kV</span></div>
-    <div class="swatch"><i class="dot poi-69"></i><span>69–137 kV</span></div>
+    <div class="swatch"><i class="tower-key" data-kv="345"></i><span>345 kV and above</span></div>
+    <div class="swatch"><i class="tower-key" data-kv="230"></i><span>230 kV</span></div>
+    <div class="swatch"><i class="tower-key" data-kv="138"></i><span>138–229 kV</span></div>
+    <div class="swatch"><i class="tower-key" data-kv="69"></i><span>69–137 kV</span></div>
+    <p class="legend-note">In service is a tower. Status not published stays a dot, in these colors.</p>
     <p class="legend-title">Transmission</p>
     <div class="swatch"><i class="line grid"></i><span>230 kV and above</span></div>
   </div>
@@ -122,7 +129,7 @@
       </header>
       <h3 class="sources-volumes">Vented and flared gas</h3>
       <p class="sources-lead">Read again on the first of each month. The month drawn is the latest complete filing.</p>
-      <div class="source-row"><div><div class="source-name">Texas Permian leases</div><div class="source-detail">Railroad Commission Form PR. The tape used here was posted September 26, 2026.</div></div><span class="freq monthly">Monthly</span></div>
+      <div class="source-row"><div><div class="source-name">Texas leases</div><div class="source-detail">Railroad Commission Form PR volumes already mapped for this state, joined into one view. A lease that fell in two basins is kept once.</div></div><span class="freq monthly">Monthly</span></div>
       <div class="source-row"><div><div class="source-name">New Mexico</div><div class="source-detail">Oil Conservation Division natural gas waste layer.</div></div><span class="freq monthly">Monthly</span></div>
       <div class="source-row"><div><div class="source-name">Colorado</div><div class="source-detail">Energy and Carbon Management Commission monthly production.</div></div><span class="freq monthly">Monthly</span></div>
       <div class="source-row"><div><div class="source-name">Wyoming</div><div class="source-detail">Oil and Gas Conservation Commission flaring report.</div></div><span class="freq monthly">Monthly</span></div>

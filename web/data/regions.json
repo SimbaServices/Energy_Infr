@@ -1,41 +1,11 @@
 {
-  "default": "permian",
+  "default": "texas",
   "updated_at": "2026-09-27T02:58:40+00:00",
   "regions": [
     {
-      "id": "permian",
-      "label": "Texas Permian",
-      "path": "data"
-    },
-    {
-      "id": "eagle-ford",
-      "label": "Eagle Ford",
-      "path": "data/eagle-ford"
-    },
-    {
-      "id": "barnett",
-      "label": "Barnett",
-      "path": "data/barnett"
-    },
-    {
-      "id": "haynesville-tx",
-      "label": "Haynesville (Texas)",
-      "path": "data/haynesville-tx"
-    },
-    {
-      "id": "east-texas",
-      "label": "East Texas",
-      "path": "data/east-texas"
-    },
-    {
-      "id": "gulf-coast",
-      "label": "Gulf Coast",
-      "path": "data/gulf-coast"
-    },
-    {
-      "id": "panhandle",
-      "label": "Panhandle",
-      "path": "data/panhandle"
+      "id": "texas",
+      "label": "Texas",
+      "path": "data/texas"
     },
     {
       "id": "nm",

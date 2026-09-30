@@ -447,10 +447,6 @@
       "note": "Rockies production has been directed to the Cheyenne Hub in northeastern Colorado.",
       "source_url": "https://www.eia.gov/naturalgas/archive/analysis_publications/ngpipeline/central.html"
     },
-    "data": {
-      "hub": "waha",
-      "note": "EIA describes Waha as the pricing hub for Permian Basin production in West Texas."
-    },
     "data/states/nm": {
       "hub": "waha",
       "note": "EIA says Waha indicates pricing for southeastern New Mexico Permian Basin production."

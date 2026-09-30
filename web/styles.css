@@ -53,6 +53,16 @@ h1 {
   margin: 14px 0;
   font-size: 14px;
 }
+.control-pois { grid-column: 1 / -1; }
+.control-sub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 4px 0 2px 22px;
+  font-size: 13px;
+  color: #3f3a34;
+}
+.control-sub.is-off { opacity: 0.45; }
 h2 { margin: 0 0 8px; font-size: 14px; }
 #ranking { margin: 0; padding-left: 1.2em; }
 #ranking li { margin: 0 0 6px; font-size: 13px; line-height: 1.3; }
@@ -402,10 +412,26 @@ summary { cursor: pointer; font-weight: 600; }
   border: 1px solid #fff;
   box-shadow: 0 0 0 1px rgba(28, 25, 21, 0.35);
 }
+.legend-note {
+  margin: 2px 0 0;
+  color: #5e584f;
+  font-size: 11px;
+  line-height: 1.35;
+}
+.swatch i.tower-key {
+  width: 16px;
+  height: 22px;
+  flex: 0 0 16px;
+  border-radius: 0;
+  background: none;
+  overflow: visible;
+}
+.swatch i.tower-key svg { display: block; }
 .leaflet-div-icon.poi-marker {
   background: transparent;
   border: 0;
 }
+.leaflet-div-icon.poi-tower { overflow: visible; }
 .poi-345 { background: #5c2d91; }
 .poi-230 { background: #143d66; }
 .poi-138 { background: #1d6a8a; }
